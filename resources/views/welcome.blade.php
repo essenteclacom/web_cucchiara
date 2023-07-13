@@ -10,17 +10,17 @@
     <link rel="canonical" href="//"/>
     <meta property="og:url" content="//"/>
     <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-    <link rel="icon" type="image/png" href="../../public/img/favicon.png"/>
+    <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
     <meta name="theme-color" content="#5540af"/>
     <meta property="og:site_name" content="Atom Template"/>
-    <meta property="og:image" content="../../public/img/social.jpg"/>
+    <meta property="og:image" content="{{ asset('/img/social.jpg') }}"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@tailwindmade"/>
     <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect"/>
     <link as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="preload"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"/>
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
-    <link href="../../public/css/main.min.css" media="screen" rel="stylesheet"/>
+    <link crossorigin="anonymous" href="{{ asset('/css/main.min.css') }}" media="screen" rel="stylesheet"/>
     <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
@@ -31,7 +31,8 @@
           <div class="container flex items-center justify-between">
             <div>
               <a href="/">
-                <img src="../../public/img/logo.svg" class="w-24 lg:w-48" alt="logo image"/>
+                
+                <img src="{{ asset('/img/logo.svg') }}" class="w-24 lg:w-48" alt="logo image"/>
               </a>
             </div>
             <div class="hidden lg:block">
@@ -80,7 +81,7 @@
         <div class="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
           <div class="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
             <button class="absolute top-0 right-0 mt-4 mr-4" @click="mobileMenu = false">
-              <img src="../../public/img/icon-close.svg" class="h-10 w-auto" alt="" />
+              <img src="{{ asset('/img/icon-close.svg') }}"class="h-10 w-auto" alt="" />
             </button>
             <ul class="mt-8 flex flex-col">
               <li class="py-2">
@@ -111,12 +112,12 @@
           </div>
         </div>
         <div>
-          <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('../../public/img/bg-hero.jpg')">
+          <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/bg-hero.jpg')}}">
             <div class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
             <div class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
               <div class="flex flex-col items-center justify-center lg:flex-row">
                 <div class="rounded-full border-8 border-primary shadow-xl">
-                  <img src="../../public/img/blog-author.jpg" class="h-48 rounded-full sm:h-56" alt="author"/>
+                  <img src="{{ asset('/img/blog-author.jpg') }}" class="h-48 rounded-full sm:h-56" alt="author"/>
                 </div>
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                   <h1 class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
@@ -252,10 +253,10 @@
               <div class="group rounded px-8 py-12 shadow hover:bg-primary">
                 <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                   <div class="hidden group-hover:block">
-                    <img src="../../public/img/icon-development-white.svg" alt="development icon"/>
+                    <img src="{{ asset('/img/icon-development-white.svg') }}" alt="development icon"/>
                   </div>
                   <div class="block group-hover:hidden">
-                    <img src="../../public/img/icon-development-black.svg" alt="development icon"/>
+                    <img src="{{ asset('/img/icon-development-black.svg') }}" alt="development icon"/>
                   </div>
                 </div>
                 <div class="text-center">
@@ -270,10 +271,10 @@
               <div class="group rounded px-8 py-12 shadow hover:bg-primary">
                 <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                   <div class="hidden group-hover:block">
-                    <img src="../../public/img/icon-content-white.svg" alt="content marketing icon"/>
+                    <img src="{{ asset('/img/icon-content-white.svg') }}"alt="content marketing icon"/>
                   </div>
                   <div class="block group-hover:hidden">
-                    <img src="../../public/img/icon-content-black.svg" alt="content marketing icon"/>
+                    <img src="{{ asset('/img/icon-content-black.svg') }}"alt="content marketing icon"/>
                   </div>
                 </div>
                 <div class="text-center">
@@ -288,10 +289,10 @@
               <div class="group rounded px-8 py-12 shadow hover:bg-primary">
                 <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                   <div class="hidden group-hover:block">
-                    <img src="../../public/img/icon-mobile-white.svg" alt="Mobile Application icon"/>
+                    <img src="{{ asset('/img/icon-mobile-white.svg') }}"alt="Mobile Application icon"/>
                   </div>
                   <div class="block group-hover:hidden">
-                    <img src="../../public/img/icon-mobile-black.svg" alt="Mobile Application icon"/>
+                    <img src="{{ asset('/img/icon-mobile-black.svg') }}"alt="Mobile Application icon"/>
                   </div>
                 </div>
                 <div class="text-center">
@@ -306,10 +307,10 @@
               <div class="group rounded px-8 py-12 shadow hover:bg-primary">
                 <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                   <div class="hidden group-hover:block">
-                    <img src="../../public/img/icon-email-white.svg" alt="Email Marketing icon"/>
+                    <img src="{{ asset('/img/icon-email-white.svg') }}"alt="Email Marketing icon"/>
                   </div>
                   <div class="block group-hover:hidden">
-                    <img src="../../public/img/icon-email-black.svg" alt="Email Marketing icon"/>
+                    <img src="{{ asset('/img/icon-email-black.svg') }}"alt="Email Marketing icon"/>
                   </div>
                 </div>
                 <div class="text-center">
@@ -324,10 +325,10 @@
               <div class="group rounded px-8 py-12 shadow hover:bg-primary">
                 <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                   <div class="hidden group-hover:block">
-                    <img src="../../public/img/icon-design-white.svg" alt="Theme Design icon"/>
+                    <img src="{{ asset('/img/icon-design-white.svg') }}"alt="Theme Design icon"/>
                   </div>
                   <div class="block group-hover:hidden">
-                    <img src="../../public/img/icon-design-black.svg" alt="Theme Design icon"/>
+                    <img src="{{ asset('/img/icon-design-black.svg') }}"alt="Theme Design icon"/>
                   </div>
                 </div>
                 <div class="text-center">
@@ -342,10 +343,10 @@
               <div class="group rounded px-8 py-12 shadow hover:bg-primary">
                 <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                   <div class="hidden group-hover:block">
-                    <img src="../../public/img/icon-graphics-white.svg" alt="Graphic Design icon"/>
+                    <img src="{{ asset('/img/icon-graphics-white.svg') }}"alt="Graphic Design icon"/>
                   </div>
                   <div class="block group-hover:hidden">
-                    <img src="../../public/img/icon-graphics-black.svg" alt="Graphic Design icon"/>
+                    <img src="{{ asset('/img/icon-graphics-black.svg') }}"alt="Graphic Design icon"/>
                   </div>
                 </div>
                 <div class="text-center">
@@ -368,16 +369,16 @@
             </h3>
             <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
               <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="../../public/img/portfolio-apple.jpeg" class="w-full shadow" alt="portfolio image"/>
+                <img src="{{ asset('/img/portfolio-apple.jpeg') }}" class="w-full shadow" alt="portfolio image"/>
               </a>
               <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="../../public/img/portfolio-stripe.jpeg" class="w-full shadow" alt="portfolio image" />
+                <img src="{{ asset('/img/portfolio-stripe.jpeg') }}" class="w-full shadow" alt="portfolio image" />
               </a>
               <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="../../public/img/portfolio-fedex.jpeg" class="w-full shadow" alt="portfolio image"/>
+                <img src="{{ asset('/img/portfolio-fedex.jpeg') }}" class="w-full shadow" alt="portfolio image"/>
               </a>
               <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="../../public/img/portfolio-microsoft.jpeg" class="w-full shadow" alt="portfolio image"/>
+                <img src="{{ asset('/img/portfolio-microsoft.jpeg') }}" class="w-full shadow" alt="portfolio image"/>
               </a>
             </div>
           </div>
@@ -389,19 +390,19 @@
                 </h2>
                 <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
                   <span class="m-8 block">
-                    <img src="../../public/img/logo-coca-cola.svg" alt="client logo" class="mx-auto block h-12 w-auto"/>
+                    <img src="{{ asset('/img/logo-coca-cola.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
                   </span>
                   <span class="m-8 block">
-                    <img src="../../public/img/logo-apple.svg" alt="client logo" class="mx-auto block h-12 w-auto"/>
+                    <img src="{{ asset('/img/logo-apple.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
                   </span>
                   <span class="m-8 block">
-                    <img src="../../public/img/logo-netflix.svg" alt="client logo" class="mx-auto block h-12 w-auto"/>
+                    <img src="{{ asset('/img/logo-netflix.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
                   </span>
                   <span class="m-8 block">
-                    <img src="../../public/img/logo-amazon.svg" alt="client logo" class="mx-auto block h-12 w-auto"/>
+                    <img src="{{ asset('/img/logo-amazon.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
                   </span>
                   <span class="m-8 block">
-                    <img src="../../public/img/logo-stripe.svg" alt="client logo" class="mx-auto block h-12 w-auto"/>
+                    <img src="{{ asset('/img/logo-stripe.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
                   </span>
                 </div>
               </div>
@@ -420,7 +421,7 @@
                 <div class="md:w-2/5">
                   <div class="flex justify-center md:justify-start">
                     <span class="shrink-0">
-                      <img src="../../public/img/logo-spotify.svg" class="h-auto w-32" alt="company logo"/>
+                      <img src="{{ asset('/img/logo-spotify.svg') }}"class="h-auto w-32" alt="company logo"/>
                     </span>
                     <div class="relative ml-3 hidden w-full md:block">
                       <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -451,7 +452,7 @@
                 <div class="md:w-2/5">
                   <div class="flex justify-center md:justify-start">
                     <span class="shrink-0">
-                      <img src="../../public/img/logo-microsoft.svg" class="h-auto w-32" alt="company logo"/>
+                      <img src="{{ asset('/img/logo-microsoft.svg') }}"class="h-auto w-32" alt="company logo"/>
                     </span>
                     <div class="relative ml-3 hidden w-full md:block">
                       <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -482,7 +483,7 @@
                 <div class="md:w-2/5">
                   <div class="flex justify-center md:justify-start">
                     <span class="shrink-0">
-                      <img src="../../public/img/logo-fedex.svg" class="h-auto w-32" alt="company logo"/>
+                      <img src="{{ asset('/img/logo-fedex.svg') }}"class="h-auto w-32" alt="company logo"/>
                     </span>
                     <div class="relative ml-3 hidden w-full md:block"> 
                       <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -515,13 +516,13 @@
               </div>
             </div>
           </div>
-          <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24" style="background-image: url(../../public/img/experience-figure.png)" id="statistics">
+          <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24" style="background-image: url({{ asset('/img/experience-figure.png')}})" id="statistics">
             <div class="container">
               <div class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
                 <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
                   <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
                     <div>
-                      <img src="../../public/img/icon-project.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon project"/>
+                      <img src="{{ asset('/img/icon-project.svg') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon project"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-0">
                       <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -534,7 +535,7 @@
                   </div>
                   <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
                     <div>
-                      <img src="../../public/img/icon-award.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon award"/>
+                      <img src="{{ asset('/img/icon-award.svg') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon award"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-0">
                       <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -547,7 +548,7 @@
                   </div>
                   <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
                     <div>
-                      <img src="../../public/img/icon-happy.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon happy clients"/>
+                      <img src="{{ asset('/img/icon-happy.svg') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon happy clients"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-0">
                       <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -560,7 +561,7 @@
                   </div>
                   <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
                     <div>
-                      <img src="../../public/img/icon-puzzle.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle"/>
+                      <img src="{{ asset('/img/icon-puzzle.svg') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-0">
                       <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
@@ -585,7 +586,7 @@
               </h4>
               <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
                 <a href="/post" class="shadow">
-                  <div style="background-image: url(../../public/img/post-01.png)" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                  <div style="background-image: url({{ asset('/img/post-01.png')}})" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                     <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                       Read More
@@ -602,7 +603,7 @@
                   </div>
                 </a>
                 <a href="/post" class="shadow">
-                  <div style="background-image: url(../../public/img/post-02.png)" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                  <div style="background-image: url({{ asset('/img/post-02.png')}})" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                     <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                       Read More
@@ -619,7 +620,7 @@
                   </div>
                 </a>
                 <a href="/post" class="shadow">
-                  <div style="background-image: url(../../public/img/post-03.png)" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                  <div style="background-image: url({{ asset('/img/post-03.png')}})" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                     <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                       Read More
@@ -700,8 +701,8 @@
               </div>
             </div>
           </div>
-          <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96" style="background-image: url(../../public/img/map.png)"></div>
-          <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24" style="background-image: url(../../public/img/bg-cta.jpg)">
+          <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96" style="background-image: url({{ asset('/img/map.png')}})"></div>
+          <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24" style="background-image: url({{ asset('/img/bg-cta.jpg')}})">
             <div class="container relative z-30">
               <h3 class="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
                 Keep <span class="font-bold">up-to-date</span> <br />with what I'm up to
@@ -739,6 +740,6 @@
         </div>
       </div>
     </div>
-    <script src="../../assets/js/main.js"></script>
+    <script src="{{ asset('/js/main.js')}}"></script>
   </body>
 </html>
