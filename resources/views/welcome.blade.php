@@ -20,54 +20,91 @@
     <link as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="preload"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"/>
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
-    <link crossorigin="anonymous" href="{{ asset('/css/main.min.css') }}" media="screen" rel="stylesheet"/>
+    <link crossorigin="anonymous" href="{{ asset('/css/custom.css') }}" media="screen" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
     <div id="main" class="relative">
       <div x-data="{triggerNavItem(id) {$scroll(id)}, triggerMobileNavItem(id) {mobileMenu = false; this.triggerNavItem(id)}}">
-        <div class="w-full z-50 top-0 py-3 sm:py-5 absolute">
+        <div class="w-full z-50 top-0 py-3 sm:py-5 absolute bg-white">
           <div class="container flex items-center justify-between">
             <div>
               <a href="/">
                 
-                <img src="{{ asset('/img/logo.svg') }}" class="w-24 lg:w-48" alt="logo image"/>
+                <img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/>
               </a>
             </div>
             <div class="hidden lg:block">
               <ul class="flex items-center">
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#about')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Services</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Clients</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#work')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#statistics')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Statistics</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#blog')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Blog</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  <button class="mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                    Abrir cuenta
+                  </button>
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#contact')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Contact</span>
-                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  <button class="mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                    Ingresar
+                  </button>
+                </li>
+                <li class="group pl-6">
+                  <button class="mt-6 flex items-center justify-center rounded bg-white px-8 py-2 text-lg font-bold uppercase text-primary hover:bg-cyan-20">
+                    ESP
+                    <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="block lg:hidden">
+              <button @click="mobileMenu = true">
+                <i class="bx bx-menu text-4xl text-white"></i>
+              </button>
+            </div>
+          </div>
+          <div class="container flex items-center justify-between border-menu-line-top mt-6">
+            <div>
+              
+            </div>
+            <div class="hidden lg:block">
+              <ul class="flex items-center pt-5">
+                <li class="group pl-6">
+                  <span @click="triggerNavItem('#about')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Nosotros</span>
+                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                </li>
+                <li class="group pl-6">
+                  <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Servicios</span>
+                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                </li>
+                <li class="group pl-6">
+                  <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Fondos</span>
+                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                </li>
+                <li class="group pl-6">
+                  <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Research</span>
+                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                </li>
+                <li class="group pl-6">
+                  <span @click="triggerNavItem('#work')" class="cursor-pointer pt-0.5 font-header font-bold text-primary">Opere online</span>
+                  <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                 </li>
               </ul>
             </div>
@@ -112,12 +149,12 @@
           </div>
         </div>
         <div>
-          <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/bg-hero.jpg')}}">
+          <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/background_main.png')}}">
             <div class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
             <div class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
               <div class="flex flex-col items-center justify-center lg:flex-row">
-                <div class="rounded-full border-8 border-primary shadow-xl">
-                  <img src="{{ asset('/img/blog-author.jpg') }}" class="h-48 rounded-full sm:h-56" alt="author"/>
+                <div class="">
+                  <img src="{{ asset('/img/macbook-pro-16-mockup-v4-isometric 1.png') }}" class="h-100 sm:h-120" alt="author"/>
                 </div>
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                   <h1 class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
