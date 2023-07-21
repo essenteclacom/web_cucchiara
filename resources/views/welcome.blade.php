@@ -87,19 +87,19 @@
             <div class="hidden lg:block">
               <ul class="flex items-center pt-5">
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#about')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Nosotros</span>
+                  <span @click="triggerNavItem('#about')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Nosotros</span>
                   <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Servicios</span>
+                  <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Servicios</span>
                   <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Fondos</span>
+                  <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Fondos</span>
                   <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                 </li>
                 <li class="group pl-6">
-                  <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 pr-10 font-header font-bold text-primary">Research</span>
+                  <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Research</span>
                   <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                 </li>
                 <li class="group pl-6">
@@ -153,43 +153,34 @@
             <div class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
             <div class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
               <div class="flex flex-col items-center justify-center lg:flex-row">
-                <div class="">
-                  <img src="{{ asset('/img/macbook-pro-16-mockup-v4-isometric 1.png') }}" class="h-100 sm:h-120" alt="author"/>
-                </div>
+                
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                   <h1 class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                    Hello I'm Christy Smith!
+                    Soluciones Financieras Integrales
                   </h1>
                   <div class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                     <div class="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
-                      <p class="font-body text-lg uppercase text-white">Let's connect</p>
-                      <div class="hidden sm:block">
-                        <i class="bx bx-chevron-right text-3xl text-yellow"></i>
-                      </div>
-                    </div>
-                    <div class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
-                      <a href="/">
-                        <i class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-                      </a>
-                      <a href="/" class="pl-4">
-                        <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-                      </a>
-                      <a href="/" class="pl-4">
-                        <i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-                      </a>
-                      <a href="/" class="pl-4">
-                        <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-                      </a>
-                      <a href="/" class="pl-4">
-                        <i class="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-                      </a>
+                      <p class="font-body text-lg text-white">Te acompañamos a tomar las mejores decisiones de inversión, 
+                        ofreciéndote una amplia gama de instrumentos financieros
+                        según tu objetivo, plazo y perfil de riesgo.</p>
                     </div>
                   </div>
                 </div>
+                <div class="">
+                  <img src="{{ asset('/img/macbook-pro-16-mockup-v4-isometric 1.png') }}" class="h-[30rem] w-[60rem] sm:h-120" alt="author"/>
+                </div>
+              </div>
+              <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+                <span class="text-xl text-white font-bold">
+                  Nosotros
+                </span>
+                <p class="font-body text-lg text-white"> Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación que ofrece servicios integrales de gestión 
+                  de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando 
+                  soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.</p>
               </div>
             </div>
           </div>
-          <div class="bg-grey-50" id="about">
+          <!--<div class="bg-grey-50" id="about">
             <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
               <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
                 <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
@@ -278,7 +269,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
           <div class="container py-16 md:py-20" id="services">
             <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
               Here's what I'm good at

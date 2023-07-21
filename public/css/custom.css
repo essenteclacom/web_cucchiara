@@ -9,7 +9,7 @@
 }
 html{
     -webkit-text-size-adjust:100%;
-    font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family:Noto Sans;
     line-height:1.5;
     -moz-tab-size:4;
     -o-tab-size:4;
@@ -1131,7 +1131,7 @@ html{
     --tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to,hsla(233,4%,58%,0))
 }
 .to-hero-gradient-to{
-    --tw-gradient-to:rgba(65,47,144,.93)
+    --tw-gradient-to:rgba(28,64,195,.9)
 }
 .to-blog-gradient-to{
     --tw-gradient-to:#222
@@ -1232,6 +1232,9 @@ html{
 .pr-2{
     padding-right:.5rem
 }
+.pr-6-menus{
+    padding-right:6.5rem
+}
 .pt-12{
     padding-top:3rem
 }
@@ -1269,10 +1272,10 @@ html{
     text-align:center
 }
 .font-body{
-    font-family:Open Sans,sans-serif
+    font-family:Noto Sans
 }
 .font-header{
-    font-family:Noto Sans,sans-serif
+    font-family:Noto Sans
 }
 .text-2xl{
     font-size:1.5rem;
