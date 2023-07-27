@@ -179,7 +179,84 @@
                   soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.</p>
               </div>
             </div>
+            <div class="container py-16 md:py-20" id="services">
+              <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-2">
+                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                    <div class="hidden group-hover:block">
+                      <img src="{{ asset('/img/icon-development-white.svg') }}" alt="development icon"/>
+                    </div>
+                    <div class="block group-hover:hidden">
+                      <img src="{{ asset('/img/icon-development-black.svg') }}" alt="development icon"/>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                      WEB DEVELOPMENT
+                    </h3>
+                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                    <div class="hidden group-hover:block">
+                      <img src="{{ asset('/img/icon-content-white.svg') }}"alt="content marketing icon"/>
+                    </div>
+                    <div class="block group-hover:hidden">
+                      <img src="{{ asset('/img/icon-content-black.svg') }}"alt="content marketing icon"/>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                      Technical Writing
+                    </h3>
+                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                    <div class="hidden group-hover:block">
+                      <img src="{{ asset('/img/icon-mobile-white.svg') }}"alt="Mobile Application icon"/>
+                    </div>
+                    <div class="block group-hover:hidden">
+                      <img src="{{ asset('/img/icon-mobile-black.svg') }}"alt="Mobile Application icon"/>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                      Mobile Development
+                    </h3>
+                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                    <div class="hidden group-hover:block">
+                      <img src="{{ asset('/img/icon-email-white.svg') }}"alt="Email Marketing icon"/>
+                    </div>
+                    <div class="block group-hover:hidden">
+                      <img src="{{ asset('/img/icon-email-black.svg') }}"alt="Email Marketing icon"/>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                      Email Development
+                    </h3>
+                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          
           <!--<div class="bg-grey-50" id="about">
             <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
               <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
