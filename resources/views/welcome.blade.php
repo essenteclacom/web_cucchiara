@@ -821,25 +821,31 @@
             </div>
           </div>
         </div>
-        <div class="bg-primary">
-          <div class="container flex flex-col justify-between py-6 sm:flex-row">
-            <p class="text-center font-body text-white md:text-left">© Copyright 2022. All right reserved, ATOM.</p>
-            <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-              <a href="/">
-                <i class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="/" class="pl-4">
+        <div class="bg-footer">
+          <div class="container py-6">
+            <div class="flex justify-between py-6">
+              <div class="pt-1"><img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
+              <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones</div>
+              <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, CABA<br/>Tel: +54 11 4394 9330</div>
+              <div class="pt-1 border-t-2 border-primary">
                 <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-              </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-              </a>
+                <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
+              </div>
+              <div><img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/></div>
+            </div>
+            <div class="flex justify-between py-6">
+              <div><img src="{{ asset('/img/footer_01.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
+              <div><img src="{{ asset('/img/footer_02.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
+              <div><img src="{{ asset('/img/footer_03.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
+              <div><img src="{{ asset('/img/footer_04.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
+              <div><img src="{{ asset('/img/footer_05.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
+              <div><img src="{{ asset('/img/footer_06.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
+              <div><img src="{{ asset('/img/footer_07.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
+              <div><img src="{{ asset('/img/footer_08.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
+            </div>
+            <div class="text-center py-6">
+              <div>Miembro de BYMA Nº 18 | Miembro de ROFEX Nº 472 | ALyC Integral registro Nro. 265 CNV | Miembro de MAE Nº 672</div>
+              <div>© 2023 Cuchiarra Todos los derechos reservados. Diseño y desarollo porFolklore</div>
             </div>
           </div>
         </div>
