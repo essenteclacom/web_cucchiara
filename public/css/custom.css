@@ -788,6 +788,9 @@ html{
 .top-1{
     top:.25rem
 }
+.top-card-2{
+    top:60rem
+}
 .bottom-0{
     bottom:0
 }
@@ -858,6 +861,9 @@ html{
 .block{
     display:block
 }
+.inline{
+    display:inline
+}
 .inline-block{
     display:inline-block
 }
@@ -907,6 +913,9 @@ html{
 }
 .h-72{
     height:18rem
+}
+.h-section-44{
+    height:35rem
 }
 .max-h-screen{
     max-height:100vh
@@ -1266,6 +1275,9 @@ html{
 .pb-16{
     padding-bottom:4rem
 }
+.pb-hero-16{
+    padding-bottom:18rem
+}
 .pt-16{
     padding-top:4rem
 }
@@ -1562,6 +1574,9 @@ html{
     .sm\:pb-48{
         padding-bottom:12rem
     }
+    .sm\:pb-hero-48{
+        padding-bottom:24rem
+    }
     .sm\:pt-10{
         padding-top:2.5rem
     }
@@ -1810,7 +1825,7 @@ html{
         padding-top:16rem
     }
     .lg\:pb-48{
-        padding-bottom:12rem
+        padding-bottom:24rem
     }
     .lg\:pl-8{
         padding-left:2rem
@@ -1849,6 +1864,9 @@ html{
     }
     .lg\:leading-9{
         line-height:2.25rem
+    }
+    .lg\:pb-hero-48 {
+        padding-bottom: 24rem;
     }
 }
 @media (min-width:1280px){

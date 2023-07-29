@@ -151,9 +151,8 @@
         <div>
           <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/background_main.png')}}">
             <div class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
-            <div class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
+            <div class="container relative z-30 pt-20 pb-hero-16 sm:pt-56 sm:pb-hero-48 lg:pt-64 lg:pb-hero-48">
               <div class="flex flex-col items-center justify-center lg:flex-row">
-                
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                   <h1 class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
                     Soluciones Financieras Integrales
@@ -179,85 +178,124 @@
                   soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.</p>
               </div>
             </div>
-            <div class="container py-16 md:py-20" id="services">
-              <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-2">
-                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                      <img src="{{ asset('/img/icon-development-white.svg') }}" alt="development icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                      <img src="{{ asset('/img/icon-development-black.svg') }}" alt="development icon"/>
-                    </div>
+          </div>
+          <div class="container py-16 md:py-20 absolute inset-x-0 top-card-2 fieldset z-30 " id="services">
+            <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-2">
+              <div class="group rounded px-8 py-12 shadow bg-white hover:bg-primary flex flex-row">
+                <div class="text-center">
+                  <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                    Administración de cartera
+                  </h3>
+                </div>
+                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                  <div class="hidden group-hover:block">
+                    <img src="{{ asset('/img/icon-development-white.svg') }}" alt="development icon"/>
                   </div>
-                  <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                      WEB DEVELOPMENT
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
+                  <div class="block group-hover:hidden">
+                    <img src="{{ asset('/img/icon-development-black.svg') }}" alt="development icon"/>
                   </div>
                 </div>
-                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                      <img src="{{ asset('/img/icon-content-white.svg') }}"alt="content marketing icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                      <img src="{{ asset('/img/icon-content-black.svg') }}"alt="content marketing icon"/>
-                    </div>
+              </div>
+              <div class="group rounded px-8 py-12 shadow bg-white hover:bg-primary flex flex-row">
+                <div class="text-center">
+                  <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                    Research
+                  </h3>
+                </div>
+                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                  <div class="hidden group-hover:block">
+                    <img src="{{ asset('/img/icon-content-white.svg') }}"alt="content marketing icon"/>
                   </div>
-                  <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                      Technical Writing
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
+                  <div class="block group-hover:hidden">
+                    <img src="{{ asset('/img/icon-content-black.svg') }}"alt="content marketing icon"/>
                   </div>
                 </div>
-                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                      <img src="{{ asset('/img/icon-mobile-white.svg') }}"alt="Mobile Application icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                      <img src="{{ asset('/img/icon-mobile-black.svg') }}"alt="Mobile Application icon"/>
-                    </div>
+              </div>
+              <div class="group rounded px-8 py-12 shadow bg-white hover:bg-primary flex flex-row">
+                <div class="text-center">
+                  <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                    Operaciones financieras
+                  </h3>
+                </div>
+                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                  <div class="hidden group-hover:block">
+                    <img src="{{ asset('/img/icon-mobile-white.svg') }}"alt="Mobile Application icon"/>
                   </div>
-                  <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                      Mobile Development
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
+                  <div class="block group-hover:hidden">
+                    <img src="{{ asset('/img/icon-mobile-black.svg') }}"alt="Mobile Application icon"/>
                   </div>
                 </div>
-                <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                  <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                      <img src="{{ asset('/img/icon-email-white.svg') }}"alt="Email Marketing icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                      <img src="{{ asset('/img/icon-email-black.svg') }}"alt="Email Marketing icon"/>
-                    </div>
+              </div>
+              <div class="group rounded px-8 py-12 shadow bg-white hover:bg-primary flex flex-row">
+                <div class="text-center">
+                  <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+                    Fondos comunes de inversión
+                  </h3>
+                </div>
+                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+                  <div class="hidden group-hover:block">
+                    <img src="{{ asset('/img/icon-email-white.svg') }}"alt="Email Marketing icon"/>
                   </div>
-                  <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                      Email Development
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
+                  <div class="block group-hover:hidden">
+                    <img src="{{ asset('/img/icon-email-black.svg') }}"alt="Email Marketing icon"/>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
-          <!--<div class="bg-grey-50" id="about">
+          <div class="h-section-44"></div>
+          <div class="container py-16 md:py-20" id="services">
+            <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+              Abrí tu cuenta hoy
+            </h2>
+            <div class="container">
+              <div class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
+                <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
+                  <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-left">
+                    <div>
+                      <img src="{{ asset('/img/atc_01.png') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon project"/>
+                    </div>
+                    <div class="pt-5 md:pl-5 md:pt-0">
+                      <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        Abrí tu cuenta
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-left">
+                    <div>
+                      <img src="{{ asset('/img/atc_02.png') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon award"/>
+                    </div>
+                    <div class="pt-5 md:pl-5 md:pt-0">
+                      <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        Asesorate
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-left lg:mt-0">
+                    <div>
+                      <img src="{{ asset('/img/atc_03.png') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon happy clients"/>
+                    </div>
+                    <div class="pt-5 md:pl-5 md:pt-0">
+                      <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        Definí tu cartera de inversión
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-left lg:mt-0">
+                    <div>
+                      <img src="{{ asset('/img/atc_04.png') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle"/>
+                    </div>
+                    <div class="pt-5 md:pl-5 md:pt-0">
+                      <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        Monitoreá tus inversiones
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-grey-50" id="about">
             <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
               <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
                 <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
@@ -346,7 +384,7 @@
                 </div>
               </div>
             </div>
-          </div>-->
+          </div>
           <div class="container py-16 md:py-20" id="services">
             <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
               Here's what I'm good at
