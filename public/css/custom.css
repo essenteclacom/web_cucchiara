@@ -1093,6 +1093,9 @@ html{
     --tw-bg-opacity:1;
     background-color:rgb(28 64 195/var(--tw-bg-opacity))
 }
+.bg-secondary{
+    background-color:rgb(5, 9, 78)
+}
 .bg-transparent{
     background-color:transparent
 }
