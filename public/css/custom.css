@@ -917,6 +917,9 @@ html{
 .h-section-44{
     height:35rem
 }
+.h-section-43{
+    height:25rem
+}
 .max-h-screen{
     max-height:100vh
 }
@@ -1095,6 +1098,9 @@ html{
 }
 .bg-secondary{
     background-color:rgb(5, 9, 78)
+}
+.bg-third{
+    background-color:rgb(17, 32, 140)
 }
 .bg-transparent{
     background-color:transparent
@@ -1367,6 +1373,9 @@ html{
 .text-primary{
     --tw-text-opacity:1;
     color:rgb(28 64 195/var(--tw-text-opacity))
+}
+.text-color-cucchiara{
+    color:rgb(17, 32, 140)
 }
 .text-grey-10{
     --tw-text-opacity:1;

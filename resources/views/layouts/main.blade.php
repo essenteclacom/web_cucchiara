@@ -78,24 +78,24 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
                                     <a href="/about">
-                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Nosotros</span>
+                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Nosotros</span>
                                         <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Servicios</span>
+                                    <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
                                     <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Fondos</span>
+                                    <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
                                     <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary">Research</span>
+                                    <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
                                     <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#work')" class="cursor-pointer pt-0.5 font-header font-bold text-primary">Opere online</span>
+                                    <span @click="triggerNavItem('#work')" class="cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
                                     <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
                                 </li>
                             </ul>
@@ -144,7 +144,7 @@
                 @yield('content')
                 {{-- contact --}}
                 <div class="container py-16 md:py-20" id="contact">
-                    <h2 class="text-left font-header text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
+                    <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
                         Contacto
                     </h2>
                     <form class="mx-auto w-full pt-10 sm:w-3/4">
@@ -154,7 +154,7 @@
                             <input class="mt-6 w-full rounded border-grey-50 py-3 font-body text-black md:mt-0 md:w-1/2" placeholder="Teléfono*" type="text" id="phone"/>
                         </div>
                         <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
-                        <button class="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
+                        <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
                             Send
                             <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
                         </button>

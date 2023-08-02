@@ -5,8 +5,8 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/background_main.png')}}">
-            <div class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
+        <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/Fondo completo linea.jpg')}}">
+            <div class="absolute inset-0 z-20 bg-gradient-to-r bg-center bg-no-repeat"></div>
                 <div class="container relative z-30 pt-20 pb-hero-16 sm:pt-56 sm:pb-hero-48 lg:pt-64 lg:pb-hero-48">
                     <div class="flex flex-col items-center justify-center lg:flex-row">
                         <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
