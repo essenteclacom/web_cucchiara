@@ -72,7 +72,6 @@
                     </div>
                     <div class="container flex items-center justify-between border-menu-line-top mt-6">
                         <div>
-                        
                         </div>
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
@@ -83,20 +82,28 @@
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/services">
+                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/founds">
+                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/research">
+                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#work')" class="cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/onlineoperation">
+                                        <span class="cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -140,7 +147,6 @@
                         </ul>
                     </div>
                 </div>
-
                 @yield('content')
                 {{-- contact --}}
                 <div class="container py-16 md:py-20" id="contact">

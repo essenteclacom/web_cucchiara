@@ -7,32 +7,31 @@
     <div>
         <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/Fondo completo linea.jpg')}}">
             <div class="absolute inset-0 z-20 bg-gradient-to-r bg-center bg-no-repeat"></div>
-                <div class="container relative z-30 pt-20 pb-hero-16 sm:pt-56 sm:pb-hero-48 lg:pt-64 lg:pb-hero-48">
-                    <div class="flex flex-col items-center justify-center lg:flex-row">
-                        <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
-                            <h1 class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                                Soluciones Financieras Integrales
-                            </h1>
-                            <div class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
-                                <div class="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
-                                    <p class="font-body text-lg text-white">
-                                        Te acompañamos a tomar las mejores decisiones de inversión, ofreciéndote una amplia gama de instrumentos financieros según tu objetivo, plazo y perfil de riesgo.
-                                    </p>
-                                </div>
+            <div class="container relative z-30 pt-20 pb-hero-16 sm:pt-56 sm:pb-hero-48 lg:pt-64 lg:pb-hero-48">
+                <div class="flex flex-col items-center justify-center lg:flex-row">
+                    <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+                        <h1 class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
+                            Soluciones Financieras Integrales
+                        </h1>
+                        <div class="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
+                            <div class="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
+                                <p class="font-body text-lg text-white">
+                                    Te acompañamos a tomar las mejores decisiones de inversión, ofreciéndote una amplia gama de instrumentos financieros según tu objetivo, plazo y perfil de riesgo.
+                                </p>
                             </div>
                         </div>
-                        <div class="">
-                            <img src="{{ asset('/img/slider_01.png') }}" class="h-[30rem] w-[60rem] sm:h-120" alt="author"/>
-                        </div>
                     </div>
-                    <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
-                        <span class="text-xl text-white font-bold">
-                            Nosotros
-                        </span>
-                        <p class="font-body text-lg text-white"> 
-                            Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
-                        </p>
+                    <div class="">
+                        <img src="{{ asset('/img/slider_01.png') }}" class="h-[30rem] w-[60rem] sm:h-120" alt="author"/>
                     </div>
+                </div>
+                <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+                    <span class="text-xl text-white font-bold">
+                        Nosotros
+                    </span>
+                    <p class="font-body text-lg text-white"> 
+                        Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
+                    </p>
                 </div>
             </div>
         </div>
