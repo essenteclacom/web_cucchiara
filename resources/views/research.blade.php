@@ -116,6 +116,21 @@
                 </a>
             </div>
         </div>
-    </div> 
+    </div>
+    {{-- newsletter --}}
+    <div class="bg-primary py-16 lg:py-24">
+        <div class="container relative z-30 flex flex-row items-center justify-center">
+            <h3 class="font-header text-3xl leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
+                <span class="font-bold">Recibí nuestro<br />Newsletter semanal</span>
+            </h3>
+            <form class="flex flex-row justify-center ml-14">
+                <input class="rounded px-4 py-3 font-body text-black" type="text" id="email" placeholder="Email"/>
+                <button class="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
+                    Suscribite
+                </button>
+            </form>
+        </div>
+    </div>
+    {{-- end newsletter --}} 
 </div>
 @endsection

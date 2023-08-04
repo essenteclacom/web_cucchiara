@@ -154,16 +154,22 @@
                         Contacto
                     </h2>
                     <form class="mx-auto w-full pt-10 sm:w-3/4">
-                        <div class="flex flex-col md:flex-col">
-                            <input class="mr-3 w-full rounded border-grey-50 py-3 font-body text-black md:w-1/2 lg:mr-5" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                            <input class="mt-6 w-full rounded border-grey-50 py-3 font-body text-black md:mt-0 md:w-1/2" placeholder="Email*" type="text" id="email"/>
-                            <input class="mt-6 w-full rounded border-grey-50 py-3 font-body text-black md:mt-0 md:w-1/2" placeholder="Teléfono*" type="text" id="phone"/>
+                        <div class="flex flex-row items-center justify-between">
+                            <div class="flex flex-col md:flex-col mr-14">
+                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Email*" type="text" id="email"/>
+                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                            </div>
+                            <div>
+                                <textarea class="w-full rounded border-grey-50 px-4 py-3 font-body text-black" placeholder="Mensaje" id="message" cols="70" rows="7"></textarea>
+                            </div>
                         </div>
-                        <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
-                        <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
-                            Send
-                            <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
-                        </button>
+                        <div class="flex items-end justify-end">
+                            <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold text-white hover:bg-grey-20">
+                                Enviar
+                                <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
+                            </button>
+                        </div>
                     </form>
                     <div class="flex flex-col pt-16 lg:flex-row">
                         <div class="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3">
