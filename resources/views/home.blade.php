@@ -531,6 +531,8 @@
             </div>
         </div>
     </div>
+     {{-- end old --}} 
+     {{-- last research --}}
     <div class="bg-white" id="blog">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
@@ -588,7 +590,7 @@
             </div>
         </div>
     </div>  
-    {{-- end old --}}  
+    {{-- end last research --}}
     {{-- newsletter --}}
     <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24" style="background-image: url({{ asset('/img/bg-cta.jpg')}})">
         <div class="container relative z-30">
