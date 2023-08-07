@@ -47,16 +47,16 @@
                                 <li class="group pl-6"></li>
                                 <li class="group pl-6"></li>
                                 <li class="group pl-6">
-                                    <button class="mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                                    <button class="text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
                                         Abrir cuenta
                                     </button>
                                 </li>
                                 <li class="group pl-6">
-                                    <button class="mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                                    <button class=" text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
                                         Ingresar
                                     </button>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="text-color-cucchiara group pl-6">
                                     <button class="mt-6 flex items-center justify-center rounded bg-white px-8 py-2 text-lg font-bold uppercase text-primary hover:bg-cyan-20">
                                         ESP
                                         <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
@@ -155,45 +155,10 @@
                         </div>
                         <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
                         <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
-                            Send
+                            Enviar
                             <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
                         </button>
                     </form>
-                    <div class="flex flex-col pt-16 lg:flex-row">
-                        <div class="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3">
-                            <div class="flex items-center">
-                                <i class="bx bx-phone text-2xl text-grey-40"></i>
-                                <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                                    My Phone
-                                </p>
-                            </div>
-                            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                                (+881) 111 222 333
-                            </p>
-                        </div>
-                        <div class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
-                            <div class="flex items-center">
-                                <i class="bx bx-envelope text-2xl text-grey-40"></i>
-                                <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                                    My Email
-                                </p>
-                            </div>
-                            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                                name@mydomain.com
-                            </p>
-                        </div>
-                        <div class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
-                            <div class="flex items-center">
-                                <i class="bx bx-map text-2xl text-grey-40"></i>
-                                <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                                    My Address
-                                </p>
-                            </div>
-                            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                                123 New York D Block 1100, 2011 USA
-                            </p>
-                        </div>
-                    </div>
                 </div>
                 {{-- end contact --}}
                 {{-- map --}}
@@ -213,14 +178,14 @@
                             <div><img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/></div>
                         </div>
                         <div class="flex justify-between py-6">
-                            <div><img src="{{ asset('/img/footer_01.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
-                            <div><img src="{{ asset('/img/footer_02.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
-                            <div><img src="{{ asset('/img/footer_03.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
-                            <div><img src="{{ asset('/img/footer_04.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
-                            <div><img src="{{ asset('/img/footer_05.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
-                            <div><img src="{{ asset('/img/footer_06.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
-                            <div><img src="{{ asset('/img/footer_07.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
-                            <div><img src="{{ asset('/img/footer_08.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
+                            <div><img src="{{ asset('/img/Byma.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
+                            <div><img src="{{ asset('/img/image 7.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
+                            <div><img src="{{ asset('/img/Matba.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
+                            <div><img src="{{ asset('/img/Mae.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
+                            <div><img src="{{ asset('/img/Mav.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
+                            <div><img src="{{ asset('/img/Emta.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
+                            <div><img src="{{ asset('/img/CAMARA.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
+                            <div><img src="{{ asset('/img/CNV.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
                         </div>
                         <div class="text-center py-6">
                             <div>Miembro de BYMA Nº 18 | Miembro de ROFEX Nº 472 | ALyC Integral registro Nro. 265 CNV | Miembro de MAE Nº 672</div>

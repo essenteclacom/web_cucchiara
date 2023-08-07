@@ -1102,6 +1102,12 @@ html{
 .bg-third{
     background-color:rgb(17, 32, 140)
 }
+.bg-quarter{
+    background-color:rgb(17, 32, 137)
+}
+.gradient-cucciara{
+    background-image: linear-gradient(to right, #112089 , #2863F4);
+  }
 .bg-transparent{
     background-color:transparent
 }
@@ -1128,6 +1134,10 @@ html{
 .bg-white{
     --tw-bg-opacity:1;
     background-color:rgb(255 255 255/var(--tw-bg-opacity))
+}
+.bg-cyan-20{
+    --tw-bg-opacity:1;
+    background-color:rgb(141 222 247/var(--tw-bg-opacity)) 
 }
 .bg-footer{
     --tw-bg-opacity:1;
@@ -1420,6 +1430,9 @@ html{
 }
 .bg-blend-multiply{
     background-blend-mode:multiply
+}
+.shadow-amplia{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
 }
 .shadow{
     --tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
