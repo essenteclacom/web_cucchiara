@@ -72,7 +72,6 @@
                     </div>
                     <div class="container flex items-center justify-between border-menu-line-top mt-6">
                         <div>
-                        
                         </div>
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
@@ -83,20 +82,28 @@
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#services')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/services">
+                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#portfolio')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/founds">
+                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#clients')" class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/research">
+                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <span @click="triggerNavItem('#work')" class="cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
-                                    <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    <a href="/onlineoperation">
+                                        <span class="cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
+                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -140,7 +147,6 @@
                         </ul>
                     </div>
                 </div>
-
                 @yield('content')
                 {{-- contact --}}
                 <div class="container py-16 md:py-20" id="contact">
@@ -148,10 +154,21 @@
                         Contacto
                     </h2>
                     <form class="mx-auto w-full pt-10 sm:w-3/4">
-                        <div class="flex flex-col md:flex-col">
-                            <input class="mr-3 w-full rounded border-grey-50 py-3 font-body text-black md:w-1/2 lg:mr-5" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                            <input class="mt-6 w-full rounded border-grey-50 py-3 font-body text-black md:mt-0 md:w-1/2" placeholder="Email*" type="text" id="email"/>
-                            <input class="mt-6 w-full rounded border-grey-50 py-3 font-body text-black md:mt-0 md:w-1/2" placeholder="Teléfono*" type="text" id="phone"/>
+                        <div class="flex flex-row items-center justify-between">
+                            <div class="flex flex-col md:flex-col mr-14">
+                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Email*" type="text" id="email"/>
+                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                            </div>
+                            <div>
+                                <textarea class="w-full rounded border-grey-50 px-4 py-3 font-body text-black" placeholder="Mensaje" id="message" cols="70" rows="7"></textarea>
+                            </div>
+                        </div>
+                        <div class="flex items-end justify-end">
+                            <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold text-white hover:bg-grey-20">
+                                Enviar
+                                <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
+                            </button>
                         </div>
                         <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
                         <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">

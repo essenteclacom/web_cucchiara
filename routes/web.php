@@ -4,6 +4,11 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\FoundsController;
+use App\Http\Controllers\ResearchController;
+use App\Http\Controllers\OnlineOperationController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,3 +27,11 @@ use App\Http\Controllers\AboutController;
 Route::get('/', HomeController::class);
 
 Route::get('/about', AboutController::class);
+
+Route::get('/services', ServicesController::class);
+
+Route::get('/founds', FoundsController::class);
+
+Route::get('/research', ResearchController::class);
+
+Route::get('/onlineoperation', OnlineOperationController::class);

@@ -205,7 +205,9 @@
         </div>
     </div>
     {{-- end need --}}
+<<<<<<< HEAD
     {{-- old --}}
+=======
     {{-- old 
     <div class="container py-16 md:py-20" id="services">
         <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
@@ -537,6 +539,7 @@
     </div>--}}
      {{-- end old --}} 
      {{-- last research --}}
+>>>>>>> 3771e78b8b163ca4134ab6b297c78a3c869a8bb8
     <div class="bg-white" id="blog">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
@@ -593,6 +596,7 @@
                 </a>
             </div>
         </div>
+<<<<<<< HEAD
     </div>
     <div class="bg-quarter" id="clients">
         <div class="container py-8 md:py-20 grid grid-cols-2 gap-2">
@@ -612,6 +616,7 @@
                     </button>
                 </form>
             </div>
+=======
     </div>  
     {{-- end last research --}}
     {{-- newsletter --}}
@@ -626,6 +631,7 @@
                     Suscribite
                 </button>
             </form>
+>>>>>>> 3771e78b8b163ca4134ab6b297c78a3c869a8bb8
         </div>
     </div>
     {{-- end old --}}  

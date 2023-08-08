@@ -11,7 +11,7 @@
         <h2 class="text-center font-header text-2xl text-white font-semibold text-primary sm:text-5xl lg:text-2xl pt-32">
             Nuestro Equipo
         </h2>
-        <div class="container flex flex-row justify-between absolute">
+        <div class="container flex flex-row inset-x-0 justify-between absolute">
             <div class="ml-48">
                 <img src="{{ asset('/img/Ellipse 1.png') }}" class="w-auto h-auto pt-24" alt="about image"/>
             </div>
