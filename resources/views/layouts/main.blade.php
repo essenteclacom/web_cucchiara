@@ -149,33 +149,30 @@
                 </div>
                 @yield('content')
                 {{-- contact --}}
-                <div class="container py-16 md:py-20" id="contact">
-                    <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
-                        Contacto
-                    </h2>
-                    <form class="mx-auto w-full pt-10 sm:w-3/4">
-                        <div class="flex flex-row items-center justify-between">
-                            <div class="flex flex-col md:flex-col mr-14">
-                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Email*" type="text" id="email"/>
-                                <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                <div class="bg-contact">
+                    <div class="container py-16 md:py-20 bg-contact" id="contact">
+                        <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
+                            Contacto
+                        </h2>
+                        <form class="mx-auto w-full pt-10 sm:w-3/4">
+                            <div class="flex flex-row items-center justify-between">
+                                <div class="flex flex-col md:flex-col mr-14">
+                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Email*" type="text" id="email"/>
+                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                                </div>
+                                <div>
+                                    <textarea class="w-full rounded border-grey-50 px-4 py-3 font-body text-black" placeholder="Mensaje" id="message" cols="70" rows="7"></textarea>
+                                </div>
                             </div>
-                            <div>
-                                <textarea class="w-full rounded border-grey-50 px-4 py-3 font-body text-black" placeholder="Mensaje" id="message" cols="70" rows="7"></textarea>
+                            <div class="flex items-end justify-end">
+                                <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold text-white hover:bg-grey-20">
+                                    Enviar
+                                    <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
+                                </button>
                             </div>
-                        </div>
-                        <div class="flex items-end justify-end">
-                            <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold text-white hover:bg-grey-20">
-                                Enviar
-                                <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
-                            </button>
-                        </div>
-                        <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
-                        <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
-                            Enviar
-                            <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
-                        </button>
-                    </form>
+                        </form>
+                    </div>
                 </div>
                 {{-- end contact --}}
                 {{-- map --}}

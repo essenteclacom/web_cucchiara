@@ -21,9 +21,12 @@
                             </div>
                         </div>
                     </div>
+                    <div class="h-[30rem] w-[60rem] sm:h-120">
+                    </div>
+                    {{-- pendiente de verificar
                     <div class="">
                         <img src="{{ asset('/img/slider_01.png') }}" class="h-[30rem] w-[60rem] sm:h-120" alt="author"/>
-                    </div>
+                    </div>--}}
                 </div>
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                     <span class="text-xl text-white font-bold">
@@ -38,7 +41,7 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container py-36 md:py-36 absolute inset-x-0 top-card-2 fieldset z-30 " id="services">
+    <div class="container py-36 md:py-36 absolute inset-x-0 top-card-2 fieldset z-30 lg:pl-12" id="services">
         <h3 class="text-white text-left font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
             Lo que hacemos
         </h3>    
@@ -106,7 +109,7 @@
         </div>
     </div>
     {{-- end cards --}}
-    <div class="h-section-44"></div>
+    <div class="h-section-43"></div>
     {{-- open account --}}
     <div class="container py-16 md:py-20" id="services">
         <h3 class="text-center font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
@@ -175,7 +178,7 @@
             <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
                 <div>
                     <div class="flex items-end justify-between">
-                        <div class="gradient-cucciara group rounded px-8 py-12 shadow hover:bg-primary">
+                        <div class="gradient-cucciara group rounded px-8 py-0 shadow hover:bg-primary">
                             <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                                 <div>
                                     <img src="{{ asset('/img/persona.png') }}" alt="development icon"/>
@@ -187,7 +190,7 @@
                                 </h3>
                             </div>
                         </div>
-                        <div class="gradient-cucciara group rounded px-8 py-12 shadow hover:bg-primary">
+                        <div class="gradient-cucciara group rounded px-8 py-0 shadow hover:bg-primary">
                             <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                                 <div>
                                     <img src="{{ asset('/img/contrato.png') }}" alt="development icon"/>
@@ -539,7 +542,7 @@
      {{-- last research --}}
     <div class="bg-white" id="blog">
         <div class="container py-16 md:py-20">
-            <h3 class="text-left font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
+            <h3 class="text-left font-header text-xl font-bold sm:text-xl lg:text-xl text-color-cucchiara">
                 Últimos Informes de Research
             </h3>
             <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
@@ -594,6 +597,7 @@
             </div>
         </div>
     </div>
+    {{-- newsletter --}}
     <div class="bg-quarter" id="clients">
         <div class="container py-8 md:py-20 grid grid-cols-2 gap-2">
             <div class="mx-auto w-full sm:w-3/4 lg:w-full">
@@ -612,23 +616,8 @@
                     </button>
                 </form>
             </div>
-    </div>  
-    {{-- end last research --}}
-    {{-- newsletter --}}
-    <div class="bg-primary py-16 lg:py-24">
-        <div class="container relative z-30 flex flex-row items-center justify-center">
-            <h3 class="font-header text-3xl leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
-                <span class="font-bold">Recibí nuestro<br />Newsletter semanal</span>
-            </h3>
-            <form class="flex flex-row justify-center ml-14">
-                <input class="rounded px-4 py-3 font-body text-black" type="text" id="email" placeholder="Email"/>
-                <button class="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-                    Suscribite
-                </button>
-            </form>
         </div>
     </div>
-    {{-- end old --}}  
-    {{-- newsletter --}}
+    <div class="h-section-42"></div>  
     {{-- end newsletter --}}
 @endsection
