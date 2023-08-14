@@ -118,17 +118,21 @@
         </div>
     </div>
     {{-- newsletter --}}
-    <div class="bg-primary py-16 lg:py-24">
-        <div class="container relative z-30 flex flex-row items-center justify-center">
-            <h3 class="font-header text-3xl leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
-                <span class="font-bold">Recibí nuestro<br />Newsletter semanal</span>
-            </h3>
-            <form class="flex flex-row justify-center ml-14">
-                <input class="rounded px-4 py-3 font-body text-black" type="text" id="email" placeholder="Email"/>
-                <button class="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-                    Suscribite
-                </button>
-            </form>
+    <div class="bg-quarter" id="clients">
+        <div class="container py-8 md:py-20 grid grid-cols-2 gap-2 flex items-center">
+            <div>
+                <h2 class="text-white font-header text-4xl font-semibold sm:text-5xl lg:text-4xl">
+                    Recibí nuestro<br/>Newsletter semanal
+                </h2>
+            </div>
+            <div>
+                <form class="flex flex-row items-center">
+                    <input class="w-full rounded px-4 py-2 font-body text-black sm:py-4" type="text" id="email" placeholder="Coloca tu correo electronico"/>
+                    <button class="text-color-cucchiara rounded bg-cyan-20 px-8 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
+                        Suscribite
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
     {{-- end newsletter --}} 

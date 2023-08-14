@@ -149,12 +149,15 @@
                 </div>
                 @yield('content')
                 {{-- contact --}}
+                <div class="h-section-42"></div>  
                 <div class="bg-contact">
-                    <div class="container py-16 md:py-20 bg-contact" id="contact">
-                        <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
-                            Contacto
-                        </h2>
-                        <form class="mx-auto w-full pt-10 sm:w-3/4">
+                    <div class="container bg-contact" id="contact">
+                        <div class="relative top-minus-10">
+                            <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
+                                Contacto
+                            </h2>
+                        </div>
+                        <form class="mx-auto w-full pt-10">
                             <div class="flex flex-row items-center justify-between">
                                 <div class="flex flex-col md:flex-col mr-14">
                                     <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black" placeholder="Nombre y Apellido*" type="text" id="name"/>
@@ -165,7 +168,7 @@
                                     <textarea class="w-full rounded border-grey-50 px-4 py-3 font-body text-black" placeholder="Mensaje" id="message" cols="70" rows="7"></textarea>
                                 </div>
                             </div>
-                            <div class="flex items-end justify-end">
+                            <div class="flex items-end justify-end pb-20">
                                 <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold text-white hover:bg-grey-20">
                                     Enviar
                                     <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
@@ -183,11 +186,11 @@
                     <div class="container py-6">
                         <div class="flex justify-between py-6">
                             <div class="pt-1"><img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
-                            <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones</div>
+                            <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                             <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, CABA<br/>Tel: +54 11 4394 9330</div>
                             <div class="pt-1 border-t-2 border-primary">
-                                <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-                                <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
+                                <i class="bx bxl-linkedin text-2xl text-color-cucchiara hover:text-yellow"></i>
+                                <i class="bx bxl-twitter text-2xl text-color-cucchiara hover:text-yellow"></i>
                             </div>
                             <div><img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/></div>
                         </div>
