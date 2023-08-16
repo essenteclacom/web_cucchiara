@@ -57,6 +57,7 @@
                                     </button>
                                 </li>
                                 <li class="text-color-cucchiara group pl-6">
+                                    
                                     <button class="mt-6 flex items-center justify-center rounded bg-white px-8 py-2 text-lg font-bold uppercase text-primary hover:bg-cyan-20">
                                         ESP
                                         <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
@@ -179,7 +180,9 @@
                 </div>
                 {{-- end contact --}}
                 {{-- map --}}
+                <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
                 <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96" style="background-image: url({{ asset('/img/map.png')}})"></div>
+                </a>
                 {{-- end map --}}
                 {{-- footer --}}
                 <div class="bg-footer">

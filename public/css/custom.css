@@ -1120,6 +1120,9 @@ html{
 .bg-contact{
     background-color: rgb(250, 250, 255);
 }
+.bg-search{
+    background-color: rgb(220, 220, 255);
+}
 .gradient-cucciara{
     background-image: linear-gradient(to right, #112089 , #2863F4);
   }
@@ -1958,4 +1961,47 @@ html{
     .\32xl\:w-full{
         width:100%
     }
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#ffffff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#ECFAFF;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.nav li ul li ul li ul{
+    right:-346px;
+    top:0px;
 }
