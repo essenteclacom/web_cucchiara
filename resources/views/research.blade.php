@@ -121,38 +121,38 @@
     <div class="h-section-42"></div>  
     <div class="bg-search">
         <div class="container">
-            <div class="relative top-minus-10">
+            <div class="relative top-minus-2">
                 <h2 class="text-color-cucchiara text-left font-header text-2xl font-bold text-primary sm:text-5xl lg:text-2xl">
                     Buscar Informes
                 </h2>
             </div>
-            <ul class="nav text-color-cucchiara">
+            <ul class="nav-search text-color-cucchiara">
 				<li><a href="" class="rounded-md">Todos los reportes<i class="bx bx-chevron-down relative -right-2 text-3xl align-middle "></i></a>
 					<ul>
-						<li><a href="">Coyuntura Argentina</a></li>
+						<li><a class="rounded-t-md" href="">Coyuntura Argentina</a></li>
 						<li><a href="">Coyuntura Global</a></li>
 						<li><a href="">Bonos corporativos</a>
                             <ul>
-                                <li><a href="">Raghsa</a>
+                                <li><a class="rounded-t-md" href="">Raghsa</a>
                                     <ul>
-                                        <li><a href="">06.07.23 Provincia de Buenos Aires 20237</a></li>
+                                        <li><a class="rounded-t-md" href="">06.07.23 Provincia de Buenos Aires 20237</a></li>
                                         <li><a href="">17.03.23 Argentina Sovereign Bonds</a></li>
                                         <li><a href="">06.01.23 Coyuntura de la Deuda en Pesos</a></li>
-                                        <li><a href="">05.12.22 Presentacion Fondo CyC Renta Mixta</a></li>
+                                        <li><a class="rounded-b-md" href="">05.12.22 Presentacion Fondo CyC Renta Mixta</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="">Genneia</a></li>
                                 <li><a href="">Cappex S.A.</a></li>
-                                <li><a href="">Submenu4</a></li>
+                                <li><a class="rounded-b-md" href="">Submenu4</a></li>
                             </ul>
                         </li>
                         <li><a href="">Acciones</a></li>
-                        <li><a href="">Fondos</a></li>
+                        <li><a class="rounded-b-md" href="">Fondos</a></li>
 					</ul>
 				</li>
 			</ul>
             <div class="h-section-42"></div>
-            </div>
+            <div class="h-section-42"></div>
         </div>
     </div>
     {{-- end search --}}

@@ -770,6 +770,9 @@ html{
     left:0;
     right:0;
 }
+.top-minus-2 {
+    top: -1rem;
+}
 .top-minus-5 {
     top: -1.25rem;
 }
@@ -1405,6 +1408,9 @@ html{
 .text-color-cucchiara{
     color:rgb(17, 32, 140)
 }
+.text-grey-5{
+    color:rgb(167 167 167)
+}
 .text-grey-10{
     --tw-text-opacity:1;
     color:rgb(108 107 109/var(--tw-text-opacity))
@@ -1966,42 +1972,64 @@ html{
 ul, ol {
     list-style:none;
 }
-
-.nav > li {
+.nav-lang > li {
     float:left;
 }
+.nav-lang li a {
+    background-color:#ffffff;
+    text-decoration:none;
+    padding: 10px 12px 10px 30px;
+    display:block;
+}
+.nav-lang li ul {
+    display:none;
+    position:absolute;
+    min-width:125px;
+}
+.nav-lang li:hover > ul {
+    display:block;
+}
+.nav-lang li ul li {
+    position:relative;
+}
+.nav-lang li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.nav-lang li ul li ul li ul{
+    right:-346px;
+    top:0px;
+}
 
-.nav li a {
+
+.nav-search > li {
+    float:left;
+}
+.nav-search li a {
     background-color:#ffffff;
     text-decoration:none;
     padding:10px 12px;
     display:block;
 }
-
-.nav li a:hover {
+.nav-search li a:hover {
     background-color:#ECFAFF;
 }
-
-.nav li ul {
+.nav-search li ul {
     display:none;
     position:absolute;
-    min-width:140px;
+    min-width:184px;
 }
-
-.nav li:hover > ul {
+.nav-search li:hover > ul {
     display:block;
 }
-
-.nav li ul li {
+.nav-search li ul li {
     position:relative;
 }
-
-.nav li ul li ul {
-    right:-140px;
+.nav-search li ul li ul {
+    right:-184px;
     top:0px;
 }
-
-.nav li ul li ul li ul{
+.nav-search li ul li ul li ul{
     right:-346px;
     top:0px;
 }

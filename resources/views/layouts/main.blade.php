@@ -39,7 +39,7 @@
                             </a>
                         </div>
                         <div class="hidden lg:block">
-                            <ul class="flex items-center">
+                            <ul class="nav-lang flex items-center">
                                 <li class="group pl-6"></li>
                                 <li class="group pl-6"></li>
                                 <li class="group pl-6"></li>
@@ -47,9 +47,9 @@
                                 <li class="group pl-6"></li>
                                 <li class="group pl-6"></li>
                                 <li class="group pl-6">
-                                    <button class="text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                                    <a href="/openaccount" class="text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
                                         Abrir cuenta
-                                    </button>
+                                    </a>
                                 </li>
                                 <li class="group pl-6">
                                     <button class=" text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
@@ -57,11 +57,13 @@
                                     </button>
                                 </li>
                                 <li class="text-color-cucchiara group pl-6">
-                                    
-                                    <button class="mt-6 flex items-center justify-center rounded bg-white px-8 py-2 text-lg font-bold uppercase text-primary hover:bg-cyan-20">
+                                    <button class="mt-6 flex items-center justify-center rounded bg-white px-8 py-2 text-lg font-bold uppercase hover:bg-cyan-20">
                                         ESP
                                         <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                     </button>
+                                    <ul>
+                                        <li class="text-color-cucchiara text-lg font-bold uppercase"><a class="hover:bg-cyan-20 flex items-center justify-center rounded" href="">ENG</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
