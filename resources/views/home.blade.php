@@ -29,7 +29,7 @@
                     </div>--}}
                 </div>
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
-                    <span class="text-xl text-white font-bold">
+                    <span class="text-3xl text-white font-bold">
                         Nosotros
                     </span>
                     <p class="font-body text-lg text-white"> 
@@ -41,14 +41,14 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container py-36 md:py-36 absolute inset-x-0 top-card-2 fieldset z-30 lg:pl-12" id="services">
-        <h3 class="text-white text-left font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
+    <div class="container py-28 md:py-28 absolute inset-x-0 top-card-2 fieldset z-30 lg:pl-12" id="services">
+        <h3 class="text-white text-left font-header font-bold text-primary sm:text-xl lg:text-3xl">
             Lo que hacemos
         </h3>    
         <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-2">
-            <div class="group rounded px-20 py-20 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-yellow lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
                         Administración<br/>de cartera
                     </h3>
                 </div>
@@ -61,9 +61,9 @@
                     </div>
                 </div>
             </div>
-            <div class="group rounded px-20 py-20 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-yellow lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
                         Research
                     </h3>
                 </div>
@@ -76,9 +76,9 @@
                     </div>
                 </div>
             </div>
-            <div class="group rounded px-20 py-20 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-yellow lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
                         Operaciones<br/>financieras
                     </h3>
                 </div>
@@ -91,9 +91,9 @@
                     </div>
                 </div>
             </div>
-            <div class="group rounded px-20 py-20 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-yellow lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
                         Fondos comunes<br/>de inversión
                     </h3>
                 </div>
@@ -111,49 +111,49 @@
     {{-- end cards --}}
     <div class="h-section-43"></div>
     {{-- open account --}}
-    <div class="container py-16 md:py-20" id="services">
+    <div class="container" id="services">
         <h3 class="text-center font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
             Abrí tu cuenta hoy
         </h3>
         <div class="container">
             <div class="mx-auto w-5/6 bg-white py-16 md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
                 <div class="grid grid-cols-4 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
-                    <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-left">
+                    <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-center">
                         <div>
                             <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon project"/>
                         </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        <div class="pt-5 md:pl-5 md:pt-5">
+                            <h4 class="text-color-cucchiara font-bold text-center">
                                 Abrí tu cuenta
                             </h4>
                         </div>
                     </div>
-                    <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-left">
+                    <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-center">
                         <div>
                             <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon award"/>
                         </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        <div class="pt-5 md:pl-5 md:pt-5">
+                            <h4 class="text-color-cucchiara font-bold text-center">
                                 Asesorate
                             </h4>
                         </div>
                     </div>
-                    <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-left lg:mt-0">
+                    <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                         <div>
                             <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon happy clients"/>
                         </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        <div class="pt-5 md:pl-5 md:pt-5">
+                            <h4 class="text-color-cucchiara font-bold text-center">
                                 Definí tu cartera de inversión
                             </h4>
                         </div>
                     </div>
-                    <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-left lg:mt-0">
+                    <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                         <div>
                             <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle"/>
                         </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                        <div class="pt-5 md:pl-5 md:pt-5">
+                            <h4 class="text-color-cucchiara font-bold text-center">
                                 Monitoreá tus inversiones
                             </h4>
                         </div>
@@ -165,7 +165,7 @@
     {{-- end open account --}}
     {{-- need --}}
     <div class="bg-quarter" id="about">
-        <div class="flex flex-row items-center justify-between py-16 lg:mx-16 xl:mx-80 md:py-20 lg:flex-row">
+        <div class="flex flex-row items-center justify-between py-16 lg:mx-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-header text-4xl font-semibold text-white sm:text-5xl lg:text-6xl">
                     ¿Qué necesitas para abrir tu cuenta?                  
