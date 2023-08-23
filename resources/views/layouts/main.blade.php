@@ -35,7 +35,7 @@
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/>
+                                <img src="{{ asset('/img/logocucchiara.png') }}" class="w-custom-logo" alt="logo image"/>
                             </a>
                         </div>
                         <div class="hidden lg:block">
@@ -52,17 +52,17 @@
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <button class=" text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                                    <a class=" text-color-cucchiara mt-6 flex items-center justify-center rounded bg-cyan-20 button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-white">
                                         Ingresar
-                                    </button>
+                                    </a>
                                 </li>
                                 <li class="text-color-cucchiara group pl-6">
-                                    <button class="mt-6 flex items-center justify-center rounded bg-white px-8 py-2 text-lg font-bold uppercase hover:bg-cyan-20">
+                                    <a class="mt-6 flex items-center justify-center rounded bg-white p-custom-esp-buttom text-lg font-bold uppercase hover:bg-cyan-20">
                                         ESP
                                         <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
-                                    </button>
+                                    </a>
                                     <ul>
-                                        <li class="text-color-cucchiara text-lg font-bold uppercase"><a class="hover:bg-cyan-20 flex items-center justify-center rounded" href="">ENG</a></li>
+                                        <li class="text-color-cucchiara text-lg font-bold uppercase"><button class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom" href="">ENG</button></li>
                                     </ul>
                                 </li>
                             </ul>

@@ -944,6 +944,9 @@ html{
 .w-24{
     width:6rem
 }
+.w-custom-logo{
+    width:17rem
+}
 .w-2\/3{
     width:66.666667%
 }
@@ -1208,6 +1211,9 @@ html{
 .p-2{
     padding:.5rem
 }
+.p-custom-esp-buttom{
+    padding: 5px 12px 5px 12px
+}
 .py-6{
     padding-bottom:1.5rem;
     padding-top:1.5rem
@@ -1291,6 +1297,9 @@ html{
 }
 .pr-6-menus{
     padding-right:6.5rem
+}
+.pr-41-custom{
+    padding-right:41px
 }
 .pt-12{
     padding-top:3rem
@@ -1825,6 +1834,9 @@ html{
     .lg\:w-48{
         width:12rem
     }
+    .lg\:w-custom-logo{
+        width:17rem
+    }
     .lg\:w-1\/4{
         width:25%
     }
@@ -1975,10 +1987,10 @@ ul, ol {
 .nav-lang > li {
     float:left;
 }
-.nav-lang li a {
+.nav-lang li button {
     background-color:#ffffff;
     text-decoration:none;
-    padding: 10px 12px 10px 30px;
+    padding: 5px 36px 5px 12px;
     display:block;
 }
 .nav-lang li ul {
