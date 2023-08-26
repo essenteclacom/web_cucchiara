@@ -27,6 +27,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script src="https://kit.fontawesome.com/68e2eb1b2d.js" crossorigin="anonymous"></script>
     </head>
     <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
         <div id="main" class="relative">
@@ -80,32 +81,32 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
                                     <a href="/about">
-                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Nosotros</span>
-                                        <span class="block h-0.5 w-1/2 bg-transparent group-hover:bg-blue"></span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Nosotros</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/services">
-                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
-                                        <span class="block h-0.5 w-1/2 bg-transparent group-hover:bg-blue"></span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/founds">
-                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
-                                        <span class="block h-0.5 w-1/2 bg-transparent group-hover:bg-blue"></span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/research">
-                                        <span class="cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
-                                        <span class="block h-0.5 w-1/2 bg-transparent group-hover:bg-blue"></span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/onlineoperation">
-                                        <span class="cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
-                                        <span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
+                                        <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
                                 </li>
                             </ul>
@@ -156,23 +157,23 @@
                 <div class="bg-contact">
                     <div class="container bg-contact" id="contact">
                         <div class="relative top-minus-10">
-                            <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-4xl lg:text-4xl">
+                            <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-4xl lg:text-4xl ml-32">
                                 Contacto
                             </h2>
                         </div>
                         <form class="mx-auto w-full pt-10">
                             <div class="flex flex-row items-center justify-center">
                                 <div class="flex flex-col md:flex-col mr-14">
-                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Email*" type="text" id="email"/>
-                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-black mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
+                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-grey-custom mt-6" placeholder="Teléfono*" type="text" id="phone"/>
                                 </div>
                                 <div>
                                     <textarea class="w-full rounded border-grey-50 px-4 py-3 font-body text-black" placeholder="Mensaje" id="message" cols="50" rows="7"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
-                                <button class="mt-6 flex items-center justify-center rounded bg-third px-8 py-3 font-header text-lg font-bold text-white hover:bg-grey-20">
+                                <button class="mt-6 flex items-center justify-center rounded px-8 py-3 font-header text-lg font-bold text-grey-custom hover:underline-offset-2 mr-24">
                                     Enviar
                                     <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
                                 </button>
@@ -192,23 +193,41 @@
                         <div class="flex justify-between py-6">
                             <div class="pt-1"><img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
                             <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
-                            <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, CABA<br/>Tel: +54 11 4394 9330</div>
+                            <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, CABA<br/>Tel: +54 11 4394 9330<br/>Codigo postal C1041</div>
                             <div class="pt-1 border-t-2 border-primary">
                                 <i class="bx bxl-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
-                                <i class="bx bxl-twitter text-2xl text-color-cucchiara hover:text-white"></i>
+                                <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
                             </div>
                             <div><img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/></div>
                         </div>
                         <div class="flex justify-between py-6">
+                            <a href="https://www.byma.com.ar/" target="blank">
                             <div><img src="{{ asset('/img/Byma.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
-                            <div><img src="{{ asset('/img/image 7.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
+                            </a>
+                            <a href="https://cajadevalores.com.ar/" target="blank">
+                            <div><img src="{{ asset('/img/caja.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
+                            </a>
+                            <a href="https://www.matbarofex.com.ar/" target="blank">
                             <div><img src="{{ asset('/img/Matba.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
+                            </a>
+                            <a href="https://www.mae.com.ar/" target="blank">
                             <div><img src="{{ asset('/img/Mae.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
+                            </a>
+                            <a href="https://www.mav-sa.com.ar/" target="blank">
                             <div><img src="{{ asset('/img/Mav.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
+                            </a>
+                            <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
                             <div><img src="{{ asset('/img/Emta.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
+                            </a>
+                            <a href="http://www.cadab.org.ar/" target="blank">
                             <div><img src="{{ asset('/img/CAMARA.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
+                            </a>
+                            <a href="https://www.bcra.gob.ar/" target="blank">
                             <div><img src="{{ asset('/img/Banco central.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
+                            </a>
+                            <a href="http://www.cnv.gov.ar/" target="blank">
                             <div><img src="{{ asset('/img/CNV.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
+                            </a>
                         </div>
                         <div class="text-center py-6">
                             <div> ALyC Integral registro Nro. 265 CNV |Miembro de BYMA Nro. 18 | Miembro de ROFEX Nro. 472 | Miembro de MAE Nro. 672</div>

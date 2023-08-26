@@ -837,6 +837,9 @@ html{
 .ml-2{
     margin-left:.5rem
 }
+.ml-196{
+    margin-left:32rem
+}
 .mt-10{
     margin-top:2.5rem
 }
@@ -1427,6 +1430,9 @@ html{
 .text-grey-30{
     --tw-text-opacity:1;
     color:rgb(145 144 145/var(--tw-text-opacity))
+}
+.text-grey-custom{
+    color: #606060
 }
 .text-secondary{
     --tw-text-opacity:1;
@@ -2045,3 +2051,31 @@ ul, ol {
     right:-346px;
     top:0px;
 }
+/*CSS to animated underline un header menu*/
+.w3rcontainer{
+    border: 1px solid rgb(17, 32, 140);
+    border-radius: 2px;
+ } 
+ .hover-underline-animation {
+   display: inline-block;
+   position: relative;
+   color:rgb(17, 32, 140);
+ }
+ 
+ .hover-underline-animation:after {
+   content: '';
+   position: absolute;
+   width: 50%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: rgb(17, 32, 140);
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .hover-underline-animation:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }

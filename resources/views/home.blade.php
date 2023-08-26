@@ -5,7 +5,7 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/Fondo completo linea.jpg')}}">
+        <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/sombra.png')}}'),url('{{ asset('/img/soloazul.png')}}')">
             <div class="absolute inset-0 z-20 bg-gradient-to-r bg-center bg-no-repeat"></div>
             <div class="container relative z-30 pt-20 pb-hero-16 sm:pt-56 sm:pb-hero-48 lg:pt-64 lg:pb-hero-48">
                 <div class="flex flex-col items-center justify-center lg:flex-row">
@@ -19,8 +19,11 @@
                                     Te acompañamos a tomar las mejores decisiones de inversión, ofreciéndote una amplia gama de instrumentos financieros según tu objetivo, plazo y perfil de riesgo.
                                 </p>
                             </div>
+                            
                         </div>
+                        
                     </div>
+                    <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute ml-196">
                     <div class="h-[30rem] w-[60rem] sm:h-120">
                     </div>
                     {{-- pendiente de verificar
@@ -41,14 +44,14 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container py-28 md:py-28 absolute inset-x-0 top-card-2 fieldset z-30 lg:pl-12" id="services">
-        <h3 class="text-white text-left font-header font-bold text-primary sm:text-xl lg:text-3xl">
+    <div class="container pt-0 pb-28 absolute inset-x-0 top-card-2 fieldset z-30 lg:pl-12 mt-20" id="services">
+        <h3 class="text-white text-left font-header font-bold text-primary sm:text-xl lg:text-3xl ml-24">
             Lo que hacemos
         </h3>    
-        <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-2">
-            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+        <div class="grid grid-cols-1 gap-y-10 gap-x-14 pt-10 sm:grid-cols-2 md:pt-12 lg:grid-cols-2 mr-40 ml-24">
+            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary lg:text-xl">
                         Administración<br/>de cartera
                     </h3>
                 </div>
@@ -61,9 +64,9 @@
                     </div>
                 </div>
             </div>
-            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary lg:text-xl">
                         Research
                     </h3>
                 </div>
@@ -76,9 +79,9 @@
                     </div>
                 </div>
             </div>
-            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary lg:text-xl">
                         Operaciones<br/>financieras
                     </h3>
                 </div>
@@ -91,9 +94,9 @@
                     </div>
                 </div>
             </div>
-            <div class="group rounded px-12 py-14 shadow-amplia bg-white hover:bg-primary flex flex-row justify-between">
+            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-bold text-primary group-hover:text-white lg:text-xl">
+                    <h3 class="text-color-cucchiara text-lg font-bold text-primary lg:text-xl">
                         Fondos comunes<br/>de inversión
                     </h3>
                 </div>
@@ -112,7 +115,7 @@
     <div class="h-section-43"></div>
     {{-- open account --}}
     <div class="container" id="services">
-        <h3 class="text-center font-header text-xl font-bold text-primary sm:text-xl lg:text-xl">
+        <h3 class="text-center font-header text-xl font-bold text-primary sm:text-xl lg:text-xl text-color-cucchiara">
             Abrí tu cuenta hoy
         </h3>
         <div class="container">
@@ -570,49 +573,43 @@
             </h3>
             <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-4 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url('{{ asset('/img/sombrall.png')}}'),url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url('{{ asset('/img/sombrall.png')}}'),url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url('{{ asset('/img/sombrall.png')}}'),url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
+                        <!--<span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                             Leer nota
-                        </span>
+                        </span>-->
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
