@@ -1301,6 +1301,9 @@ html{
 .pr-6-menus{
     padding-right:6.5rem
 }
+.mr-6-menus{
+    margin-right:6.5rem;
+}
 .pr-41-custom{
     padding-right:41px
 }
@@ -1434,6 +1437,10 @@ html{
 .text-grey-custom{
     color: #606060
 }
+.text-a-color{
+    color: #8ADBF4
+}
+
 .text-secondary{
     --tw-text-opacity:1;
     color:rgb(37 36 38/var(--tw-text-opacity))
@@ -2065,7 +2072,7 @@ ul, ol {
  .hover-underline-animation:after {
    content: '';
    position: absolute;
-   width: 50%;
+   width: 100%;
    transform: scaleX(0);
    height: 2px;
    bottom: 0;

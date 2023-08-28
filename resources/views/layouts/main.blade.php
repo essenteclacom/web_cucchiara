@@ -81,25 +81,25 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
                                     <a href="/about">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Nosotros</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Nosotros</span>
                                         
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/services">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
                                         
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/founds">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
                                         
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/research">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 pr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
                                         
                                     </a>
                                 </li>

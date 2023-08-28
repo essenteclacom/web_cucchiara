@@ -178,13 +178,16 @@
                 <div class="group">
                     <div class="hidden group-hover:block">
                         <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                            <div class="text-left text-white px-4 pt-10">
-                                <p>
+                            <div class="text-left text-white px-9 pt-16">
+                                <p class="text-xs">
                                     · Documento de Identidad.<br/>
                                     · Verificación de domicilio.<br/>
                                     · Justificación de ingresos y patrimonio.<br/>
                                     · En caso de contar con apoderado, documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.
                                 </p>
+                            </div>
+                            <div class="text-right pt-8 px-9 pb-4 underline underline-offset-8">
+                                <a href="" class="font-bold text-a-color">Abrir cuenta</a>
                             </div>
                         </div>
                     </div>
@@ -204,16 +207,21 @@
                 <div class="group">
                     <div class="hidden group-hover:block">
                         <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                            <div class="text-left text-white px-4 pt-10">
-                                <p>
+                            <div class="text-left text-white px-9 pt-16">
+                                <p class="text-xs">
                                     · Estatuto de la Sociedad.<br/>
                                     · Registro de accionistas actualizado.<br/>
                                     · Estados contables.<br/>
                                     · Verificación de domicilio de la sociedad<br/>
                                     · De los representantes de la sociedad<br/>
+                                </p>
+                                <p class="text-xs pl-4">
                                     · Documento de identidad<br/>
                                     · Verificación de domicilio<br/>
                                 </p>
+                            </div>
+                            <div class="text-right pt-8 px-9 pb-4 underline underline-offset-8">
+                                <a href="" class="font-bold text-a-color">Abrir cuenta</a>
                             </div>
                         </div>
                     </div>
