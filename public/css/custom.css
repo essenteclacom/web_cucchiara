@@ -9,7 +9,7 @@
 }
 html{
     -webkit-text-size-adjust:100%;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Noto Sans', sans-serif;
     line-height:1.5;
     -moz-tab-size:4;
     -o-tab-size:4;
@@ -40,7 +40,7 @@ b,strong{
     font-weight:bolder
 }
 code,kbd,pre,samp{
-    font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+    font-family:'Noto Sans', sans-serif;
     font-size:1em
 }
 small{
@@ -65,7 +65,7 @@ table{
 }
 button,input,optgroup,select,textarea{
     color:inherit;
-    font-family:inherit;
+    font-family:'Noto Sans', sans-serif;
     font-size:100%;
     line-height:inherit;
     margin:0;
@@ -576,7 +576,7 @@ select{
     border-radius:0;
     border-width:0;
     color:inherit;
-    font-family:inherit;
+    font-family:'Noto Sans', sans-serif;
     font-size:inherit;
     font-weight:inherit;
     line-height:inherit;
@@ -741,7 +741,7 @@ select{
 html{
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Noto Sans', sans-serif;
 }
 .pointer-events-none{
     pointer-events:none
@@ -1197,7 +1197,7 @@ html{
     --tw-gradient-to:rgba(28,64,195,.9)
 }
 .to-blog-gradient-to{
-    --tw-gradient-to:#222
+    --tw-gradient-to:rgb(17, 32, 140)
 }
 .bg-cover{
     background-size:cover
@@ -1347,10 +1347,10 @@ html{
     text-align:center
 }
 .font-body{
-    font-family:'Montserrat', sans-serif;
+    font-family:'Noto Sans', sans-serif;
 }
 .font-header{
-    font-family:'Montserrat', sans-serif;
+    font-family:'Noto Sans', sans-serif;
 }
 .text-2xl{
     font-size:1.5rem;

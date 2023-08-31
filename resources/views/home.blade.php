@@ -5,9 +5,8 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="relative bg-cover bg-center bg-no-repeat py-8" style="background-image: url('{{ asset('/img/sombra.png')}}'),url('{{ asset('/img/soloazul.png')}}')">
-            <div class="absolute inset-0 z-20 bg-gradient-to-r bg-center bg-no-repeat"></div>
-            <div class="container relative z-30 pt-20 pb-hero-16 sm:pt-56 sm:pb-hero-48 lg:pt-64 lg:pb-hero-48">
+        <div class="relative bg-cover bg-center bg-no-repeat py-8 pt-20 sm:pt-56 lg:pt-72" style="background-image: url('{{ asset('/img/background_home.png')}}')">
+            <div class="container relative z-30 pb-hero-16 sm:pb-hero-48 lg:pb-hero-48">
                 <div class="flex flex-col items-center justify-center lg:flex-row">
                     <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                         <h1 class="text-center font-header font-bold text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
@@ -19,13 +18,10 @@
                                     Te acompañamos a tomar las mejores decisiones de inversión, ofreciéndote una amplia gama de instrumentos financieros según tu objetivo, plazo y perfil de riesgo.
                                 </p>
                             </div>
-                            
                         </div>
-                        
                     </div>
                     <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute ml-196">
-                    <div class="h-[30rem] w-[60rem] sm:h-120">
-                    </div>
+                    <div class="h-[30rem] w-[60rem] sm:h-120"></div>
                     {{-- pendiente de verificar
                     <div class="">
                         <img src="{{ asset('/img/slider_01.png') }}" class="h-[30rem] w-[60rem] sm:h-120" alt="author"/>
@@ -207,20 +203,21 @@
                 <div class="group">
                     <div class="hidden group-hover:block">
                         <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                            <div class="text-left text-white px-9 pt-16">
+                            <div class="text-left text-white px-9 pt-12">
                                 <p class="text-xs">
+                                    · Actas de Directorio / Asamblea con designación de cargos.<br/>
                                     · Estatuto de la Sociedad.<br/>
                                     · Registro de accionistas actualizado.<br/>
                                     · Estados contables.<br/>
-                                    · Verificación de domicilio de la sociedad<br/>
-                                    · De los representantes de la sociedad<br/>
+                                    · Verificación de domicilio de la sociedad.<br/>
+                                    · De los representantes de la sociedad y beneficiarios finales. 
                                 </p>
                                 <p class="text-xs pl-4">
                                     · Documento de identidad<br/>
-                                    · Verificación de domicilio<br/>
+                                    · Verificación de domicilio
                                 </p>
                             </div>
-                            <div class="text-right pt-8 px-9 pb-4 underline underline-offset-8">
+                            <div class="text-right pt-2 px-9 pb-4 underline underline-offset-8">
                                 <a href="" class="font-bold text-a-color">Abrir cuenta</a>
                             </div>
                         </div>
@@ -581,7 +578,7 @@
             </h3>
             <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-4 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url('{{ asset('/img/sombrall.png')}}'),url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
@@ -594,7 +591,7 @@
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url('{{ asset('/img/sombrall.png')}}'),url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
@@ -607,7 +604,7 @@
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url('{{ asset('/img/sombrall.png')}}'),url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                         <!--<span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                             Leer nota
@@ -627,19 +624,56 @@
     </div>
     {{-- newsletter --}}
     <div class="bg-quarter" id="clients">
-        <div class="container py-8 md:py-20 grid grid-cols-2 gap-2 flex items-center">
-            <div>
+        <div class="container flex justify-between py-8 md:py-20 grid grid-cols-2 gap-2 flex items-center">
+            <div class="flex items-center justify-center">
                 <h2 class="text-white font-header text-4xl font-semibold sm:text-5xl lg:text-4xl">
                     Recibí nuestro<br/>Newsletter semanal
                 </h2>
             </div>
-            <div>
-                <form class="flex flex-row items-center">
-                    <input class="w-full rounded px-4 py-2 font-body text-black sm:py-4" type="text" id="email" placeholder="Coloca tu correo electronico"/>
-                    <button class="text-color-cucchiara rounded bg-cyan-20 px-8 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-                        Suscribite
-                    </button>
-                </form>
+            <div type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block flex items-center justify-center">
+                <button class="text-color-cucchiara rounded bg-cyan-20 px-8 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
+                    Suscribite
+                </button>
+                <!-- Main modal -->
+                <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                    <div class="relative w-full max-w-md max-h-full">
+                        <!-- Modal content -->
+                        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                            <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                                </svg>
+                                <span class="sr-only">Close modal</span>
+                            </button>
+                            <div class="px-6 py-6 lg:px-8">
+                                <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h3>
+                                <form class="space-y-6" action="#">
+                                    <div>
+                                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                                        <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required>
+                                    </div>
+                                    <div>
+                                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+                                        <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <div class="flex items-start">
+                                            <div class="flex items-center h-5">
+                                                <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                                            </div>
+                                            <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+                                        </div>
+                                        <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+                                    </div>
+                                    <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
+                                    <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+                                        Not registered? <a href="#" class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
