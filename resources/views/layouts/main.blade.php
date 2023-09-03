@@ -165,12 +165,12 @@
                         <form class="mx-auto w-full pt-10">
                             <div class="flex flex-row items-center justify-center">
                                 <div class="flex flex-col md:flex-col mr-14">
-                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
-                                    <input class="w-contact-input rounded border-grey-50 py-3 font-body text-grey-custom mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                                    <input class="w-contact-input rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                    <input class="w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
+                                    <input class="w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Teléfono*" type="text" id="phone"/>
                                 </div>
                                 <div>
-                                    <textarea class="w-full rounded border-grey-50 px-4 py-3 font-body text-black" placeholder="Mensaje" id="message" cols="50" rows="7"></textarea>
+                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" id="message" cols="50" rows="7"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">

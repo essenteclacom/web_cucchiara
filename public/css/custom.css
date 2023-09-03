@@ -2086,3 +2086,33 @@ ul, ol {
    transform: scaleX(1);
    transform-origin: bottom left;
  }
+
+/*CSS to animated flip 3d cards*/
+.wrapper-card, .single-card {
+	position: relative; 
+}
+.wrapper-card {
+	perspective: 900px;
+}
+.single-card {
+	transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+	transform-style: preserve-3d;
+}
+.wrapper-card:hover .single-card {
+	transform: rotateY(180deg);
+}
+.front-card, .back-card {
+	position: relative;
+	top: 0;
+	left: 0; 
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.front-card {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.back-card {
+	transform: rotateY(180deg);
+	position: absolute;
+}

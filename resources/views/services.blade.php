@@ -13,7 +13,7 @@
                 </p>
             </div>
         </div>
-        <div class="bg-primary">
+        <div class="bg-secondary">
             <div class="container">
                 <div class="flex flex-row px-40 py-32">
                     <div class="text-white">

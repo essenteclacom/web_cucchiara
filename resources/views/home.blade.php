@@ -171,66 +171,70 @@
                 </h2>
             </div>
             <div class="flex gap-4">
-                <div class="group">
-                    <div class="hidden group-hover:block">
-                        <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                            <div class="text-left text-white px-9 pt-16">
-                                <p class="text-xs">
-                                    · Documento de Identidad.<br/>
-                                    · Verificación de domicilio.<br/>
-                                    · Justificación de ingresos y patrimonio.<br/>
-                                    · En caso de contar con apoderado, documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.
-                                </p>
-                            </div>
-                            <div class="text-right pt-8 px-9 pb-4 underline underline-offset-8">
-                                <a href="" class="font-bold text-a-color">Abrir cuenta</a>
+                <div class="wrapper-card">
+                    <div class="single-card">
+                        <div class="front-card">
+                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
+                                <div class="relative flex justify-center top-minus-5">
+                                    <img src="{{ asset('/img/persona.png') }}" alt="development icon"/>
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="pt-8 text-lg font-semibold text-white lg:text-xl">
+                                        Personas<br/>Físicas
+                                    </h3>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                            <div class="relative flex justify-center top-minus-5">
-                                <img src="{{ asset('/img/persona.png') }}" alt="development icon"/>
-                            </div>
-                            <div class="text-center">
-                                <h3 class="pt-8 text-lg font-semibold text-white lg:text-xl">
-                                    Personas<br/>Físicas
-                                </h3>
+                        <div class="back-card">
+                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
+                                <div class="text-left text-white px-9 pt-16">
+                                    <p class="text-xs">
+                                        · Documento de Identidad.<br/>
+                                        · Verificación de domicilio.<br/>
+                                        · Justificación de ingresos y patrimonio.<br/>
+                                        · En caso de contar con apoderado, documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.
+                                    </p>
+                                </div>
+                                <div class="text-right pt-8 px-9 pb-4 underline underline-offset-8">
+                                    <a href="" class="font-bold text-a-color">Abrir cuenta</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="group">
-                    <div class="hidden group-hover:block">
-                        <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                            <div class="text-left text-white px-9 pt-12">
-                                <p class="text-xs">
-                                    · Actas de Directorio / Asamblea con designación de cargos.<br/>
-                                    · Estatuto de la Sociedad.<br/>
-                                    · Registro de accionistas actualizado.<br/>
-                                    · Estados contables.<br/>
-                                    · Verificación de domicilio de la sociedad.<br/>
-                                    · De los representantes de la sociedad y beneficiarios finales. 
-                                </p>
-                                <p class="text-xs pl-4">
-                                    · Documento de identidad<br/>
-                                    · Verificación de domicilio
-                                </p>
-                            </div>
-                            <div class="text-right pt-2 px-9 pb-4 underline underline-offset-8">
-                                <a href="" class="font-bold text-a-color">Abrir cuenta</a>
+                <div class="wrapper-card">
+                    <div class="single-card">
+                        <div class="front-card">
+                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
+                                <div class="relative flex justify-center top-minus-5">
+                                    <img src="{{ asset('/img/contrato.png') }}" alt="development icon"/>
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="pt-8 text-lg font-semibold text-white lg:text-xl">
+                                        Personas<br/>Jurídicas
+                                    </h3>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                            <div class="relative flex justify-center top-minus-5">
-                                <img src="{{ asset('/img/contrato.png') }}" alt="development icon"/>
-                            </div>
-                            <div class="text-center">
-                                <h3 class="pt-8 text-lg font-semibold text-white lg:text-xl">
-                                    Personas<br/>Jurídicas
-                                </h3>
+                        <div class="back-card">
+                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
+                                <div class="text-left text-white px-9 pt-12">
+                                    <p class="text-xs">
+                                        · Actas de Directorio / Asamblea con designación de cargos.<br/>
+                                        · Estatuto de la Sociedad.<br/>
+                                        · Registro de accionistas actualizado.<br/>
+                                        · Estados contables.<br/>
+                                        · Verificación de domicilio de la sociedad.<br/>
+                                        · De los representantes de la sociedad y beneficiarios finales. 
+                                    </p>
+                                    <p class="text-xs pl-4">
+                                        · Documento de identidad<br/>
+                                        · Verificación de domicilio
+                                    </p>
+                                </div>
+                                <div class="text-right pt-2 px-9 pb-4 underline underline-offset-8">
+                                    <a href="" class="font-bold text-a-color">Abrir cuenta</a>
+                                </div>
                             </div>
                         </div>
                     </div>
