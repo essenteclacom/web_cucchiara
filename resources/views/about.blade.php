@@ -4,11 +4,10 @@
 
 @section('content')
 <div>
-    <div class="bg-secondary">
-        <img src="{{ asset('/img/about.png') }}" class="w-full h-full pt-80" alt="about image"/>
-    </div>
-    <div class="bg-secondary h-section-43">
-        <h2 class="text-center font-header text-2xl text-white font-semibold text-primary sm:text-5xl lg:text-2xl pt-32">
+    <div class="bg-third">
+        <img src="{{ asset('/img/mapa.png') }}" class="w-full h-full pt-20" alt="about image"/>
+    <div class="bg-third h-section-43">
+        <h2 class="text-center font-header text-2xl text-white font-semibold text-primary sm:text-5xl lg:text-2xl">
             Dónde Estamos
         </h2>
         <div class="container flex flex-row inset-x-0 justify-between">
@@ -43,6 +42,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 @endsection
