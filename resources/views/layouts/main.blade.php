@@ -33,7 +33,7 @@
     <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
         <div id="main" class="relative">
             <div x-data="{triggerNavItem(id) {$scroll(id)}, triggerMobileNavItem(id) {mobileMenu = false; this.triggerNavItem(id)}}">
-                <div class="w-full z-50 top-0 py-3 sm:py-5 absolute bg-white">
+                <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white">
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
@@ -153,8 +153,7 @@
                     </div>
                 </div>
                 @yield('content')
-                {{-- contact --}}
-                <div class="h-section-42"></div>  
+                {{-- contact --}}  
                 <div class="bg-contact">
                     <div class="container bg-contact" id="contact">
                         <div class="relative top-minus-10">

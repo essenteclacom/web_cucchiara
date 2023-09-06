@@ -6,7 +6,7 @@
     {{-- slide --}}
     <div>
         <div>
-            <img src="{{ asset('/img/services_01.png') }}" class="w-full h-full pt-36" alt="about image"/>
+            <img src="{{ asset('/img/services_01.png') }}" class="w-full h-full" alt="about image"/>
             <div class="absolute inset-x-0 top-96 mx-32">
                 <p class="font-body text-3xl text-white text-center font-medium">
                     La actividad de la empresa está dedicada a canalizar las necesidades de los pequeños y medianos ahorristas e inversores y clientes institucionales a través de todos los instrumentos que tienen otorgada oferta pública por la Comisión Nacional de Valores.
@@ -77,4 +77,5 @@
         </div>
     </div>
     {{-- end slide --}}
+    <div class="h-section-42"></div>
 @endsection

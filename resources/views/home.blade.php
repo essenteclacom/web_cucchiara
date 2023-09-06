@@ -5,10 +5,10 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="relative bg-cover bg-center bg-no-repeat py-8 pt-20 sm:pt-56 lg:pt-72" style="background-image: url('{{ asset('/img/background_home.png')}}')">
+        <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/background_home.png')}}')">
             <div class="container relative z-30 pb-hero-16 sm:pb-hero-48 lg:pb-hero-48">
                 <div class="flex flex-col items-center justify-center lg:flex-row">
-                    <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+                    <div>
                         <h1 class="text-center font-header font-bold text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
                             Soluciones Financieras Integrales
                         </h1>
@@ -21,11 +21,7 @@
                         </div>
                     </div>
                     <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute ml-196">
-                    <div class="h-[30rem] w-[60rem] sm:h-120"></div>
-                    {{-- pendiente de verificar
-                    <div class="">
-                        <img src="{{ asset('/img/slider_01.png') }}" class="h-[30rem] w-[60rem] sm:h-120" alt="author"/>
-                    </div>--}}
+                    <div class="h-[38rem] w-[60rem] sm:h-120"></div>
                 </div>
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                     <span class="text-3xl text-white font-bold">
@@ -682,4 +678,5 @@
         </div>
     </div>
     {{-- end newsletter --}}
+    <div class="h-section-42"></div>
 @endsection
