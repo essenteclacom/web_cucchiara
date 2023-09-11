@@ -107,48 +107,48 @@
     <div class="h-section-43"></div>
     {{-- open account --}}
     <div class="container" id="services">
-        <h3 class="text-center font-header text-xl font-bold text-primary sm:text-xl lg:text-xl text-color-cucchiara">
+        <h3 class="text-center font-header text-4xl font-bold text-primary text-color-cucchiara">
             Abrí tu cuenta hoy
         </h3>
         <div class="container">
-            <div class="mx-auto w-5/6 bg-white py-16 md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
+            <div class="mx-auto w-5/6 bg-white py-20 md:w-11/12 2xl:w-full">
                 <div class="grid grid-cols-4 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
                     <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-center">
                         <div>
-                            <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon project"/>
+                            <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto w-auto h-24" alt="icon project"/>
                         </div>
-                        <div class="pt-5 md:pl-5 md:pt-5">
-                            <h4 class="text-color-cucchiara font-bold text-center">
-                                Abrí tu cuenta
+                        <div class="pt-5">
+                            <h4 class="text-color-cucchiara font-bold text-center text-xl">
+                                Abrí tu<br>cuenta
                             </h4>
                         </div>
                     </div>
                     <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-center">
                         <div>
-                            <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon award"/>
+                            <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto w-auto h-24" alt="icon award"/>
                         </div>
                         <div class="pt-5 md:pl-5 md:pt-5">
-                            <h4 class="text-color-cucchiara font-bold text-center">
+                            <h4 class="text-color-cucchiara font-bold text-center text-xl pb-8">
                                 Asesorate
                             </h4>
                         </div>
                     </div>
                     <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                         <div>
-                            <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon happy clients"/>
+                            <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto w-auto h-24" alt="icon happy clients"/>
                         </div>
                         <div class="pt-5 md:pl-5 md:pt-5">
-                            <h4 class="text-color-cucchiara font-bold text-center">
+                            <h4 class="text-color-cucchiara font-bold text-center text-xl">
                                 Definí tu cartera de inversión
                             </h4>
                         </div>
                     </div>
                     <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                         <div>
-                            <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle"/>
+                            <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto w-auto h-24" alt="icon puzzle"/>
                         </div>
                         <div class="pt-5 md:pl-5 md:pt-5">
-                            <h4 class="text-color-cucchiara font-bold text-center">
+                            <h4 class="text-color-cucchiara font-bold text-center text-xl">
                                 Monitoreá tus inversiones
                             </h4>
                         </div>
@@ -162,28 +162,28 @@
     <div class="bg-quarter" id="about">
         <div class="flex flex-row items-center justify-between py-16 lg:mx-16 md:py-20 lg:flex-row">
             <div>
-                <h2 class="font-header text-4xl font-semibold text-white sm:text-5xl lg:text-6xl">
-                    ¿Qué necesitas para abrir tu cuenta?                  
+                <h2 class="font-header text-5xl font-bold text-white pl-16">
+                    ¿Qué necesitas<br>para abrir tu<br>cuenta?                  
                 </h2>
             </div>
             <div class="flex gap-4">
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                                <div class="relative flex justify-center top-minus-5">
+                            <div class="gradient-cucciara rounded-1 shadow h-56 w-72">
+                                <div class="relative flex justify-center top-minus-10 h-20">
                                     <img src="{{ asset('/img/persona.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="pt-8 text-lg font-semibold text-white lg:text-xl">
+                                    <h3 class="pt-3 font-semibold text-white text-3xl">
                                         Personas<br/>Físicas
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                                <div class="text-left text-white px-9 pt-16">
+                            <div class="gradient-cucciara rounded-1 shadow h-56 w-72">
+                                <div class="text-left text-white px-9 pt-10">
                                     <p class="text-xs">
                                         · Documento de Identidad.<br/>
                                         · Verificación de domicilio.<br/>
@@ -201,20 +201,20 @@
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                                <div class="relative flex justify-center top-minus-5">
+                            <div class="gradient-cucciara rounded-1 shadow h-56 w-72">
+                                <div class="relative flex justify-center top-minus-10 h-20">
                                     <img src="{{ asset('/img/contrato.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="pt-8 text-lg font-semibold text-white lg:text-xl">
+                                    <h3 class="pt-3 font-semibold text-white text-3xl">
                                         Personas<br/>Jurídicas
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded shadow h-64 w-80 xl:h-64 xl:w-80">
-                                <div class="text-left text-white px-9 pt-12">
+                            <div class="gradient-cucciara rounded-1 shadow h-56 w-72">
+                                <div class="text-left text-white px-9 pt-2">
                                     <p class="text-xs">
                                         · Actas de Directorio / Asamblea con designación de cargos.<br/>
                                         · Estatuto de la Sociedad.<br/>
@@ -624,14 +624,14 @@
     </div>
     {{-- newsletter --}}
     <div class="bg-quarter" id="clients">
-        <div class="container flex justify-between py-8 md:py-20 grid grid-cols-2 gap-2 flex items-center">
+        <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center">
             <div class="flex items-center justify-center">
-                <h2 class="text-white font-header text-4xl font-semibold sm:text-5xl lg:text-4xl">
-                    Recibí nuestro<br/>Newsletter semanal
+                <h2 class="text-white font-header text-5xl font-bold">
+                    Recibí nuestros<br/>informes
                 </h2>
             </div>
-            <div type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block flex items-center justify-center">
-                <button class="text-color-cucchiara rounded bg-cyan-20 px-8 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
+            <div type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block flex items-center justify-center pl-32">
+                <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
                     Suscribite
                 </button>
                 <!-- Main modal -->

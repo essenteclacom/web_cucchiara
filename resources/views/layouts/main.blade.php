@@ -37,7 +37,7 @@
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/logocucchiara.png') }}" class="w-custom-logo" alt="logo image"/>
+                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-custom-logo" alt="logo image"/>
                             </a>
                         </div>
                         <div class="hidden lg:block">
@@ -156,8 +156,8 @@
                 {{-- contact --}}  
                 <div class="bg-contact">
                     <div class="container bg-contact" id="contact">
-                        <div class="relative top-minus-10">
-                            <h2 class="text-color-cucchiara text-left font-header text-4xl font-bold text-primary sm:text-4xl lg:text-4xl ml-32">
+                        <div class="relative top-minus-11">
+                            <h2 class="text-color-cucchiara text-left font-header text-5xl font-800-bold text-primary ml-32">
                                 Contacto
                             </h2>
                         </div>
@@ -193,9 +193,9 @@
                         <div class="flex justify-between py-6">
                             <div class="pt-1"><img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
                             <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
-                            <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, CABA<br/>Tel: +54 11 4394 9330<br/>Codigo postal C1041</div>
+                            <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330</div>
                             <div class="pt-1 border-t-2 border-primary">
-                                <i class="bx bxl-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
+                                <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
                                 <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
                             </div>
                             <div><img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/></div>
