@@ -201,31 +201,31 @@
                             <div><img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/></div>
                         </div>
                         <div class="flex justify-between py-6">
-                            <a href="https://www.byma.com.ar/" target="blank">
+                            <a href="https://www.byma.com.ar/" target="_blank">
                             <div><img src="{{ asset('/img/Byma.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
                             </a>
-                            <a href="https://cajadevalores.com.ar/" target="blank">
+                            <a href="https://cajadevalores.com.ar/" target="_blank">
                             <div><img src="{{ asset('/img/caja.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
                             </a>
-                            <a href="https://www.matbarofex.com.ar/" target="blank">
+                            <a href="https://www.matbarofex.com.ar/" target="_blank">
                             <div><img src="{{ asset('/img/Matba.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
                             </a>
-                            <a href="https://www.mae.com.ar/" target="blank">
+                            <a href="https://www.mae.com.ar/" target="_blank">
                             <div><img src="{{ asset('/img/Mae.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
                             </a>
-                            <a href="https://www.mav-sa.com.ar/" target="blank">
+                            <a href="https://www.mav-sa.com.ar/" target="_blank">
                             <div><img src="{{ asset('/img/Mav.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
                             </a>
                             <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
                             <div><img src="{{ asset('/img/Emta.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
                             </a>
-                            <a href="http://www.cadab.org.ar/" target="blank">
+                            <a href="http://www.cadab.org.ar/" target="_blank">
                             <div><img src="{{ asset('/img/CAMARA.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
                             </a>
-                            <a href="https://www.bcra.gob.ar/" target="blank">
+                            <a href="https://www.bcra.gob.ar/" target="_blank">
                             <div><img src="{{ asset('/img/Banco central.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
                             </a>
-                            <a href="http://www.cnv.gov.ar/" target="blank">
+                            <a href="http://www.cnv.gov.ar/" target="_blank">
                             <div><img src="{{ asset('/img/CNV.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
                             </a>
                         </div>

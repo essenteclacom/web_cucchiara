@@ -15,14 +15,13 @@
         </div>
         <div class="bg-secondary">
             <div class="container">
-                <div class="flex flex-row px-40 py-32">
-                    <div class="text-white">
-                        <div class="text-xl font-bold text-right pr-10 max-w-3xl">
-                            Administración
-                            de carteras
+                <div class="flex flex-row px-40 py-32 items-center justify-center">
+                    <div class="text-white pr-20">
+                        <div class="text-xl font-bold text-right max-w-3xl">
+                            Administración<br>de carteras
                         </div>
-                        <div class="text-base text-right pr-10 max-w-3xl pt-5">
-                            A través de profesionales idóneos te brindamos soluciones de inversión a medida, planteando estrategias que se alineen con el perfil de riesgo y los objetivos de cada inversor.
+                        <div class="text-base text-right max-w-3xl pt-5">
+                            A través de profesionales idóneos te<br>brindamos soluciones de inversión a medida,<br>planteando estrategias que se alineen con tu<br>perfil de riesgo y tus objetivos.
                         </div>
                     </div>
                     <div>
@@ -30,28 +29,28 @@
                     </div>
                 </div>
                 <div class="border"></div>
-                <div class="container flex flex-row px-40 py-32">
+                <div class="container flex flex-row px-40 py-32 items-center justify-center">
                     <div>
                         <img src="{{ asset('/img/_219_Duty_Finance_Marketing_Money.png') }}" class="w-auto h-auto" alt="about image"/>
                     </div>
-                    <div class="text-white">
-                        <div class="text-xl font-bold text-left pl-10 max-w-3xl">
+                    <div class="text-white pl-20">
+                        <div class="text-xl font-bold text-left max-w-3xl">
                             Research
                         </div>
-                        <div class="text-base text-left pl-10 max-w-3xl pt-5">
-                            Publicamos regularmente informes económicos y de investigación de mercado con información valiosa para la toma de decisiones. Organizamos charlas y seminarios web con el fin de promover el intercambio de conocimiento y opinión entre clientes y especialistas.
+                        <div class="text-base text-left max-w-3xl pt-5">
+                            Publicamos regularmente informes económicos y<br>de investigación de mercado con información<br>valiosa para la toma de decisiones. Organizamos<br>charlas y seminarios web con el fin de promover el<br>intercambio de conocimiento y opinión entre<br>clientes y especialistas.
                         </div>
                     </div>
                     
                 </div>
                 <div class="border"></div>
-                <div class="container flex flex-row px-40 py-32">
-                    <div class="text-white">
-                        <div class="text-xl font-bold text-right pr-10 max-w-3xl">
+                <div class="container flex flex-row px-40 py-32 items-center justify-center">
+                    <div class="text-white pr-20">
+                        <div class="text-xl font-bold text-right max-w-3xl">
                             Operaciones financieras
                         </div>
-                        <div class="text-base text-right pr-10 max-w-3xl pt-5">
-                            Te damos acceso a todos los mercados argentinos para operar los instrumentos de oferta pública autorizados por la CNV: Títulos públicos, obligaciones negociables, acciones, CEDEARs, fideicomisos financieros, cauciones bursátiles, opciones, futuros, pagarés bursátiles, cheques de pago diferidos, FCI, etc.
+                        <div class="text-base text-right max-w-3xl pt-5">
+                            Te damos acceso a todos los mercados argentinos para<br>operar los instrumentos de oferta pública autorizados<br>por la CNV: Títulos públicos, obligaciones negociables,<br>acciones, CEDEARs, fideicomisos financieros, cauciones<br>bursátiles, opciones, futuros, pagarés bursátiles,<br>cheques de pago diferidos, Fondos Comunes de<br>Inversión, etc.
                         </div>
                     </div>
                     <div>
@@ -59,16 +58,16 @@
                     </div>
                 </div>
                 <div class="border"></div>
-                <div class="container flex flex-row px-40 py-32">
+                <div class="container flex flex-row px-40 py-32 items-center justify-center">
                     <div>
                         <img src="{{ asset('/img/Group 26.png') }}" class="w-auto h-auto" alt="about image"/>
                     </div>
-                    <div class="text-white">
-                        <div class="text-xl font-bold text-left pl-10 max-w-3xl">
-                            Fondos comunes de inversión
+                    <div class="text-white pl-20">
+                        <div class="text-xl font-bold text-left max-w-3xl">
+                            Fondos comunes<br>de inversión
                         </div>
-                        <div class="text-base text-left pl-10 max-w-3xl pt-5">
-                            Te ofrecemos un amplio abanico de fondos comunes de inversión gestionados activamente por especialistas. Fondos en pesos, dólares, renta fija, variable o mixta.
+                        <div class="text-base text-left max-w-3xl pt-5">
+                            Como agente ACDI, te ofrecemos acceso a un amplio<br>abanico de fondos comunes de inversión gestionados<br>activamente por especialistas. Fondos en pesos o en<br>dólares que invierten en instrumentos de renta fija,<br>variable o mixta.
                         </div>
                     </div>
                     

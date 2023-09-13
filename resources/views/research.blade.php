@@ -5,7 +5,7 @@
 @section('content')
 <div>
     <div>
-        <img src="{{ asset('/img/services_01.png') }}" class="w-full h-full" alt="about image"/>
+        <img src="{{ asset('/img/pexels-vlada-karpovich-7433839 1.png') }}" class="w-full h-full" alt="about image"/>
         <div class="absolute inset-x-0 top-96 mx-32">
             <p class="font-body text-3xl text-white text-center font-medium">
                 Los fundamentos son un elemento clave en la toma de decisiones. Por ello, realizamos un continuo monitoreo de las principales variables del mercado y la coyuntura macroeconómica local e internacional para apoyar la toma de decisiones por parte de nuestros clientes.
@@ -21,9 +21,6 @@
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
                     <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
@@ -37,9 +34,6 @@
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
                     <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
@@ -53,9 +47,6 @@
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
                     <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
@@ -69,9 +60,6 @@
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
                     <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
@@ -85,9 +73,6 @@
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
                     <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">
@@ -101,9 +86,6 @@
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
                     <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
-                            Leer nota
-                        </span>
                     </div>
                     <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
                         <span class="block font-body text-lg font-semibold text-color-cucchiara">

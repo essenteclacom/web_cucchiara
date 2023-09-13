@@ -824,6 +824,10 @@ html{
 .z-30{
     z-index:30
 }
+.z-1{
+    position: absolute;
+    z-index: 1;
+}
 .m-8{
     margin:2rem
 }
@@ -1211,6 +1215,9 @@ html{
 .bg-cover{
     background-size:cover
 }
+.bg-contain{
+    background-size:contain;
+}
 .bg-center{
     background-position:50%
 }
@@ -1345,6 +1352,9 @@ html{
 }
 .pb-hero-16{
     padding-bottom:18rem
+}
+.pb-hero-9{
+    padding-bottom:9rem
 }
 .pt-16{
     padding-top:4rem
