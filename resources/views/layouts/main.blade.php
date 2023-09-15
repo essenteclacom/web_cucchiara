@@ -192,7 +192,9 @@
                     <div class="container py-6">
                         <div class="flex justify-between py-6">
                             <div class="pt-1"><img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
-                            <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
+                            <a href="/normative">
+                                <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
+                            </a>
                             <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330</div>
                             <div class="pt-1 border-t-2 border-primary">
                                 <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>

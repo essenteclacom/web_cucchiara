@@ -9,6 +9,7 @@ use App\Http\Controllers\FoundsController;
 use App\Http\Controllers\ResearchController;
 use App\Http\Controllers\OnlineOperationController;
 use App\Http\Controllers\OpenAccountController;
+use App\Http\Controllers\NormativeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,3 +39,5 @@ Route::get('/research', ResearchController::class);
 Route::get('/onlineoperation', OnlineOperationController::class);
 
 Route::get('/openaccount', OpenAccountController::class);
+
+Route::get('/normative', NormativeController::class);
