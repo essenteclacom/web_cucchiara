@@ -26,7 +26,7 @@ La Comisión Nacional de Valores (CNV), organismo encargado de regular y supervi
 En este contexto, las Normas de la CNV desempeñan un papel crucial al establecer regulaciones específicas para garantizar la integridad y eficiencia del mercado, asegurando la protección de los inversores. Por su parte, el Decreto Reglamentario 1023/2023 complementa las leyes anteriormente mencionadas, al definir aspectos operativos y procedimentales, contribuyendo así a la implementación efectiva del marco legal.
                         </div>
                     </div>
-                    <div>
+                    <div class="pb-60">
                         <div class="pb-2">
                             <button class="text-color-cucchiara rounded bg-white px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
                                 Ley Mercado de Capitales N° 26.831

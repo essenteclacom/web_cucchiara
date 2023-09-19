@@ -191,7 +191,7 @@
                 <div class="bg-footer">
                     <div class="container py-6">
                         <div class="flex justify-between py-6">
-                            <div class="pt-1"><img src="{{ asset('/img/logocucchiara.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
+                            <div class="pt-1"><img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
                             <a href="/normative">
                                 <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                             </a>
