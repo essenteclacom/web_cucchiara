@@ -127,6 +127,9 @@ menu,ol,ul{
     margin:0;
     padding:0
 }
+.ul-ul{
+    list-style: disc;
+}
 textarea{
     resize:vertical
 }
@@ -1313,6 +1316,10 @@ html{
 }
 .pr-2{
     padding-right:.5rem
+}
+.pr-13-2
+{
+    padding-right: 13.2rem
 }
 .pr-6-menus{
     padding-right:6.5rem
