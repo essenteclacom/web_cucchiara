@@ -117,7 +117,7 @@
                             <ul>
                                 <li><a class="rounded-t-md" href="">Raghsa</a>
                                     <ul class="ul-ul">
-                                        <li class="ul-ul"><a class="rounded-t-md" href="">06.07.23 Provincia de Buenos Aires 20237</a></li>
+                                        <li><a class="rounded-t-md" href="">06.07.23 Provincia de Buenos Aires 20237</a></li>
                                         <li><a href="">17.03.23 Argentina Sovereign Bonds</a></li>
                                         <li><a href="">06.01.23 Coyuntura de la Deuda en Pesos</a></li>
                                         <li><a class="rounded-b-md" href="">05.12.22 Presentacion Fondo CyC Renta Mixta</a></li>

@@ -2084,8 +2084,13 @@ ul, ol {
     top:0px;
 }
 .nav-search li ul li ul li ul{
-    right:-346px;
+    right:-500px;
     top:0px;
+}
+.nav-search li ul li ul li ul{
+    right:-500px;
+    top:0px;
+    background-color: transparent;
 }
 /*CSS to animated underline un header menu*/
 .w3rcontainer{
