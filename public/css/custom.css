@@ -2065,8 +2065,17 @@ ul, ol {
     padding:10px 12px;
     display:block;
 }
+.nav-search-1 li a {
+    background-color:#ecfaff00;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
 .nav-search li a:hover {
     background-color:#ECFAFF;
+}
+.nav-search-1 li a:hover {
+    background-color:#ecfaff00;
 }
 .nav-search li ul {
     display:none;
