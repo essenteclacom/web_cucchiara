@@ -108,7 +108,7 @@
                     Buscar Informes
                 </h2>
             </div>
-            <ul class="nav-search text-color-cucchiara">
+            {{-- <ul class="nav-search text-color-cucchiara">
 				<li><a href="" class="rounded-md">Todos los reportes<i class="bx bx-chevron-down relative -right-2 text-3xl align-middle "></i></a>
 					<ul>
 						<li><a class="rounded-t-md" href="">Coyuntura Argentina</a></li>
@@ -132,27 +132,106 @@
                         <li><a class="rounded-b-md" href="">Fondos</a></li>
 					</ul>
 				</li>
-			</ul>
-            <div class="h-section-42"></div>
+			</ul> --}}
+            <nav class="menu w-96">
+                <ul class="text-color-cucchiara">
+                    <li>
+                        <a>Coyuntura Argentina</a>
+                        <ul class="submenu">
+                            <li class="finalmenu"><a>Charlas y Presentaciones</a></li>
+                            <li><a href="#">Macro Local</a></li>
+                            <li><a href="#">Bonos Soberanos</a></li>
+                            <li><a href="#">Instrumentos en Pesos</a></li>
+                            <li><a href="#">Bonos Provinciales</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Coyuntura Global</a>
+                        <ul class="submenu">
+                            <li><a href="#">Charlas y Presentaciones</a></li>
+                            <li><a href="#">Macro Global</a></li>
+                            <li><a href="#">Renta Variable Global</a></li>
+                            <li><a href="#">Renta Fija Global</a></li>
+                            <li><a href="#">Commodities</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Bonos Corporativos</a>
+                        <ul class="submenu">
+                            <li><a href="#">Raghsa</a>
+                                {{-- <ul class="ul-ul">
+                                    <li><a class="rounded-t-md" href="">06.07.23 Provincia de Buenos Aires 20237</a></li>
+                                    <li><a href="">17.03.23 Argentina Sovereign Bonds</a></li>
+                                    <li><a href="">06.01.23 Coyuntura de la Deuda en Pesos</a></li>
+                                    <li><a class="rounded-b-md" href="">05.12.22 Presentacion Fondo CyC Renta Mixta</a></li>
+                                </ul> --}}
+                            </li>
+                            <li><a href="#">Pampa Energía</a></li>
+                            <li><a href="#">Aeropuertos Argentina 2000</a></li>
+                            <li><a href="#">Capex</a></li>
+                            <li><a href="#">Transportadora de Gas del Sur</a></li>
+                            <li><a href="#">Arcor</a></li>
+                            <li><a href="#">Compañía General de Combustibles</a></li>
+                            <li><a href="#">Telecom Argentina</a></li>
+                            <li><a href="#">Genneia</a></li>
+                            <li><a href="#">Aluar</a></li>
+                            <li><a href="#">Pan American Energy</a></li>
+                            <li><a href="#">Tecpetrol</a></li>
+                            <li><a href="#">MSU Energy</a></li>
+                            <li><a href="#">YPF</a></li>
+                            <li><a href="#">Corporativos Argentinos</a></li>
+                            <li><a href="#">Corporativos Extranjeros</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Renta Variable</a>
+                        <ul class="submenu">
+                            <li><a href="#">Ternium Argentina</a></li>
+                            <li><a href="#">Tenaris</a></li>
+                            <li><a href="#">Pampa Energía</a></li>
+                            <li><a href="#">Loma Negra</a></li>
+                            <li><a href="#">Transportadora de Gas del Sur</a></li>
+                            <li><a href="#">Aluar</a></li>
+                            <li><a href="#">Bioceres</a></li>
+                            <li><a href="#">Richmond</a></li>
+                            <li><a href="#">YPF</a></li>
+                            <li><a href="#">Bancos Locales</a></li>
+                            <li><a href="#">Acciones Argentinas</a></li>
+                            <li><a href="#">Acciones Extranjeras</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Fondos</a>
+                        <ul class="submenu">
+                            <li><a href="#">Dolares Renta Fija</a></li>
+                            <li><a href="#">Pesos Renta Fija</a></li>
+                            <li><a href="#">Renta Mixta</a></li>
+                            <li><a href="#">Liquidez</a></li>
+                            <li><a href="#">Renta Fija USD</a></li>
+                        </ul>
+                    </li>
+                    <!-- Agrega más elementos principales si es necesario -->
+                </ul>
+            </nav>
             <div class="h-section-42"></div>
         </div>
     </div>
     {{-- end search --}}
     {{-- newsletter --}}
     <div class="bg-quarter" id="clients">
-        <div class="container flex justify-between py-8 md:py-20 grid grid-cols-2 gap-2 flex items-center">
+        <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center">
             <div class="flex items-center justify-center">
-                <h2 class="text-white font-header text-4xl font-semibold sm:text-5xl lg:text-4xl">
-                    Recibí nuestro<br/>Newsletter semanal
+                <h2 class="text-white font-header text-5xl font-bold">
+                    Recibí nuestros<br/>informes
                 </h2>
             </div>
-            <div type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block flex items-center justify-center">
-                <button class="text-color-cucchiara rounded bg-cyan-20 px-8 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
+            <div type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block flex items-center justify-center pl-32">
+                <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
                     Suscribite
                 </button>
                 <!-- Main modal -->
-                <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-                    <div class="relative w-full max-w-md max-h-full">
+                <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="rounded fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                    <div class="relative w-full max-w-2xl max-h-full">
                         <!-- Modal content -->
                         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                             <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
@@ -161,29 +240,43 @@
                                 </svg>
                                 <span class="sr-only">Close modal</span>
                             </button>
-                            <div class="px-6 py-6 lg:px-8">
-                                <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h3>
-                                <form class="space-y-6" action="#">
-                                    <div>
-                                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-                                        <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required>
+                            <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded">
+                                <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
+                                <form class="space-y-6" action="/home">
+                                    <div class="flex flex-row justify-between gap-3">
+                                        <div class="">
+                                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
+                                            <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Nombres *" required>
+                                        </div>
+                                        <div class="">
+                                            <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
+                                            <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Apellidos *" required>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
-                                        <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
+                                    <div class="w-full">
+                                        <input type="email" name="email" id="email" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Email*" required>
                                     </div>
                                     <div class="flex justify-between">
-                                        <div class="flex items-start">
-                                            <div class="flex items-center h-5">
-                                                <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                                        <div class="flex flex-col">
+                                            <div class="flex flex-row">
+                                                <div class="flex items-center h-5">
+                                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                                                </div>
+                                                <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Estadistico</label><br>
                                             </div>
-                                            <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+                                            <div class="flex flex-row">
+                                                <div class="flex items-center h-5">
+                                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required>
+                                                </div>
+                                                <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Economico</label>
+                                            </div>
                                         </div>
-                                        <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+                                        <!--<a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>-->
                                     </div>
-                                    <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
-                                    <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-                                        Not registered? <a href="#" class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+                                    <div class="flex justify-end">
+                                        <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
+                                            Enviar
+                                        </button>
                                     </div>
                                 </form>
                             </div>
