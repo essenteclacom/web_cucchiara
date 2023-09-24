@@ -133,86 +133,104 @@
 					</ul>
 				</li>
 			</ul> --}}
-            <nav class="menu w-96">
-                <ul class="text-color-cucchiara">
-                    <li>
-                        <a>Coyuntura Argentina</a>
-                        <ul class="submenu">
-                            <li class="finalmenu"><a>Charlas y Presentaciones</a></li>
-                            <li><a href="#">Macro Local</a></li>
-                            <li><a href="#">Bonos Soberanos</a></li>
-                            <li><a href="#">Instrumentos en Pesos</a></li>
-                            <li><a href="#">Bonos Provinciales</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a>Coyuntura Global</a>
-                        <ul class="submenu">
-                            <li><a href="#">Charlas y Presentaciones</a></li>
-                            <li><a href="#">Macro Global</a></li>
-                            <li><a href="#">Renta Variable Global</a></li>
-                            <li><a href="#">Renta Fija Global</a></li>
-                            <li><a href="#">Commodities</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a>Bonos Corporativos</a>
-                        <ul class="submenu">
-                            <li><a href="#">Raghsa</a>
-                                {{-- <ul class="ul-ul">
-                                    <li><a class="rounded-t-md" href="">06.07.23 Provincia de Buenos Aires 20237</a></li>
-                                    <li><a href="">17.03.23 Argentina Sovereign Bonds</a></li>
-                                    <li><a href="">06.01.23 Coyuntura de la Deuda en Pesos</a></li>
-                                    <li><a class="rounded-b-md" href="">05.12.22 Presentacion Fondo CyC Renta Mixta</a></li>
-                                </ul> --}}
+            <div class="flex flex-row justify-between">
+                <div>
+                    <nav class="menu w-96">
+                        <ul class="text-color-cucchiara">
+                            <li>
+                                <a class="submenu">Coyuntura Argentina</a>
+                                <ul class="ul-menu right-scroll">
+                                    <li class="finalmenu" id="charlas"><a>Charlas y Presentaciones</a></li>
+                                    <li class="finalmenu" id="macros"><a>Macro Local</a></li>
+                                    <li class="finalmenu" id="bonos"><a>Bonos Soberanos</a></li>
+                                    <li class="finalmenu" id="instrumentos"><a>Instrumentos en Pesos</a></li>
+                                    <li class="finalmenu" id="provinciales"><a>Bonos Provinciales</a></li>
+                                </ul>
                             </li>
-                            <li><a href="#">Pampa Energía</a></li>
-                            <li><a href="#">Aeropuertos Argentina 2000</a></li>
-                            <li><a href="#">Capex</a></li>
-                            <li><a href="#">Transportadora de Gas del Sur</a></li>
-                            <li><a href="#">Arcor</a></li>
-                            <li><a href="#">Compañía General de Combustibles</a></li>
-                            <li><a href="#">Telecom Argentina</a></li>
-                            <li><a href="#">Genneia</a></li>
-                            <li><a href="#">Aluar</a></li>
-                            <li><a href="#">Pan American Energy</a></li>
-                            <li><a href="#">Tecpetrol</a></li>
-                            <li><a href="#">MSU Energy</a></li>
-                            <li><a href="#">YPF</a></li>
-                            <li><a href="#">Corporativos Argentinos</a></li>
-                            <li><a href="#">Corporativos Extranjeros</a></li>
+                            <li>
+                                <a class="submenu">Coyuntura Global</a>
+                                <ul class="ul-menu right-scroll">
+                                    <li><a href="#">Charlas y Presentaciones</a></li>
+                                    <li><a href="#">Macro Global</a></li>
+                                    <li><a href="#">Renta Variable Global</a></li>
+                                    <li><a href="#">Renta Fija Global</a></li>
+                                    <li><a href="#">Commodities</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="submenu">Bonos Corporativos</a>
+                                <ul class="ul-menu right-scroll">
+                                    <li><a href="#">Raghsa</a>
+
+                                    </li>
+                                    <li><a href="#">Pampa Energía</a></li>
+                                    <li><a href="#">Aeropuertos Argentina 2000</a></li>
+                                    <li><a href="#">Capex</a></li>
+                                    <li><a href="#">Transportadora de Gas del Sur</a></li>
+                                    <li><a href="#">Arcor</a></li>
+                                    <li><a href="#">Compañía General de Combustibles</a></li>
+                                    <li><a href="#">Telecom Argentina</a></li>
+                                    <li><a href="#">Genneia</a></li>
+                                    <li><a href="#">Aluar</a></li>
+                                    <li><a href="#">Pan American Energy</a></li>
+                                    <li><a href="#">Tecpetrol</a></li>
+                                    <li><a href="#">MSU Energy</a></li>
+                                    <li><a href="#">YPF</a></li>
+                                    <li><a href="#">Corporativos Argentinos</a></li>
+                                    <li><a href="#">Corporativos Extranjeros</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="submenu">Renta Variable</a>
+                                <ul class="ul-menu right-scroll">
+                                    <li><a href="#">Ternium Argentina</a></li>
+                                    <li><a href="#">Tenaris</a></li>
+                                    <li><a href="#">Pampa Energía</a></li>
+                                    <li><a href="#">Loma Negra</a></li>
+                                    <li><a href="#">Transportadora de Gas del Sur</a></li>
+                                    <li><a href="#">Aluar</a></li>
+                                    <li><a href="#">Bioceres</a></li>
+                                    <li><a href="#">Richmond</a></li>
+                                    <li><a href="#">YPF</a></li>
+                                    <li><a href="#">Bancos Locales</a></li>
+                                    <li><a href="#">Acciones Argentinas</a></li>
+                                    <li><a href="#">Acciones Extranjeras</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="submenu">Fondos</a>
+                                <ul class="ul-menu right-scroll">
+                                    <li><a href="#">Dolares Renta Fija</a></li>
+                                    <li><a href="#">Pesos Renta Fija</a></li>
+                                    <li><a href="#">Renta Mixta</a></li>
+                                    <li><a href="#">Liquidez</a></li>
+                                    <li><a href="#">Renta Fija USD</a></li>
+                                </ul>
+                            </li>
+                            <!-- Agrega más elementos principales si es necesario -->
                         </ul>
-                    </li>
-                    <li>
-                        <a>Renta Variable</a>
-                        <ul class="submenu">
-                            <li><a href="#">Ternium Argentina</a></li>
-                            <li><a href="#">Tenaris</a></li>
-                            <li><a href="#">Pampa Energía</a></li>
-                            <li><a href="#">Loma Negra</a></li>
-                            <li><a href="#">Transportadora de Gas del Sur</a></li>
-                            <li><a href="#">Aluar</a></li>
-                            <li><a href="#">Bioceres</a></li>
-                            <li><a href="#">Richmond</a></li>
-                            <li><a href="#">YPF</a></li>
-                            <li><a href="#">Bancos Locales</a></li>
-                            <li><a href="#">Acciones Argentinas</a></li>
-                            <li><a href="#">Acciones Extranjeras</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a>Fondos</a>
-                        <ul class="submenu">
-                            <li><a href="#">Dolares Renta Fija</a></li>
-                            <li><a href="#">Pesos Renta Fija</a></li>
-                            <li><a href="#">Renta Mixta</a></li>
-                            <li><a href="#">Liquidez</a></li>
-                            <li><a href="#">Renta Fija USD</a></li>
-                        </ul>
-                    </li>
-                    <!-- Agrega más elementos principales si es necesario -->
-                </ul>
-            </nav>
+                    </nav>
+                </div>
+                <div class="flex pr-[34rem] text-color-cucchiara">
+                    <div class="flex flex-col hidden list" id="lista-charlas">
+                        <a href="" class="flex flex-row items-center"><span class="border-l-1 border-1 border-color-cucchiara h-8 absolute ml-[5px]"> </span><img src="{{ asset('/img/Ellipse.png')}}" class="w-auto h-3 pr-4"> hizo clic en charlas</a>
+                        <a href="" class="flex flex-row items-center"><span class="border-l-1 border-1 border-color-cucchiara h-8 absolute ml-[5px]"> </span><img src="{{ asset('/img/Ellipse.png')}}" class="w-auto h-3 pr-4"> hizo clic en charlas 2</a>
+                        <a href="" class="flex flex-row items-center"><span class="border-l-1 border-1 border-color-cucchiara h-8 absolute ml-[5px]"> </span><img src="{{ asset('/img/Ellipse.png')}}" class="w-auto h-3 pr-4"> hizo clic en charlas 3</a>
+                    </div>
+                    <div class="flex flex-col hidden list" id="lista-macros">
+                        <a href="">se hizo clic en macro</a>
+                    </div>
+                    <div class="flex flex-col hidden list" id="lista-bonos">
+                        <a href="">se hizo clic en bonos</a>
+                    </div>
+                    <div class="flex flex-col hidden list" id="lista-instrumentos">
+                        <a href="">se hizo clic en instrumentos</a>
+                    </div>
+                    <div class="flex flex-col hidden list" id="lista-provinciales">
+                        <a href="">se hizo clic en provinciales</a>
+                    </div>
+                </div>
+            </div>
             <div class="h-section-42"></div>
         </div>
     </div>
