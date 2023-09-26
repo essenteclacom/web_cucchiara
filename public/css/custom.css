@@ -1621,6 +1621,113 @@ html{
 .group:hover .group-hover\:opacity-50{
     opacity:.5
 }
+@media (max-width:639px){
+    .xs\:ml-2{
+        margin-left:.5rem
+    }
+    .xs\:mt-0{
+        margin-top:0
+    }
+    .xs\:block{
+        display:block
+    }
+    .xs\:h-56{
+        height:14rem
+    }
+    .xs\:h-84{
+        height:21rem
+    }
+    .xs\:h-64{
+        height:16rem
+    }
+    .xs\:w-2\/5{
+        width:8rem
+    }
+    .xs\:w-3\/4{
+        width:75%
+    }
+    .xs\:w-2\/3{
+        width:66.666667%
+    }
+    .xs\:grid-cols-2{
+        grid-template-columns:repeat(2,minmax(0,1fr))
+    }
+    .xs\:flex-row{
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+        flex-direction:row
+    }
+    .xs\:justify-start{
+        -webkit-box-pack:start;
+        -ms-flex-pack:start;
+        justify-content:flex-start
+    }
+    .xs\:py-5{
+        padding-bottom:1.25rem;
+        padding-top:1.25rem
+    }
+    .xs\:py-8{
+        padding-bottom:2rem;
+        padding-top:2rem
+    }
+    .xs\:py-4{
+        padding-bottom:1rem;
+        padding-top:1rem
+    }
+    .xs\:pt-0{
+        padding-top:0
+    }
+    .xs\:pt-56{
+        padding-top:14rem
+    }
+    .xs\:pb-48{
+        padding-bottom:12rem
+    }
+    .xs\:pb-hero-48{
+        padding-bottom:24rem
+    }
+    .xs\:pt-10{
+        padding-top:2.5rem
+    }
+    .xs\:pt-5{
+        padding-top:1.25rem
+    }
+    .xs\:pt-4{
+        padding-top:1rem
+    }
+    .xs\:text-left{
+        text-align:left
+    }
+    .xs\:text-4xl{
+        font-size:2.25rem;
+        line-height:2.5rem
+    }
+    .xs\:text-5xl{
+        font-size:3rem;
+        line-height:1
+    }
+    .xs\:text-2xl{
+        font-size:1.5rem;
+        line-height:2rem
+    }
+    .xs\:leading-9{
+        line-height:2.25rem
+    }
+    .xs\:pl-0{
+        padding-left: 0rem;
+    }
+    .xs\:container{
+        margin-left:0rem;
+        margin-right:auto;
+        padding-left:1rem;
+        padding-right:1rem;
+        width:100%
+    }
+    .xs\:hidden{
+        display:none
+    }
+}
 @media (min-width:640px){
     .sm\:ml-2{
         margin-left:.5rem
@@ -1869,6 +1976,9 @@ html{
     }
     .lg\:block{
         display:block
+    }
+    .lg\:flex{
+        display:flex
     }
     .lg\:hidden{
         display:none

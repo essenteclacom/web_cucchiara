@@ -1,5 +1,21 @@
 // JavaScript
 document.addEventListener('DOMContentLoaded', function () {
+    const allInforms = document.getElementById('all-informs')
+    allInforms.addEventListener('click', (e) => {
+        e.stopPropagation()
+        const menu = document.getElementById('menu')
+        const space = document.getElementById('space')
+        const hidden = space.classList.contains('hidden')
+        menu.classList.toggle('hidden')
+        space.classList.add('hidden')
+        if(hidden){
+            space.classList.toggle('hidden')
+        }
+        else{
+            space.classList.add('hidden')
+        }
+    })
+
     const submenus = document.querySelectorAll('.submenu')
     submenus.forEach((submenu) => {
         submenu.addEventListener('click', (e) => {

@@ -34,48 +34,41 @@
         <div id="main" class="relative">
             <div x-data="{triggerNavItem(id) {$scroll(id)}, triggerMobileNavItem(id) {mobileMenu = false; this.triggerNavItem(id)}}">
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white">
-                    <div class="container flex items-center justify-between">
+                    <div class="container flex items-center justify-between xs:container">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-custom-logo" alt="logo image"/>
+                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-custom-logo xs:w-2/5 " alt="logo image"/>
                             </a>
                         </div>
-                        <div class="hidden lg:block">
-                            <ul class="nav-lang flex items-center">
-                                <li class="group pl-6"></li>
-                                <li class="group pl-6"></li>
-                                <li class="group pl-6"></li>
-                                <li class="group pl-6"></li>
-                                <li class="group pl-6"></li>
-                                <li class="group pl-6"></li>
-                                <li class="group pl-6">
-                                    <a href="/openaccount" class="text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
-                                        Abrir cuenta
-                                    </a>
-                                </li>
-                                <li class="group pl-6">
-                                    <a class=" text-color-cucchiara mt-6 flex items-center justify-center rounded bg-cyan-20 button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-white">
-                                        Ingresar
-                                    </a>
-                                </li>
-                                <li class="text-color-cucchiara group pl-6">
-                                    <a class="mt-6 flex items-center justify-center rounded bg-white p-custom-esp-buttom text-lg font-bold uppercase hover:bg-cyan-20">
-                                        ESP
-                                        <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
-                                    </a>
-                                    <ul>
-                                        <li class="text-color-cucchiara text-lg font-bold uppercase"><button class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom" href="">ENG</button></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <div class="flex justify-right flex-end flex-row">
+                            <a href="/openaccount" class="text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                                Abrir cuenta
+                            </a>
+                            <a class="ml-3 text-color-cucchiara mt-6 flex items-center justify-center rounded bg-cyan-20 button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-white">
+                                Ingresar
+                            </a>
+                            <div class="hidden lg:block">
+                                <ul class="nav-lang flex items-center">
+                                    <li class="text-color-cucchiara group pl-6">
+                                        <a class="mt-6 flex items-center justify-center rounded bg-white p-custom-esp-buttom text-lg font-bold uppercase hover:bg-cyan-20">
+                                            ESP
+                                            <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
+                                        </a>
+                                        <ul>
+                                            <li class="text-color-cucchiara text-lg font-bold uppercase"><button class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom" href="">ENG</button></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                        
                         <div class="block lg:hidden">
                             <button @click="mobileMenu = true">
-                                <i class="bx bx-menu text-4xl text-white"></i>
+                                <i class="bx bx-menu text-4xl text-color-cucchiara"></i>
                             </button>
                         </div>
                     </div>
-                    <div class="container flex items-center justify-between border-menu-line-top mt-6">
+                    <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
                         <div>
                         </div>
                         <div class="hidden lg:block">
@@ -112,9 +105,9 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="block lg:hidden">
+                        <div class="hidden">
                             <button @click="mobileMenu = true">
-                                <i class="bx bx-menu text-4xl text-white"></i>
+                                <i class="bx bx-menu text-4xl text-black"></i>
                             </button>
                         </div>
                     </div>

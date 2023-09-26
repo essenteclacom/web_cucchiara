@@ -104,10 +104,14 @@
     <div class="bg-search">
         <div class="container">
             <div class="relative top-minus-2">
-                <h2 class="text-color-cucchiara text-left font-header text-2xl font-bold text-primary sm:text-5xl lg:text-2xl">
+                <h2 class="text-color-cucchiara text-left font-header text-2xl text-primary font-800-bold">
                     Buscar Informes
                 </h2>
             </div>
+            <div class="cursor-pointer pt-16">
+                <a class="w-full w-96 rounded-md bg-white text-color-cucchiara text-xl p-4 pl-14" id="all-informs">Todos los reportes<i class="bx bx-chevron-down relative -right-2 text-3xl align-middle pl-[7.5rem]"></i></a>
+            </div>
+            <div class="h-section-42 block" id="space"></div>
             {{-- <ul class="nav-search text-color-cucchiara">
 				<li><a href="" class="rounded-md">Todos los reportes<i class="bx bx-chevron-down relative -right-2 text-3xl align-middle "></i></a>
 					<ul>
@@ -133,12 +137,12 @@
 					</ul>
 				</li>
 			</ul> --}}
-            <div class="flex flex-row justify-between pb-20">
+            <div class="flex flex-row justify-between pb-20 pt-6 hidden" id="menu">
                 <div>
                     <nav class="menu w-96">
                         <ul class="text-color-cucchiara">
                             <li>
-                                <a class="submenu rounded-t-md cursor-pointer py-3.5 pl-14" id="01">Coyuntura Argentina</a>
+                                <a class="submenu rounded-t-md cursor-pointer py-3.5 pl-14 text-xl" id="01">Coyuntura Argentina</a>
                                 <ul class="ul-menu right-scroll hide-sub-menu cursor-pointer text-center" id="sub-menu-01">
                                     <li class="finalmenu" id="001"><a class="py-3.5">Charlas y Presentaciones</a></li>
                                     <li class="finalmenu" id="002"><a class="py-3.5">Macro Local</a></li>
@@ -148,7 +152,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="submenu cursor-pointer py-3.5 pl-14" id="02">Coyuntura Global</a>
+                                <a class="submenu cursor-pointer py-3.5 pl-14 text-xl" id="02">Coyuntura Global</a>
                                 <ul class="ul-menu right-scroll hide-sub-menu cursor-pointer text-center" id="sub-menu-02">
                                     <li class="finalmenu" id="006"><a class="py-3.5">Charlas y Presentaciones</a></li>
                                     <li class="finalmenu" id="007"><a class="py-3.5">Macro Global</a></li>
@@ -158,7 +162,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="submenu cursor-pointer py-3.5 pl-14" id="03">Bonos Corporativos</a>
+                                <a class="submenu cursor-pointer py-3.5 pl-14 text-xl" id="03">Bonos Corporativos</a>
                                 <ul class="ul-menu right-scroll hide-sub-menu cursor-pointer text-center" id="sub-menu-03">
                                     <li class="finalmenu" id="011"><a class="py-3.5">Raghsa</a></li>
                                     <li class="finalmenu" id="012"><a class="py-3.5">Pampa Energía</a></li>
@@ -179,7 +183,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="submenu cursor-pointer py-3.5 pl-14" id="04">Renta Variable</a>
+                                <a class="submenu cursor-pointer py-3.5 pl-14 text-xl" id="04">Renta Variable</a>
                                 <ul class="ul-menu right-scroll hide-sub-menu cursor-pointer text-center" id="sub-menu-04">
                                     <li class="finalmenu" id="027"><a class="py-3.5">Ternium Argentina</a></li>
                                     <li class="finalmenu" id="028"><a class="py-3.5">Tenaris</a></li>
@@ -196,7 +200,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="submenu rounded-b-md cursor-pointer py-3.5 pl-14" id="05">Fondos</a>
+                                <a class="submenu rounded-b-md cursor-pointer py-3.5 pl-14 text-xl" id="05">Fondos</a>
                                 <ul class="ul-menu right-scroll hide-sub-menu cursor-pointer text-center rounded-b-md" id="sub-menu-05">
                                     <li class="finalmenu" id="039"><a class="py-3.5">Dolares Renta Fija</a></li>
                                     <li class="finalmenu" id="040"><a class="py-3.5">Pesos Renta Fija</a></li>
