@@ -40,17 +40,17 @@
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-custom-logo xs:w-2/5 " alt="logo image"/>
                             </a>
                         </div>
-                        <div class="flex justify-right flex-end flex-row">
-                            <a href="/openaccount" class="text-color-cucchiara mt-6 flex items-center justify-center rounded bg-white button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-cyan-20">
+                        <div class="flex justify-right flex-end flex-row items-center">
+                            <a href="/openaccount" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xs:px-5 lg:px-8 xs:py-0 lg:py-2 xs:text-base lg:text-lg font-bold hover:bg-cyan-20">
                                 Abrir cuenta
                             </a>
-                            <a class="ml-3 text-color-cucchiara mt-6 flex items-center justify-center rounded bg-cyan-20 button-border-color px-8 py-2 text-lg font-bold text-primary hover:bg-white">
+                            <a class="font-body ml-3 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xs:px-5 lg:px-8 xs:py-0 lg:py-2 xs:text-base lg:text-lg font-bold hover:bg-white">
                                 Ingresar
                             </a>
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
-                                        <a class="mt-6 flex items-center justify-center rounded bg-white p-custom-esp-buttom text-lg font-bold uppercase hover:bg-cyan-20">
+                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-lg font-bold uppercase hover:bg-cyan-20">
                                             ESP
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
@@ -60,12 +60,11 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        
-                        <div class="block lg:hidden">
-                            <button @click="mobileMenu = true">
-                                <i class="bx bx-menu text-4xl text-color-cucchiara"></i>
-                            </button>
+                            <div class="ml-2 block lg:hidden">
+                                <button @click="mobileMenu = true">
+                                    <i class="bx bx-menu text-4xl text-color-cucchiara"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
@@ -75,31 +74,27 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
                                     <a href="/about">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Nosotros</span>
-                                        
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/services">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Servicios</span>
-                                        
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/founds">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Fondos</span>
-                                        
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/research">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-header font-bold text-primary text-color-cucchiara">Research</span>
-                                        
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/onlineoperation">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-header font-bold text-primary text-color-cucchiara">Opere online</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
                                 </li>
@@ -113,34 +108,25 @@
                     </div>
                 </div>
                 <div class="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" :class="{ 'opacity-100 pointer-events-auto': mobileMenu }">
-                    <div class="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
+                    <div class="absolute right-0 min-h-screen w-1/2 bg-quarter py-4 px-8 shadow md:w-1/2">
                         <button class="absolute top-0 right-0 mt-4 mr-4" @click="mobileMenu = false">
                             <img src="{{ asset('/img/icon-close.svg') }}"class="h-10 w-auto" alt="" />
                         </button>
                         <ul class="mt-8 flex flex-col">
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#about')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span>
+                            <li class="py-4">
+                                <a href="/about"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
                             </li>
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#services')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Services</span>
+                            <li class="py-4">
+                                <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span>
                             </li>
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#portfolio')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</span>
+                            <li class="py-4">
+                                <a href="/founds"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span>
                             </li>
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#clients')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Clients</span>
+                            <li class="py-4">
+                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span>
                             </li>
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#work')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Work</span>
-                            </li>
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#statistics')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Statistics</span>
-                            </li>
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#blog')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Blog</span>
-                            </li>
-                            <li class="py-2">
-                                <span @click="triggerMobileNavItem('#contact')" class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Contact</span>
+                            <li class="py-4">
+                                <a href="/onlineoperation"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span>
                             </li>
                         </ul>
                     </div>
