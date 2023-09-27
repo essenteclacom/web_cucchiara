@@ -135,17 +135,17 @@
                 {{-- contact --}}  
                 <div class="bg-contact">
                     <div class="container bg-contact" id="contact">
-                        <div class="relative top-minus-11">
-                            <h2 class="text-color-cucchiara text-left font-header text-5xl font-800-bold text-primary ml-32">
+                        <div class="relative xs:top-minus-1-2 top-minus-11">
+                            <h2 class="text-color-cucchiara text-left font-header xs:text-3xl lg:text-5xl font-800-bold text-primary xs:ml-4 lg:ml-32">
                                 Contacto
                             </h2>
                         </div>
                         <form class="mx-auto w-full pt-10">
                             <div class="flex flex-row items-center justify-center">
                                 <div class="flex flex-col md:flex-col mr-14">
-                                    <input class="w-contact-input rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                                    <input class="w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
-                                    <input class="w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                                    <input class="xs:w-contact-input w-contact-input rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                    <input class="xs:w-contact-input w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
+                                    <input class="xs:w-contact-input w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Teléfono*" type="text" id="phone"/>
                                 </div>
                                 <div>
                                     <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" id="message" cols="50" rows="7"></textarea>
@@ -171,7 +171,7 @@
                     <div class="container py-6">
                         <div class="flex justify-between py-6">
                             <div class="pt-1"><img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
-                            <a href="/normative">
+                            <a href="/regulations">
                                 <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                             </a>
                             <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330</div>

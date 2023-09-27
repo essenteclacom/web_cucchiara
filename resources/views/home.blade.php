@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xs:ml-2 xs:pt-20 lg:ml-196 z--1">
-                    <div class="lg:h-[38rem] lg:w-[60rem] sm:h-120 xs:w-[35rem] xs:h-56"></div>
+                    <div class="xs:h-56 lg:h-[38rem] lg:w-[60rem] sm:h-120 xs:w-[35rem] xs:h-56"></div>
                 </div>
                 <div class="xs:pt-0 sm:pt-10 lg:pl-8 lg:pt-0 xs:text-center">
                     <span class="text-3xl text-white font-body font-bold xs:text-center">
