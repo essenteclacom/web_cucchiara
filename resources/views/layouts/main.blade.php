@@ -117,16 +117,16 @@
                                 <a href="/about"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span>
+                                <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/founds"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span>
+                                <a href="/founds"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span>
+                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/onlineoperation"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span>
+                                <a href="/onlineoperation"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
                             </li>
                         </ul>
                     </div>
