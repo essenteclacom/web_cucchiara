@@ -9,18 +9,18 @@
             <div class="container relative z-30 pb-hero-16 sm:pb-hero-48 lg:pb-hero-48">
                 <div class="flex flex-col items-center justify-center lg:flex-row">
                     <div>
-                        <h1 class="text-center font-body font-bold text-4xl text-white xs:pt-7 sm:text-left sm:text-5xl md:text-6xl">
+                        <h1 class="text-center font-body font-bold text-4xl text-white xs:pt-7 sm:text-left sm:text-5xl md:text-6xl lg:pl-8">
                             Soluciones Financieras Integrales
                         </h1>
                         <div class="flex flex-col xs:pt-2 lg:pt-3 sm:flex-row sm:pt-5">
                             <div class="flex items-center pl-0 md:pl-1">
-                                <p class="font-body text-lg text-white text-center">
+                                <p class="font-body text-lg text-white xs:text-center lg:text-left lg:pl-8">
                                     Te acompañamos a tomar las mejores decisiones de inversión, ofreciéndote una amplia gama de instrumentos financieros según tu objetivo, plazo y perfil de riesgo.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xs:ml-2 xs:pt-20 lg:ml-196 z--1">
+                    <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xs:ml-2 xs:pt-20 lg:ml-196 lg:ml-30 lg:mt-20 z--1">
                     <div class="xs:h-56 lg:h-[38rem] lg:w-[60rem] sm:h-120 xs:w-[35rem] xs:h-56"></div>
                 </div>
                 <div class="xs:pt-0 sm:pt-10 lg:pl-8 lg:pt-0 xs:text-center">

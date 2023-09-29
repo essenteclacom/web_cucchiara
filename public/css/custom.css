@@ -2134,6 +2134,9 @@ html{
     .lg\:mt-0{
         margin-top:0
     }
+    .lg\:mt-5{
+        margin-top:5rem
+    }
     .lg\:mr-5{
         margin-right:1.25rem
     }
@@ -2142,6 +2145,9 @@ html{
     }
     .lg\:ml-32 {
         margin-left: 8rem;
+    }
+    .lg\:ml-30 {
+        margin-left: 30rem;
     }
     .lg\:mx-32 {
         margin-left: 8rem;
