@@ -160,7 +160,7 @@
     <div class="bg-quarter" id="about">
         <div class="flex flex-row items-center justify-between py-16 lg:mx-16 md:py-20 lg:flex-row">
             <div>
-                <h2 class="font-body xs:text-base lg:text-5xl font-bold text-white xs:pl-3 lg:pl-16 sm:pl-8">
+                <h2 class="font-body xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white xs:pl-3 lg:pl-16 sm:pl-8">
                     ¿Qué necesitas<br>para abrir tu<br>cuenta?                  
                 </h2>
             </div>
@@ -168,19 +168,19 @@
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:hx-10 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:h-48 sm:mr-8 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
                                     <img src="{{ asset('/img/persona.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="font-body pt-3 font-semibold text-white xs:text-base lg:text-3xl sm:text-xl">
+                                    <h3 class="font-body font-semibold text-white xs:text-base lg:text-3xl sm:text-xl">
                                         Personas<br/>Físicas
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:h-48 sm:mr-8 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:pt-1-5 xs:px-5 sm:px-5 sm:pt-1-5 md:px-5 md:pt-1-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xs:text-xxs sm:text-xxs lg:text-xs">
                                         · Documento de Identidad.<br/>
@@ -199,19 +199,19 @@
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:h-48 sm:mr-8 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
+                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
                                     <img src="{{ asset('/img/contrato.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="font-body pt-3 font-semibold text-white xs:text-base lg:text-3xl sm:text-xl">
+                                    <h3 class="font-body font-semibold text-white xs:text-base lg:text-3xl sm:text-xl">
                                         Personas<br/>Jurídicas
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:h-48 sm:mr-8 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:pt-1-5 xs:px-5 sm:px-5 sm:pt-1-5 md:px-5 md:pt-1-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xs:text-xxs sm:text-xxs lg:text-xs">
                                         · Actas de Directorio / Asamblea con designación de cargos.<br/>

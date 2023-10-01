@@ -170,45 +170,63 @@
                 <div class="bg-footer">
                     <div class="container py-6">
                         <div class="flex justify-between py-6">
-                            <div class="pt-1"><img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-24 lg:w-48" alt="logo image"/></div>
-                            <a href="/regulations">
-                                <div class="pt-1 font-bold border-t-2 border-primary">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
-                            </a>
-                            <div class="pt-1 border-t-2 border-primary">info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330</div>
-                            <div class="pt-1 border-t-2 border-primary">
-                                <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
-                                <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
+                            <div class="flex xs:flex-col lg:flex-row xs:ml-5">
+                                <div class="pt-1 xs:pb-2">
+                                    <img src="{{ asset('/img/Logo_Color-01.png') }}" class="xs:w-8 sm:w-48 md:w-48 lg:w-48" alt="logo image"/>
+                                </div>
+                                <div class="xs:pb-2 border-t-footer">
+                                    <a href="/regulations">
+                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
+                                    </a>
+                                </div>
+                                <div class="pt-1 xs:pb-2 border-t-footer">
+                                    info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
+                                </div>
                             </div>
-                            <div><img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/></div>
+                            <div class="flex xs:flex-col-reverse lg:flex-row xs:mr-5">
+                                <div class="pt-1 xs:pb-2 border-t-footer xs:mb-16">
+                                    <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
+                                    <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
+                                </div>
+                                <div class="xs:pb-2">
+                                    <img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/>
+                                </div>
+                            </div>
                         </div>
                         <div class="flex justify-between py-6">
-                            <a href="https://www.byma.com.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/Byma.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
-                            </a>
-                            <a href="https://cajadevalores.com.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/caja.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
-                            </a>
-                            <a href="https://www.matbarofex.com.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/Matba.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
-                            </a>
-                            <a href="https://www.mae.com.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/Mae.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
-                            </a>
-                            <a href="https://www.mav-sa.com.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/Mav.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
-                            </a>
-                            <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
-                            <div><img src="{{ asset('/img/Emta.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
-                            </a>
-                            <a href="http://www.cadab.org.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/CAMARA.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
-                            </a>
-                            <a href="https://www.bcra.gob.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/Banco central.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
-                            </a>
-                            <a href="http://www.cnv.gov.ar/" target="_blank">
-                            <div><img src="{{ asset('/img/CNV.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
-                            </a>
+                            <div class="flex xs:flex-col lg:flex-row">
+                                <a href="https://www.byma.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/Byma.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
+                                </a>
+                                <a href="https://cajadevalores.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/caja.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
+                                </a>
+                                <a href="https://www.matbarofex.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/Matba.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
+                                </a>
+                            </div>
+                            <div class="flex xs:flex-col lg:flex-row">
+                                <a href="https://www.mae.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/Mae.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
+                                </a>
+                                <a href="https://www.mav-sa.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/Mav.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
+                                </a>
+                                <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
+                                    <div><img src="{{ asset('/img/Emta.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
+                                </a>
+                            </div>
+                            <div class="flex xs:flex-col lg:flex-row">
+                                <a href="http://www.cadab.org.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/CAMARA.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
+                                </a>
+                                <a href="https://www.bcra.gob.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/Banco central.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
+                                </a>
+                                <a href="http://www.cnv.gov.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/CNV.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
+                                </a>
+                            </div>
                         </div>
                         <div class="text-center py-6">
                             <div> ALyC Integral registro Nro. 265 CNV |Miembro de BYMA Nro. 18 | Miembro de ROFEX Nro. 472 | Miembro de MAE Nro. 672</div>
