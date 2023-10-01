@@ -9,18 +9,18 @@
             <div class="container relative z-30 pb-hero-16 sm:pb-hero-48 lg:pb-hero-48">
                 <div class="flex flex-col items-center justify-center lg:flex-row">
                     <div>
-                        <h1 class="text-center font-body font-bold text-4xl text-white xs:pt-7 sm:text-left sm:text-5xl md:text-6xl lg:pl-8">
+                        <h1 class="text-center font-body font-bold text-4xl text-white xs:pt-7 sm:text-left sm:text-5xl md:text-6xl lg:pl-8 sm:pt-16">
                             Soluciones Financieras Integrales
                         </h1>
                         <div class="flex flex-col xs:pt-2 lg:pt-3 sm:flex-row sm:pt-5">
                             <div class="flex items-center pl-0 md:pl-1">
-                                <p class="font-body text-lg text-white xs:text-center lg:text-left lg:pl-8">
+                                <p class="font-body text-lg text-white xs:text-center lg:text-left lg:pl-8 sm:pb-64">
                                     Te acompañamos a tomar las mejores decisiones de inversión, ofreciéndote una amplia gama de instrumentos financieros según tu objetivo, plazo y perfil de riesgo.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xs:ml-2 xs:pt-20 lg:ml-196 lg:ml-30 lg:mt-20 z--1">
+                    <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xs:ml-2 xs:pt-20 lg:ml-196 lg:ml-30 lg:mt-20 z--1 sm:pt-24">
                     <div class="xs:h-56 lg:h-[38rem] lg:w-[60rem] sm:h-120 xs:w-[35rem] xs:h-56"></div>
                 </div>
                 <div class="xs:pt-0 sm:pt-10 lg:pl-8 lg:pt-0 xs:text-center">
@@ -37,22 +37,22 @@
     {{-- end slide --}}
     {{-- cards --}}
     <div class="container pt-0 pb-28 absolute inset-x-0 top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1 lg:mt-20" id="services">
-        <span class="text-white lg:text-left font-body font-bold xs:text-3xl lg:text-3xl lg:ml-24 ">
+        <span class="text-white lg:text-left font-body font-bold xs:text-3xl lg:text-3xl lg:ml-24 sm:text-3xl">
             Lo que hacemos
         </span>    
-        <div class="grid grid-cols-1 gap-y-10 gap-x-14 pt-10 sm:grid-cols-2 md:pt-12 lg:grid-cols-2 lg:mr-40 ml-24 xs:mr-6">
+        <div class="grid grid-cols-1 gap-y-10 gap-x-14 pt-10 sm:grid-cols-2 md:pt-12 lg:grid-cols-2 lg:mr-40 lg:ml-24 xs:mr-6 sm:ml-6 xs:pl-20">
             <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
                     <h3 class="text-color-cucchiara text-lg font-body font-bold text-primary lg:text-xl">
                         Administración<br/>de cartera
                     </h3>
                 </div>
-                <div class="h-24 w-24 xl:h-28 xl:w-28">
+                <div class="lg:h-24 lg:w-24 xl:h-28 xl:w-28">
                     <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon"/>
+                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                     <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon"/>
+                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
             </div>
@@ -64,10 +64,10 @@
                 </div>
                 <div class="h-24 w-24 text-center xl:h-28 xl:w-28">
                     <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_02.png') }}"alt="content marketing icon"/>
+                        <img src="{{ asset('/img/card_02.png') }}"alt="content marketing icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                     <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/card_02.png') }}"alt="content marketing icon"/>
+                        <img src="{{ asset('/img/card_02.png') }}"alt="content marketing icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
             </div>
@@ -79,10 +79,10 @@
                 </div>
                 <div class="h-24 w-24 text-center xl:h-28 xl:w-28">
                     <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_03.png') }}"alt="Mobile Application icon"/>
+                        <img src="{{ asset('/img/card_03.png') }}"alt="Mobile Application icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                     <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/card_03.png') }}"alt="Mobile Application icon"/>
+                        <img src="{{ asset('/img/card_03.png') }}"alt="Mobile Application icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
             </div>
@@ -94,10 +94,10 @@
                 </div>
                 <div class="h-24 w-24 text-center xl:h-28 xl:w-28">
                     <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_04.png') }}"alt="Email Marketing icon"/>
+                        <img src="{{ asset('/img/card_04.png') }}"alt="Email Marketing icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                     <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/card_04.png') }}"alt="Email Marketing icon"/>
+                        <img src="{{ asset('/img/card_04.png') }}"alt="Email Marketing icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
         <span class="text-center font-body lg:text-4xl xs:text-3xl font-bold text-color-cucchiara">
             Abrí tu cuenta hoy
         </span>
-        <div class="mx-auto lg:w-5/6 bg-white lg:py-20 xs:pt-1 xs:pb-2 md:w-11/12 2xl:w-full">
+        <div class="mx-auto lg:w-5/6 bg-white lg:py-20 xs:pt-1 xs:pb-2 md:w-11/12 2xl:w-full sm:pb-16">
             <div class="grid grid-cols-4 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
                 <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-center">
                     <div>
@@ -160,7 +160,7 @@
     <div class="bg-quarter" id="about">
         <div class="flex flex-row items-center justify-between py-16 lg:mx-16 md:py-20 lg:flex-row">
             <div>
-                <h2 class="font-body xs:text-base lg:text-5xl font-bold text-white xs:pl-3 lg:pl-16">
+                <h2 class="font-body xs:text-base lg:text-5xl font-bold text-white xs:pl-3 lg:pl-16 sm:pl-8">
                     ¿Qué necesitas<br>para abrir tu<br>cuenta?                  
                 </h2>
             </div>
@@ -168,21 +168,21 @@
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 lg:h-56 lg:w-72">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:hx-10 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
                                 <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
                                     <img src="{{ asset('/img/persona.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="font-body pt-3 font-semibold text-white xs:text-base lg:text-3xl">
+                                    <h3 class="font-body pt-3 font-semibold text-white xs:text-base lg:text-3xl sm:text-xl">
                                         Personas<br/>Físicas
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 lg:h-56 lg:w-72">
-                                <div class="text-left text-white xs:px-5 lg:px-9 xs:pt-1-5 lg:pt-10">
-                                    <p class="font-body xs:text-xxs">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
+                                <div class="text-left text-white xs:pt-1-5 xs:px-5 sm:px-5 sm:pt-1-5 md:px-5 md:pt-1-5 lg:px-9 lg:pt-10">
+                                    <p class="font-body xs:text-xxs sm:text-xxs lg:text-xs">
                                         · Documento de Identidad.<br/>
                                         · Verificación de domicilio.<br/>
                                         · Justificación de ingresos y patrimonio.<br/>
@@ -190,7 +190,7 @@
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-8">
-                                    <a href="" class="font-body font-bold text-a-color">Abrir cuenta</a>
+                                    <a href="" class="font-body font-bold text-a-color sm:text-xxs">Abrir cuenta</a>
                                 </div>
                             </div>
                         </div>
@@ -199,21 +199,21 @@
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 lg:h-56 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
+                                <div class="relative flex justify-center top-minus-10 xs:h-3">
                                     <img src="{{ asset('/img/contrato.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="font-body pt-3 font-semibold text-white xs:text-base lg:text-3xl">
+                                    <h3 class="font-body pt-3 font-semibold text-white xs:text-base lg:text-3xl sm:text-xl">
                                         Personas<br/>Jurídicas
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 lg:h-56 lg:w-72">
-                                <div class="text-left text-white xs:px-1 lg:px-9 xs:pt-0-5 lg:pt-2">
-                                    <p class="font-body xs:text-xxs">
+                            <div class="gradient-cucciara rounded-1 shadow xs:h-10 xs:w-12 sm:mr-8 sm:w-48 md:mr-8 md:w-40 lg:h-50 lg:w-90">
+                                <div class="text-left text-white xs:pt-1-5 xs:px-5 sm:px-5 sm:pt-1-5 md:px-5 md:pt-1-5 lg:px-9 lg:pt-10">
+                                    <p class="font-body xs:text-xxs sm:text-xxs lg:text-xs">
                                         · Actas de Directorio / Asamblea con designación de cargos.<br/>
                                         · Estatuto de la Sociedad.<br/>
                                         · Registro de accionistas actualizado.<br/>
@@ -221,13 +221,13 @@
                                         · Verificación de domicilio de la sociedad.<br/>
                                         · De los representantes de la sociedad y beneficiarios finales. 
                                     </p>
-                                    <p class="font-body xs:text-xxs pl-4">
+                                    <p class="font-body xs:text-xxs pl-4 sm:text-xxs">
                                         · Documento de identidad<br/>
                                         · Verificación de domicilio
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-8">
-                                    <a href="" class="font-body font-bold text-a-color">Abrir cuenta</a>
+                                    <a href="" class="font-body font-bold text-a-color sm:text-xxs">Abrir cuenta</a>
                                 </div>
                             </div>
                         </div>
