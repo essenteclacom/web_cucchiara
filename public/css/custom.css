@@ -1662,6 +1662,9 @@ html{
     .xxs\:top-8{
         top:2rem
     }
+    .xxs\:top-card-46{
+        top:46rem
+    }
     .xxs\:ml-2{
         margin-left:.5rem
     }
@@ -1832,8 +1835,8 @@ html{
     .xxs\:pb-48{
         padding-bottom:12rem
     }
-    .xxs\:pb-hero-48{
-        padding-bottom:24rem
+    .xxs\:pb-hero-14{
+        padding-bottom:14rem
     }
     .xxs\:pt-10{
         padding-top:2.5rem
@@ -2497,6 +2500,9 @@ html{
     }
     .lg\:mt-0{
         margin-top:0
+    }
+    .lg\:top-card-2{
+        top:60rem
     }
     .lg\:mt-5{
         margin-top:5rem

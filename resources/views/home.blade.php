@@ -6,7 +6,7 @@
     {{-- slide --}}
     <div>
         <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/background_home.png')}}')">
-            <div class="container relative z-30 pb-hero-16 sm:pb-hero-48 lg:pb-hero-48">
+            <div class="container relative z-30 xxs:pb-hero-14 pb-hero-16 sm:pb-hero-48 lg:pb-hero-48">
                 <div class="flex flex-col items-center justify-center lg:flex-row">
                     <div>
                         <h1 class="text-center font-body font-bold lg:text-4xl text-white xxs:text-2xl xxs:pt-2 xs:pt-7 sm:text-left sm:text-5xl md:text-6xl lg:pl-8 sm:pt-16">
@@ -21,13 +21,13 @@
                         </div>
                     </div>
                     <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xxs:top-8 xxs:left-4 xs:ml-2 xs:pt-20 lg:ml-196 lg:ml-30 lg:mt-20 z--1 sm:pt-24">
-                    <div class="xs:h-56 lg:h-[38rem] lg:w-[60rem] sm:h-120 xs:w-[35rem] xs:h-56"></div>
+                    <div class="xxs:h-3 xs:h-56 lg:h-[38rem] lg:w-[60rem] sm:h-120 xs:w-[35rem]"></div>
                 </div>
-                <div class="xxs:pt-2 xs:pt-0 sm:pt-10 lg:pl-8 lg:pt-0 xs:text-center">
-                    <span class="text-3xl text-white font-body font-bold xs:text-center">
+                <div class="xxs:pt-2 xs:pt-0 sm:pt-10 lg:pl-8 lg:pt-0 xxs:text-center xs:text-center">
+                    <span class="xxs:text-2xl lg:text-3xl text-white font-body font-bold">
                         Nosotros
                     </span>
-                    <p class="font-body text-lg text-white xs:text-center xs:pt-1"> 
+                    <p class="font-body xxs:text-xs lg:text-lg text-white xs:text-center xxs:pt-1 xs:pt-1"> 
                         Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
                     </p>
                 </div>
@@ -36,7 +36,7 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container pt-0 pb-28 absolute inset-x-0 top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1 lg:mt-20" id="services">
+    <div class="container pt-0 pb-28 absolute inset-x-0 xxs:top-card-46 lg:top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1 lg:mt-20" id="services">
         <span class="text-white lg:text-left font-body font-bold xs:text-3xl lg:text-3xl lg:ml-24 sm:text-3xl">
             Lo que hacemos
         </span>    
@@ -104,30 +104,30 @@
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xs:h-58 sm:h-section-43 md:h-section-43 lg:h-section-43 xl:h-section-43"></div>
+    <div class="xxs:h-58 xs:h-58 sm:h-section-43 md:h-section-43 lg:h-section-43 xl:h-section-43"></div>
     {{-- open account --}}
     <div class="container text-center" id="services">
         <span class="text-center font-body lg:text-4xl xs:text-3xl font-bold text-color-cucchiara">
             Abrí tu cuenta hoy
         </span>
-        <div class="mx-auto lg:w-5/6 bg-white lg:py-20 xs:pt-1 xs:pb-2 md:w-11/12 2xl:w-full sm:pb-16">
+        <div class="mx-auto lg:w-5/6 bg-white lg:py-20 xxs:pt-1 xs:pt-1 xxs:pb-2 xs:pb-2 md:w-11/12 2xl:w-full sm:pb-16">
             <div class="grid grid-cols-4 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
-                <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-center">
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto w-auto xs:h-4 lg:h-24" alt="icon project"/>
+                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto w-auto xxs:h-3 xs:h-4 lg:h-24" alt="icon project"/>
                     </div>
-                    <div class="pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xs:text-base lg:text-xl">
+                    <div class="pt-5 md:pl-5 md:pt-5">
+                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
                             Abrí tu<br>cuenta
                         </h4>
                     </div>
                 </div>
-                <div class="flex flex-col items-center justify-center text-center md:flex-col md:text-center">
+                <div class="flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
                         <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto w-auto xs:h-3-5 lg:h-24" alt="icon award"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xs:text-base lg:text-xl pb-8">
+                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-8">
                             Asesorate
                         </h4>
                     </div>
@@ -137,7 +137,7 @@
                         <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto w-auto xs:h-4-2 lg:h-24" alt="icon happy clients"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xs:text-base lg:text-xl">
+                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
                             Definí tu cartera<br/>de inversión
                         </h4>
                     </div>
@@ -147,7 +147,7 @@
                         <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto w-auto xs:h-4-2 lg:h-24" alt="icon puzzle"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xs:text-base lg:text-xl">
+                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
                             Monitoreá<br/>tus inversiones
                         </h4>
                     </div>
@@ -236,338 +236,7 @@
             </div> 
         </div>
     </div>
-    {{-- end need --}}
-    {{-- old --}}
-    {{-- old 
-    <div class="container py-16 md:py-20" id="services">
-        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            Here's what I'm good at
-        </h2>
-        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            These are the services Ioffer
-        </h3>
-        <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/icon-development-white.svg') }}" alt="development icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/icon-development-black.svg') }}" alt="development icon"/>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                        WEB DEVELOPMENT
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/icon-content-white.svg') }}"alt="content marketing icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/icon-content-black.svg') }}"alt="content marketing icon"/>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                        Technical Writing
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/icon-mobile-white.svg') }}"alt="Mobile Application icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/icon-mobile-black.svg') }}"alt="Mobile Application icon"/>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                        Mobile Development
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/icon-email-white.svg') }}"alt="Email Marketing icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/icon-email-black.svg') }}"alt="Email Marketing icon"/>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                        Email Development
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/icon-design-white.svg') }}"alt="Theme Design icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/icon-design-black.svg') }}"alt="Theme Design icon"/>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                        Graphic Design
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/icon-graphics-white.svg') }}"alt="Graphic Design icon"/>
-                    </div>
-                    <div class="block group-hover:hidden">
-                        <img src="{{ asset('/img/icon-graphics-black.svg') }}"alt="Graphic Design icon"/>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                        Web Design
-                    </h3>
-                    <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container py-16 md:py-20" id="portfolio">
-        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            Check out my Portfolio
-        </h2>
-        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Here's what I have done with the past
-        </h3>
-        <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="{{ asset('/img/portfolio-apple.jpeg') }}" class="w-full shadow" alt="portfolio image"/>
-            </a>
-            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="{{ asset('/img/portfolio-stripe.jpeg') }}" class="w-full shadow" alt="portfolio image" />
-            </a>
-            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="{{ asset('/img/portfolio-fedex.jpeg') }}" class="w-full shadow" alt="portfolio image"/>
-            </a>
-            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="{{ asset('/img/portfolio-microsoft.jpeg') }}" class="w-full shadow" alt="portfolio image"/>
-            </a>
-        </div>
-    </div>
-    <div class="bg-grey-50" id="clients">
-        <div class="container py-16 md:py-20">
-            <div class="mx-auto w-full sm:w-3/4 lg:w-full">
-                <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-                    My latest clients
-                </h2>
-                <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
-                    <span class="m-8 block">
-                        <img src="{{ asset('/img/logo-coca-cola.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
-                    </span>
-                    <span class="m-8 block">
-                        <img src="{{ asset('/img/logo-apple.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
-                    </span>
-                    <span class="m-8 block">
-                        <img src="{{ asset('/img/logo-netflix.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
-                    </span>
-                    <span class="m-8 block">
-                        <img src="{{ asset('/img/logo-amazon.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
-                    </span>
-                    <span class="m-8 block">
-                        <img src="{{ asset('/img/logo-stripe.svg') }}"alt="client logo" class="mx-auto block h-12 w-auto"/>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container py-16 md:py-20" id="work">
-        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            My work experience
-        </h2>
-        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Here's what I did before freelancing
-        </h3>
-        <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
-            <span class="left-2/5 absolute inset-y-0 ml-10 hidden w-0.5 bg-grey-40 md:block"></span>
-            <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
-                <div class="md:w-2/5">
-                    <div class="flex justify-center md:justify-start">
-                        <span class="shrink-0">
-                            <img src="{{ asset('/img/logo-spotify.svg') }}"class="h-auto w-32" alt="company logo"/>
-                        </span>
-                        <div class="relative ml-3 hidden w-full md:block">
-                            <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-3/5">
-                    <div class="relative flex md:pl-18">
-                        <span class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
-                        <div class="mt-1 flex">
-                            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
-                            <div class="md:-mt-1 md:pl-8">
-                                <span class="block font-body font-bold text-grey-40">Apr 2015 - Mar 2018</span>
-                                <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Frontend Developer</span>
-                                <div class="pt-2">
-                                    <span class="block font-body text-black">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim.
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
-                <div class="md:w-2/5">
-                    <div class="flex justify-center md:justify-start">
-                        <span class="shrink-0">
-                            <img src="{{ asset('/img/logo-microsoft.svg') }}"class="h-auto w-32" alt="company logo"/>
-                        </span>
-                        <div class="relative ml-3 hidden w-full md:block">
-                            <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-3/5">
-                    <div class="relative flex md:pl-18">
-                        <span class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
-                        <div class="mt-1 flex">
-                            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
-                            <div class="md:-mt-1 md:pl-8">
-                                <span class="block font-body font-bold text-grey-40">Mar 2018 - September 2019</span>
-                                <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Software Engineer</span>
-                                <div class="pt-2">
-                                    <span class="block font-body text-black"> 
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim.
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
-                <div class="md:w-2/5">
-                    <div class="flex justify-center md:justify-start">
-                        <span class="shrink-0">
-                            <img src="{{ asset('/img/logo-fedex.svg') }}"class="h-auto w-32" alt="company logo"/>
-                        </span>
-                        <div class="relative ml-3 hidden w-full md:block"> 
-                            <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-3/5">
-                    <div class="relative flex md:pl-18">
-                        <span class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
-                        <div class="mt-1 flex">
-                            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
-                            <div class="md:-mt-1 md:pl-8">
-                                <span class="block font-body font-bold text-grey-40">
-                                    October 2019 - Feb 2021
-                                </span>
-                                <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
-                                    DevOps Engineer
-                                </span>
-                                <div class="pt-2">
-                                    <span class="block font-body text-black">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim.
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24" style="background-image: url({{ asset('/img/experience-figure.png')}})" id="statistics">
-        <div class="container">
-            <div class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
-                <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
-                    <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
-                        <div>
-                            <img src="{{ asset('/img/icon-project.svg') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon project"/>
-                        </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                                12
-                            </h1>
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                                Finished Projects
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
-                        <div>
-                            <img src="{{ asset('/img/icon-award.svg') }}" class="mx-auto h-12 w-auto md:h-20" alt="icon award"/>
-                        </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                                3
-                            </h1>
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                                Awards Won
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                        <div>
-                            <img src="{{ asset('/img/icon-happy.svg') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon happy clients"/>
-                        </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                                8
-                            </h1>
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                                Happy Clients
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                        <div>
-                            <img src="{{ asset('/img/icon-puzzle.svg') }}"class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle"/>
-                        </div>
-                        <div class="pt-5 md:pl-5 md:pt-0">
-                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                                99
-                            </h1>
-                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                                Bugs Fixed
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>--}}
-     {{-- end old --}} 
+    {{-- end need --}} 
      {{-- last research --}}
     <div class="bg-white" id="blog">
         <div class="container py-16 md:py-20">
@@ -624,7 +293,7 @@
     <div class="bg-quarter" id="clients">
         <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center">
             <div>
-                <h2 class="text-white font-header xs:text-3xl lg:text-5xl font-bold">
+                <h2 class="text-white font-header xxs:text-2xl xs:text-3xl lg:text-5xl font-bold">
                     Recibí nuestros<br/>informes
                 </h2>
             </div>
