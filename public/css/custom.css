@@ -1649,12 +1649,12 @@ html{
 .group:hover .group-hover\:opacity-50{
     opacity:.5
 }
-@media (min-width:300px){
+@media screen and (min-width:300px) and (max-width: 559px){
     .xxs\:left-4{
         left:1rem
     }
     .xxs\:w-custom-logo{
-        width:5rem
+        width:10rem
     }
     .xxs\:pl-20{
         padding-left:5rem
@@ -1931,7 +1931,7 @@ html{
         gap:1rem
     }
 }
-@media (min-width:560px){
+@media screen and (min-width:560px) and (max-width: 639px){
     .xs\:pl-20{
         padding-left:5rem
     }
@@ -2204,7 +2204,10 @@ html{
         gap:1rem
     }
 }
-@media (min-width:640px){
+@media screen and (min-width:640px)and (max-width: 767px){
+    .sm\:w-custom-logo{
+        width:17rem
+    }
     .sm\:max-w-4rem{
         max-width: 4rem
     }
@@ -2336,7 +2339,10 @@ html{
         line-height:2.25rem
     }
 }
-@media (min-width:768px){
+@media screen and (min-width:768px) and (max-width: 1023px){
+    .md\:w-custom-logo{
+        width:15rem
+    }
     .md\:mr-8{
         margin-right:2rem
     }
@@ -2494,7 +2500,10 @@ html{
         line-height:2.25rem
     }
 }
-@media (min-width:1024px){
+@media screen and (min-width:1024px)  and (max-width: 1279px){ 
+    .lg\:ml-120 {
+        margin-left: 31rem;
+    }
     .lg\:top-96 {
         top: 24rem;
     }
@@ -2515,6 +2524,9 @@ html{
     }
     .lg\:ml-32 {
         margin-left: 8rem;
+    }
+    .lg\:ml-27rem {
+        margin-left: 27rem;
     }
     .lg\:ml-30 {
         margin-left: 30rem;
@@ -2695,7 +2707,13 @@ html{
         gap:3rem
     }
 }
-@media (min-width:1280px){
+@media screen and (min-width:1280px) and (max-width: 1535px){
+    .xl\:ml-120 {
+        margin-left: 31rem;
+    }
+    .xl\:w-custom-logo{
+        width:20rem
+    }
     .xl\:h-28{
         height:7rem
     }

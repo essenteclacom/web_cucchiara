@@ -20,7 +20,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xxs:top-8 xxs:left-4 xs:ml-2 xs:pt-20 lg:ml-196 lg:ml-30 lg:mt-20 z--1 sm:pt-24">
+                    <img src="img/Cucchiara_Animacion_01.gif" class="img-responsive absolute xxs:top-8 xxs:left-4 xs:ml-2 xs:pt-20 lg:pl-80 lg:mt-0 z--1 sm:pt-24">
                     <div class="xxs:h-3 xs:h-56 lg:h-[38rem] lg:w-[60rem] sm:h-120 xs:w-[35rem]"></div>
                 </div>
                 <div class="xxs:pt-2 xs:pt-0 sm:pt-10 lg:pl-8 lg:pt-0 xxs:text-center xs:text-center">
@@ -36,7 +36,7 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container pt-0 pb-28 absolute inset-x-0 xxs:top-card-46 lg:top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1 lg:mt-20" id="services">
+    <div class="container pt-0 pb-28 absolute inset-x-0 xxs:top-card-46 lg:top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1 lg:mt-[-15rem]" id="services">
         <span class="text-white lg:text-left font-body font-bold xs:text-3xl lg:text-3xl lg:ml-24 sm:text-3xl">
             Lo que hacemos
         </span>    

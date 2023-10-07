@@ -37,7 +37,7 @@
                     <div class="container flex items-center justify-between xs:container">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-custom-logo lg:w-custom-logo xs:w-2/5 " alt="logo image"/>
+                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-custom-logo xs:w-custom-logo sm:w-custom-logo md:w-custom-logo lg:w-custom-logo xl:w-custom-logo xs:w-2/5 " alt="logo image"/>
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
@@ -174,16 +174,16 @@
                                 <div class="pt-1 xs:pb-2">
                                     <img src="{{ asset('/img/Logo_Color-01.png') }}" class="xs:w-8 sm:w-48 md:w-48 lg:w-48" alt="logo image"/>
                                 </div>
-                                <div class="xs:pb-2 border-t-footer">
+                                <div class="xs:pb-2 border-t-footer lg:ml-44 xl:ml-44">
                                     <a href="/regulations">
                                         <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                                     </a>
                                 </div>
-                                <div class="pt-1 xs:pb-2 border-t-footer">
+                                <div class="pt-1 xs:pb-2 border-t-footer lg:ml-52 xl:ml-52">
                                     info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
                                 </div>
                             </div>
-                            <div class="flex xs:flex-col-reverse lg:flex-row xs:mr-5">
+                            <div class="flex xs:flex-col-reverse lg:flex-row xs:mr-5 lg:mr-8 xl:mr-8">
                                 <div class="pt-1 xs:pb-2 border-t-footer xs:mb-16">
                                     <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
                                     <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
