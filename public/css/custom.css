@@ -381,9 +381,9 @@ select{
     width:100%
 }
 @media (min-width:375px){
-    /*.container{
+    .container{
         max-width:375px
-    }*/
+    }
 }
 @media (min-width:640px){
     /* .container{
@@ -2708,6 +2708,9 @@ html{
     }
 }
 @media screen and (min-width:1280px) and (max-width: 1535px){
+    .xl\:top-card-2 {
+        top:60rem
+    }
     .xl\:ml-120 {
         margin-left: 31rem;
     }

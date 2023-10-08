@@ -36,7 +36,7 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container pt-0 pb-28 absolute inset-x-0 xxs:top-card-46 lg:top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1 lg:mt-[-15rem]" id="services">
+    <div class="container pt-0 pb-28 absolute inset-x-0 xxs:top-card-46 lg:top-card-2 xl:top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1" id="services">
         <span class="text-white lg:text-left font-body font-bold xs:text-3xl lg:text-3xl lg:ml-24 sm:text-3xl">
             Lo que hacemos
         </span>    
@@ -221,7 +221,7 @@
                                         · Verificación de domicilio de la sociedad.<br/>
                                         · De los representantes de la sociedad y beneficiarios finales. 
                                     </p>
-                                    <p class="font-body xs:text-xxs pl-4 sm:text-xxs">
+                                    <p class="font-body xs:text-xxs pl-4 sm:text-xxs lg:text-xs">
                                         · Documento de identidad<br/>
                                         · Verificación de domicilio
                                     </p>

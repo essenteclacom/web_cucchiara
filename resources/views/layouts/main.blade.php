@@ -184,7 +184,7 @@
                                 </div>
                             </div>
                             <div class="flex xs:flex-col-reverse lg:flex-row xs:mr-5 lg:mr-8 xl:mr-8">
-                                <div class="pt-1 xs:pb-2 border-t-footer xs:mb-16">
+                                <div class="pt-1 xs:pb-2 border-t-footer xs:mb-16 lg:mr-8 xl:mr-8">
                                     <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
                                     <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
                                 </div>
