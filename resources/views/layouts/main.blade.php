@@ -169,60 +169,72 @@
                 {{-- footer --}}
                 <div class="bg-footer">
                     <div class="container py-6">
-                        <div class="flex justify-between py-6">
-                            <div class="flex xs:flex-col lg:flex-row xs:ml-5">
-                                <div class="pt-1 xs:pb-2">
-                                    <img src="{{ asset('/img/Logo_Color-01.png') }}" class="xs:w-8 sm:w-48 md:w-48 lg:w-48" alt="logo image"/>
+                        <div class="flex justify-center content-start py-6">
+                            <div class="flex xxs:flex-col xs:flex-col lg:flex-row">
+                                <div class="pt-1 xs:pb-2 md:mx-12 lg:mx-20">
+                                    <img src="{{ asset('/img/Logo_Color-01.png') }}" class="xxs:w-8 xs:w-8 sm:w-48 md:w-48 lg:w-48" alt="logo image"/>
                                 </div>
-                                <div class="xs:pb-2 border-t-footer lg:ml-44 xl:ml-44">
+                                <div class="xs:pb-2 border-t-footer md:mx-12 lg:mx-20">
                                     <a href="/regulations">
                                         <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                                     </a>
                                 </div>
-                                <div class="pt-1 xs:pb-2 border-t-footer lg:ml-52 xl:ml-52">
+                                <div class="pt-1 xs:pb-2 border-t-footer md:mx-12 lg:mx-20">
                                     info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
                                 </div>
                             </div>
-                            <div class="flex xs:flex-col-reverse lg:flex-row xs:mr-5 lg:mr-8 xl:mr-8">
-                                <div class="pt-1 xs:pb-2 border-t-footer xs:mb-16 lg:mr-8 xl:mr-8">
+                            <div class="flex xxs:flex-col xs:flex-col md:mx-12 lg:flex-row">
+                                <div class="flex flex-row pt-1 xs:pb-2 border-t-footer xs:mb-16 lg:mx-20">
                                     <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
                                     <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
                                 </div>
-                                <div class="xs:pb-2">
+                                <div class="xs:pb-2 md:mx-12 lg:mx-20">
                                     <img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_data_fiscal"/>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex justify-between py-6">
-                            <div class="flex xs:flex-col lg:flex-row">
+                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
+                            <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/Byma.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_01"/></div>
                                 </a>
+                            </div>
+                            <div>
                                 <a href="https://cajadevalores.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/caja.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_02"/></div>
                                 </a>
+                            </div>
+                            <div>
                                 <a href="https://www.matbarofex.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/Matba.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_03"/></div>
                                 </a>
                             </div>
-                            <div class="flex xs:flex-col lg:flex-row">
+                            <div>
                                 <a href="https://www.mae.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/Mae.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_04"/></div>
                                 </a>
+                            </div>
+                            <div>
                                 <a href="https://www.mav-sa.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/Mav.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_05"/></div>
                                 </a>
+                            </div>
+                            <div>
                                 <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
                                     <div><img src="{{ asset('/img/Emta.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_06"/></div>
                                 </a>
                             </div>
-                            <div class="flex xs:flex-col lg:flex-row">
+                            <div>
                                 <a href="http://www.cadab.org.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/CAMARA.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
                                 </a>
+                            </div>
+                            <div>
                                 <a href="https://www.bcra.gob.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/Banco central.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_07"/></div>
                                 </a>
+                            </div>
+                            <div>
                                 <a href="http://www.cnv.gov.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/CNV.png') }}" class="w-2\/3 lg:w-2\/3" alt="footer_08"/></div>
                                 </a>

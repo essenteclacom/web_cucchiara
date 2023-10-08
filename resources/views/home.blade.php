@@ -36,7 +36,7 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container pt-0 pb-28 absolute inset-x-0 xxs:top-card-46 lg:top-card-2 xl:top-card-2 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1" id="services">
+    <div class="container pt-0 pb-28 absolute inset-x-0 xxs:top-card-46 lg:top-card-2 xl:top-card-62 fieldset z-30 lg:pl-12 xs:text-center xs:mt-1" id="services">
         <span class="text-white lg:text-left font-body font-bold xs:text-3xl lg:text-3xl lg:ml-24 sm:text-3xl">
             Lo que hacemos
         </span>    
@@ -104,7 +104,7 @@
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-58 xs:h-58 sm:h-section-43 md:h-section-43 lg:h-section-43 xl:h-section-43"></div>
+    <div class="xxs:h-58 xs:h-58 sm:h-section-43 md:h-section-43 lg:h-section-43 xl:h-section-30"></div>
     {{-- open account --}}
     <div class="container text-center" id="services">
         <span class="text-center font-body lg:text-4xl xs:text-3xl font-bold text-color-cucchiara">
