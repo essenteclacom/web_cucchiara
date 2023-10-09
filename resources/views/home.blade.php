@@ -158,7 +158,7 @@
     {{-- end open account --}}
     {{-- need --}}
     <div class="bg-quarter" id="about">
-        <div class="flex flex-row items-center justify-between py-16 lg:mx-16 md:py-20 lg:flex-row">
+        <div class="flex flex-row items-center justify-between py-16 md:py-20 lg:flex-row container">
             <div>
                 <h2 class="font-body xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white xs:pl-3 lg:pl-16 sm:pl-8">
                     ¿Qué necesitas<br>para abrir tu<br>cuenta?                  
