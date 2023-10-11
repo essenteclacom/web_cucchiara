@@ -1025,6 +1025,9 @@ html{
     -ms-flex-pack:justify;
     justify-content:space-between
 }
+.justify-start-custom {
+    justify-content: start
+}
 .gap-6{
     gap:1.5rem
 }
@@ -1358,12 +1361,6 @@ html{
 .pb-16{
     padding-bottom:4rem
 }
-.pb-hero-16{
-    padding-bottom:18rem
-}
-.pb-hero-9{
-    padding-bottom:9rem
-}
 .pt-16{
     padding-top:4rem
 }
@@ -1418,11 +1415,14 @@ html{
 .font-bold{
     font-weight:700
 }
-.font-800-bold{
+.font-bolder{
     font-weight:800
 }
 .font-medium{
     font-weight:500
+}
+.font-normal{
+    font-weight:100
 }
 .uppercase{
     text-transform:uppercase
@@ -1619,10 +1619,156 @@ html{
 .group:hover .group-hover\:opacity-50{
     opacity:.5
 }
-@media (min-width:300px) {
-    .container{
+ul, ol {
+    list-style:none;
+}
+.nav-lang > li {
+    float:left;
+}
+.nav-lang li button {
+    background-color:#ffffff;
+    text-decoration:none;
+    padding: 5px 36px 5px 12px;
+    display:block;
+}
+.nav-lang li ul {
+    display:none;
+    position:absolute;
+    min-width:125px;
+}
+.nav-lang li:hover > ul {
+    display:block;
+}
+.nav-lang li ul li {
+    position:relative;
+}
+.nav-lang li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.nav-lang li ul li ul li ul{
+    right:-346px;
+    top:0px;
+}
+
+/* Menú research */
+.menu li a:hover {
+    background-color:#ECFAFF;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
+.menu ul ul {
+    overflow: auto;
+    transition: max-height 0.3s ease-in-out;
+    position: relative;
+}
+.hide-sub-menu {
+    display: none;
+    max-height: 0;
+}
+.show-sub-menu {
+    display: block;
+    max-height: 200px;
+}
+.menu li.active > .ul-menu {
+    display: block;
+}
+.right-scroll {
+    direction: rtl;
+    text-align: left;
+    overflow: auto;
+    scrollbar-color: #ECFAFF;
+    scrollbar-width: auto;
+}
+.right-scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.right-scroll::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+.right-scroll::-webkit-scrollbar-thumb {
+    background-color: #ECFAFF;
+}
+.right-scroll::-webkit-scrollbar-button:vertical:start:decrement {
+    background: #fff url("/img/arrow_up.svg") no-repeat center center;
+}
+.right-scroll::-webkit-scrollbar-button:vertical:end:increment {
+    background: #fff url("/img/arrow_down.svg") no-repeat center center;
+}
+
+/*CSS to animated underline un header menu*/
+.w3rcontainer{
+    border: 1px solid rgb(17, 32, 140);
+    border-radius: 2px;
+ } 
+ .hover-underline-animation {
+   display: inline-block;
+   position: relative;
+   color:rgb(17, 32, 140);
+ }
+ 
+ .hover-underline-animation:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: rgb(17, 32, 140);
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .hover-underline-animation:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+/*CSS to animated flip 3d cards*/
+.wrapper-card, .single-card {
+	position: relative; 
+}
+.wrapper-card {
+	perspective: 900px;
+}
+.single-card {
+	transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+	transform-style: preserve-3d;
+}
+.wrapper-card:hover .single-card {
+	transform: rotateY(180deg);
+}
+.front-card, .back-card {
+	position: relative;
+	top: 0;
+	left: 0; 
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.front-card {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.back-card {
+	transform: rotateY(180deg);
+	position: absolute;
+}
+
+/*xxs*/
+@media screen and (min-width:300px) {
+    /*.container{
         max-width:300px
-    }
+    }*/
     .xxs\:left-4{
         left:1rem
     }
@@ -1647,14 +1793,17 @@ html{
     .xxs\:ml-5 {
         margin-left: 3rem;
     }
-    .xxs\:mt-0{
-        margin-top:0
-    }
     .xxs\:mb-16 {
         margin-bottom: 4rem;
     }
+    .xxs\:mt-0{
+        margin-top:0
+    }
     .xxs\:mt-1{
         margin-top:1rem
+    }
+    .xs\:mt-10{
+        margin-top:2.5rem
     }
     .xxs\:mr-4{
         margin-right: 2rem;
@@ -1666,6 +1815,10 @@ html{
         margin-right: 6rem;
     }
     .xxs\:mx-1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .xs\:mx-4 {
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -1687,8 +1840,8 @@ html{
     .xxs\:h-7{
         height:7rem
     }
-    .xxs\:h-10{
-        height:10rem
+    .xxs\:h-44{
+        height:11rem
     }
     .xxs\:h-56{
         height:14rem
@@ -1705,7 +1858,7 @@ html{
     .xxs\:w-8{
         width:8rem
     }
-    .xxs\:w-12{
+    .xxs\:w-48{
         width:12rem
     }
     .xxs\:w-18 {
@@ -1775,7 +1928,7 @@ html{
     .xxs\:pt-0-5{
         padding-top:0.5rem
     }
-    .xxs\:pt-1-5{
+    .xxs\:pt-6{
         padding-top:1.5rem
     }
     .xxs\:pt-2{
@@ -1799,14 +1952,11 @@ html{
     .xxs\:pb-1{
         padding-bottom:1rem
     }
-    .xxs\:pb-2{
+    .xxs\:pb-8{
         padding-bottom:2rem
     }
     .xxs\:pb-48{
         padding-bottom:12rem
-    }
-    .xxs\:pb-hero-14{
-        padding-bottom:14rem
     }
     .xxs\:pt-10{
         padding-top:2.5rem
@@ -1907,6 +2057,7 @@ html{
         gap:1rem
     }
 }
+/*xs*/
 @media screen and (min-width:560px) {
     .container{
         max-width:560px
@@ -1926,14 +2077,17 @@ html{
     .xs\:ml-5 {
         margin-left: 3rem;
     }
-    .xs\:mt-0{
-        margin-top:0
-    }
     .xs\:mb-16 {
         margin-bottom: 4rem;
     }
+    .xs\:mt-0{
+        margin-top:0
+    }
     .xs\:mt-1{
         margin-top:1rem
+    }
+    .xs\:mt-10{
+        margin-top:2.5rem
     }
     .xs\:mr-4{
         margin-right: 2rem;
@@ -1944,7 +2098,11 @@ html{
     .xs\:mr-6{
         margin-right: 6rem;
     }
-    .xs\:mx-1 {
+    .xs\:mx-2 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .xs\:mx-4 {
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -1966,8 +2124,8 @@ html{
     .xs\:h-7{
         height:7rem
     }
-    .xs\:h-10{
-        height:10rem
+    .xs\:h-44{
+        height:11rem
     }
     .xs\:h-56{
         height:14rem
@@ -1984,7 +2142,7 @@ html{
     .xs\:w-8{
         width:8rem
     }
-    .xs\:w-12{
+    .xs\:w-48{
         width:12rem
     }
     .xs\:w-18 {
@@ -2054,13 +2212,13 @@ html{
     .xs\:pt-0-1{
         padding-top:0.1rem
     }
-    .xs\:pt-0-5{
+    .xs\:pt-2{
         padding-top:0.5rem
     }
-    .xs\:pt-1-5{
+    .xs\:pt-6{
         padding-top:1.5rem
     }
-    .xs\:pt-2{
+    .xs\:pt-14{
         padding-top:3.5rem
     }
     .xs\:pt-7{
@@ -2081,14 +2239,11 @@ html{
     .xs\:pb-1{
         padding-bottom:1rem
     }
-    .xs\:pb-2{
+    .xs\:8{
         padding-bottom:2rem
     }
     .xs\:pb-48{
         padding-bottom:12rem
-    }
-    .xs\:pb-hero-48{
-        padding-bottom:24rem
     }
     .xs\:pt-10{
         padding-top:2.5rem
@@ -2186,6 +2341,7 @@ html{
         gap:1rem
     }
 }
+/*sm*/
 @media screen and (min-width:640px) {
     .container{
         max-width:640px
@@ -2272,7 +2428,7 @@ html{
         padding-bottom:1rem;
         padding-top:1rem
     }
-    .sm\:pt-1-5{
+    .sm\:pt-6{
         padding-top:1.5rem
     }
     .sm\:pt-0{
@@ -2289,9 +2445,6 @@ html{
     }
     .sm\:pb-64{
         padding-bottom:16rem
-    }
-    .sm\:pb-hero-48{
-        padding-bottom:24rem
     }
     .sm\:pt-16{
         padding-top:4rem
@@ -2327,12 +2480,16 @@ html{
         grid-template-columns:repeat(3,minmax(0,1fr))
     }
 }
+/*md*/
 @media screen and (min-width:768px) {
     .container{
         max-width:768px
     }
     .md\:w-custom-logo{
         width:15rem
+    }
+    .md\:top-card-53{
+        top:53rem
     }
     .md\:mr-8{
         margin-right:2rem
@@ -2437,7 +2594,7 @@ html{
         padding-bottom:4rem;
         padding-top:4rem
     }
-    .md\:pt-1-5{
+    .md\:pt-6{
         padding-top:1.5rem
     }
     .md\:pt-10{
@@ -2495,6 +2652,7 @@ html{
         line-height:2.25rem
     }
 }
+/*lg*/
 @media screen and (min-width:1024px) { 
     .container{
         max-width:1024px
@@ -2508,8 +2666,8 @@ html{
     .lg\:mt-0{
         margin-top:0
     }
-    .lg\:top-card-2{
-        top:60rem
+    .lg\:top-card-66{
+        top:66rem
     }
     .lg\:mt-5{
         margin-top:5rem
@@ -2529,10 +2687,6 @@ html{
     .lg\:ml-30 {
         margin-left: 30rem;
     }
-    /*.lg\:mx-20 {
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }*/
     .lg\:mx-32 {
         margin-left: 8rem;
         margin-right: 8rem;
@@ -2705,9 +2859,6 @@ html{
     .lg\:leading-9{
         line-height:2.25rem
     }
-    .lg\:pb-hero-48 {
-        padding-bottom: 24rem;
-    }
     .lg\:grid-cols-5{
         grid-template-columns:repeat(5,minmax(0,1fr))
     }
@@ -2718,12 +2869,13 @@ html{
         gap:3rem
     }
 }
+/*xl*/
 @media screen and (min-width:1280px) {
     .container{
         max-width:1280px
     }
-    .xl\:top-card-62 {
-        top:62rem
+    .xl\:top-card-77 {
+        top:77rem
     }
     .xl\:ml-120 {
         margin-left: 31rem;
@@ -2774,6 +2926,7 @@ html{
         line-height:2.25rem
     }
 }
+/*2xl*/
 @media screen and (min-width:1536px) {
     .container{
         max-width:1536px
@@ -2781,149 +2934,4 @@ html{
     /*.\32xl\:w-full{
         width:100%
     }*/
-}
-
-ul, ol {
-    list-style:none;
-}
-.nav-lang > li {
-    float:left;
-}
-.nav-lang li button {
-    background-color:#ffffff;
-    text-decoration:none;
-    padding: 5px 36px 5px 12px;
-    display:block;
-}
-.nav-lang li ul {
-    display:none;
-    position:absolute;
-    min-width:125px;
-}
-.nav-lang li:hover > ul {
-    display:block;
-}
-.nav-lang li ul li {
-    position:relative;
-}
-.nav-lang li ul li ul {
-    right:-140px;
-    top:0px;
-}
-.nav-lang li ul li ul li ul{
-    right:-346px;
-    top:0px;
-}
-
-/* Menú research */
-.menu li a:hover {
-    background-color:#ECFAFF;
-}
-.menu ul {
-    list-style: none;
-    padding: 0;
-}
-.menu a {
-    text-decoration: none;
-    display: block;
-    background-color: #ffffff;
-    transition: background-color 0.3s;
-}
-.menu ul ul {
-    overflow: auto;
-    transition: max-height 0.3s ease-in-out;
-    position: relative;
-}
-.hide-sub-menu {
-    display: none;
-    max-height: 0;
-}
-.show-sub-menu {
-    display: block;
-    max-height: 200px;
-}
-.menu li.active > .ul-menu {
-    display: block;
-}
-.right-scroll {
-    direction: rtl;
-    text-align: left;
-    overflow: auto;
-    scrollbar-color: #ECFAFF;
-    scrollbar-width: auto;
-}
-.right-scroll::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-.right-scroll::-webkit-scrollbar-track {
-    background-color: #fff;
-}
-.right-scroll::-webkit-scrollbar-thumb {
-    background-color: #ECFAFF;
-}
-.right-scroll::-webkit-scrollbar-button:vertical:start:decrement {
-    background: #fff url("/img/arrow_up.svg") no-repeat center center;
-}
-.right-scroll::-webkit-scrollbar-button:vertical:end:increment {
-    background: #fff url("/img/arrow_down.svg") no-repeat center center;
-}
-
-/*CSS to animated underline un header menu*/
-.w3rcontainer{
-    border: 1px solid rgb(17, 32, 140);
-    border-radius: 2px;
- } 
- .hover-underline-animation {
-   display: inline-block;
-   position: relative;
-   color:rgb(17, 32, 140);
- }
- 
- .hover-underline-animation:after {
-   content: '';
-   position: absolute;
-   width: 100%;
-   transform: scaleX(0);
-   height: 2px;
-   bottom: 0;
-   left: 0;
-   background-color: rgb(17, 32, 140);
-   transform-origin: bottom right;
-   transition: transform 0.25s ease-out;
- }
- 
- .hover-underline-animation:hover:after {
-   transform: scaleX(1);
-   transform-origin: bottom left;
- }
-
-/*CSS to animated flip 3d cards*/
-.wrapper-card, .single-card {
-	position: relative; 
-}
-.wrapper-card {
-	perspective: 900px;
-}
-.single-card {
-	transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
-	transform-style: preserve-3d;
-}
-.wrapper-card:hover .single-card {
-	transform: rotateY(180deg);
-}
-.front-card, .back-card {
-	position: relative;
-	top: 0;
-	left: 0; 
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.front-card {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.back-card {
-	transform: rotateY(180deg);
-	position: absolute;
 }

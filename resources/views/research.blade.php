@@ -105,7 +105,7 @@
         <div class="bg-search">
             <div class="container">
                 <div class="relative top-minus-2">
-                    <h2 class="text-color-cucchiara text-left font-header text-2xl font-800-bold">
+                    <h2 class="text-color-cucchiara text-left font-header text-2xl font-bolder">
                         Buscar Informes
                     </h2>
                 </div>
