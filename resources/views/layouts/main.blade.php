@@ -163,7 +163,7 @@
                 {{-- end contact --}}
                 {{-- map --}}
                 <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
-                <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96" style="background-image: url({{ asset('/img/map.png')}})"></div>
+                    <div class="bg-cover bg-center bg-no-repeat xxs:h-64 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:h-[37rem]" style="background-image: url({{ asset('/img/map.png')}})"></div>
                 </a>
                 {{-- end map --}}
                 {{-- footer --}}
