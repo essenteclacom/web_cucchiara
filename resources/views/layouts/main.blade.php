@@ -37,7 +37,7 @@
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-custom-logo xs:w-custom-logo sm:w-custom-logo md:w-custom-logo lg:w-custom-logo xl:w-custom-logo xs:w-2/5 " alt="logo image"/>
+                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-40 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-72" alt="logo image"/>
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
@@ -136,23 +136,23 @@
                 <div class="bg-contact">
                     <div class="container bg-contact" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
-                            <h2 class="text-color-cucchiara text-left font-header xs:text-3xl lg:text-5xl font-bolder text-primary xs:ml-4 lg:ml-32">
+                            <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary xs:ml-4 lg:ml-32">
                                 Contacto
                             </h2>
                         </div>
                         <form class="mx-auto w-full pt-10">
-                            <div class="flex flex-row items-center justify-center">
-                                <div class="flex flex-col md:flex-col mr-14">
-                                    <input class="xs:w-contact-input w-contact-input rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                                    <input class="xs:w-contact-input w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
-                                    <input class="xs:w-contact-input w-contact-input rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Teléfono*" type="text" id="phone"/>
+                            <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-center">
+                                <div class="flex flex-col md:flex-col xxs:mr-0 sm:mr-14">
+                                    <input class="xxs:w-96 xs:w-96 rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                    <input class="xxs:w-96 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
+                                    <input class="xxs:w-96 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" id="phone"/>
                                 </div>
                                 <div>
-                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" id="message" cols="50" rows="7"></textarea>
+                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" id="message" cols="42" rows="7"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
-                                <button class="mt-6 flex items-center justify-center rounded px-8 py-3 font-header text-lg font-bold text-grey-custom hover:underline-offset-2 mr-24">
+                                <button class="mt-6 flex items-center justify-center rounded px-8 py-3 font-body text-lg font-bold text-grey-custom hover:underline-offset-2 mr-24">
                                     Enviar
                                     <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
                                 </button>

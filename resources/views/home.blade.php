@@ -6,30 +6,30 @@
     {{-- slide --}}
     <div>
         <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/background_home.png')}}')">
-            <div class="container relative z-30 xxs:pb-96 xs:pb-96 sm:pb-96 md:pb-96 lg:pb-96">
-                <div class="sm:text-left xs:text-center md:text-left lg:text-left">
-                    <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-5xl md:text-4xl lg:text-4xl xl:text-5xl xxs:pt-2 xs:pt-7 sm:pt-16 xl:pt-32">
+            <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
+                <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
+                    <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
                         Soluciones financieras<br/>integrales
                     </h1>
-                    <div class="flex xxs:pt-7 xs:pt-14 sm:pt-5 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
-                        <p class="font-body text-white font-normal xxs:text-xs md:text-lg lg:text-lg xl:text-2xl">
+                    <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
+                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
                             Te acompañamos a tomar las mejores decisiones de inversión,<br/>
                             ofreciéndote una amplia gama de instrumentos financieros<br/>
                             según tu objetivo, plazo y perfil de riesgo.
                         </p>
                     </div>
-                    <div class="absolute -top-20 -right-20">
-                        <img src="img/Cucchiara_Animacion_01.gif" class="z--1 xl:w-[76rem]">
+                    <div class="absolute -top-20 right-0">
+                        <img src="img/Cucchiara_Animacion_01.gif" class="xxs:hidden xs:hidden sm:hidden md:block z--1 xl:w-[76rem]">
                     </div>
-                    <div class="xxs:h-3 xs:h-56 lg:w-[60rem] sm:h-120 xs:w-[35rem] md:h-48 lg:h-80 xl:h-96"></div>
+                    <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
                         Nosotros
                     </span>
-                    <div class="md:pt-8 lg:pt-8 xl:pt-8">
-                        <p class="font-body text-white font-normal xxs:text-xs md:text-lg lg:text-lg xl:text-2xl">
-                            Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
+                    <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
+                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
+                            <span class="font-bold">Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación</span> que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
                         </p>
                     </div>
                 </div>
@@ -38,67 +38,55 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container pb-28 absolute inset-x-0 fieldset z-30 xs:text-center md:text-left lg:text-left xl:text-left xs:mt-1 xxs:top-card-46 md:top-card-53 lg:top-card-66 xl:top-card-77">
+    <div class="container absolute inset-x-0 fieldset z-30 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-48 lg:-mt-48 xl:-mt-48">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             Lo que hacemos
         </span>    
-        <div class="grid grid-cols-1 gap-y-10 gap-x-14 pt-10 sm:grid-cols-2 md:pt-12 lg:grid-cols-2 lg:mr-40 lg:ml-24 xs:mr-6 sm:ml-6 xs:pl-20">
-            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
+        <div class="grid grid-cols-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 sm:grid-cols-2 lg:grid-cols-2 md:pt-12 xxs:mx-10 xs:mx-20 sm:mx-0 md:mx-0 lg:mx-32 xl:mx-40">
+            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
                     <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Administración<br/>de cartera
                     </h3>
                 </div>
                 <div class="lg:h-24 lg:w-24 xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="sm:max-w-4rem sm:pt-4"/>
-                    </div>
-                    <div class="block group-hover:hidden">
+                    <div>
                         <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
             </div>
-            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
+            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
                     <h3 class="text-color-cucchiara text-lg font-bold lg:text-xl xl:text-2xl">
                         Research
                     </h3>
                 </div>
                 <div class="h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_02.png') }}"alt="content marketing icon" class="sm:max-w-4rem sm:pt-4"/>
-                    </div>
-                    <div class="block group-hover:hidden">
+                    <div>
                         <img src="{{ asset('/img/card_02.png') }}"alt="content marketing icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
             </div>
-            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
+            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
                     <h3 class="text-color-cucchiara text-lg font-bold lg:text-xl xl:text-2xl">
                         Operaciones<br/>financieras
                     </h3>
                 </div>
                 <div class="h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_03.png') }}"alt="Mobile Application icon" class="sm:max-w-4rem sm:pt-4"/>
-                    </div>
-                    <div class="block group-hover:hidden">
+                    <div>
                         <img src="{{ asset('/img/card_03.png') }}"alt="Mobile Application icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
             </div>
-            <div class="group rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
+            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
                 <div class="text-left flex items-center">
                     <h3 class="text-color-cucchiara text-lg font-bold lg:text-xl xl:text-2xl">
                         Fondos comunes<br/>de inversión
                     </h3>
                 </div>
                 <div class="h-24 w-24 text-center xl:h-28 xl:w-28">
-                    <div class="hidden group-hover:block">
-                        <img src="{{ asset('/img/card_04.png') }}"alt="Email Marketing icon" class="sm:max-w-4rem sm:pt-4"/>
-                    </div>
-                    <div class="block group-hover:hidden">
+                    <div>
                         <img src="{{ asset('/img/card_04.png') }}"alt="Email Marketing icon" class="sm:max-w-4rem sm:pt-4"/>
                     </div>
                 </div>
@@ -106,17 +94,17 @@
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-58 xs:h-58 sm:h-section-43 md:h-section-43 lg:h-section-43 xl:h-section-30"></div>
+    <div class="xxs:h-c-62 xs:h-c-62 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem]"></div>
     {{-- open account --}}
-    <div class="container text-center" id="services">
-        <span class="text-center font-body lg:text-4xl xs:text-3xl font-bold text-color-cucchiara">
+    <div class="container text-center">
+        <span class=" font-bold text-color-cucchiara text-center font-body xxs:text-3xl lg:text-4xl">
             Abrí tu cuenta hoy
         </span>
-        <div class="mx-auto lg:w-5/6 bg-white lg:py-20 xxs:pt-1 xs:pt-1 xxs:pb-2 xs:pb-2 md:w-11/12 2xl:w-full sm:pb-16">
-            <div class="grid grid-cols-4 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
+        <div class="mx-auto bg-white xxs:py-20 xs:py-20 sm:py-20 md:py-20 lg:py-20 xl:py-20">
+            <div class="grid grid-cols-4 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto w-auto xxs:h-3 xs:h-4 lg:h-24" alt="icon project"/>
+                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto w-auto xxs:h-20 xs:h-24 md:h-24 lg:h-24" alt="icon project"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-5">
                         <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
@@ -124,9 +112,9 @@
                         </h4>
                     </div>
                 </div>
-                <div class="flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto w-auto xs:h-3-5 lg:h-24" alt="icon award"/>
+                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto w-auto lg:h-20" alt="icon award"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-5">
                         <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-8">
@@ -134,9 +122,9 @@
                         </h4>
                     </div>
                 </div>
-                <div class="flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto w-auto xs:h-4-2 lg:h-24" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto w-auto lg:h-24" alt="icon happy clients"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-5">
                         <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
@@ -144,9 +132,9 @@
                         </h4>
                     </div>
                 </div>
-                <div class="flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto w-auto xs:h-4-2 lg:h-24" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto w-auto lg:h-24" alt="icon puzzle"/>
                     </div>
                     <div class="pt-5 md:pl-5 md:pt-5">
                         <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
@@ -159,7 +147,7 @@
     </div>
     {{-- end open account --}}
     {{-- need --}}
-    <div class="bg-quarter" id="about">
+    <div class="bg-quarter">
         <div class="container flex flex-row items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-body xs:text-base sm:text-2xl md:text-4xl lg:text-4xl font-bold text-white">
@@ -240,7 +228,7 @@
     </div>
     {{-- end need --}} 
      {{-- last research --}}
-    <div class="bg-white" id="blog">
+    <div class="bg-white">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bold sm:text-xl lg:text-xl text-color-cucchiara">
                 Últimos Informes de Research
@@ -292,7 +280,7 @@
         </div>
     </div>
     {{-- newsletter --}}
-    <div class="bg-quarter" id="clients">
+    <div class="bg-quarter">
         <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center">
             <div>
                 <h2 class="text-white font-header xxs:text-2xl xs:text-3xl lg:text-5xl font-bold">
@@ -360,5 +348,5 @@
         </div>
     </div>
     {{-- end newsletter --}}
-    <div class="h-section-42"></div>
+    <div class="h-[10rem]"></div>
 @endsection

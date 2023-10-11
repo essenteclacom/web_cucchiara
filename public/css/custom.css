@@ -776,9 +776,6 @@ html{
 .top-1{
     top:.25rem
 }
-.top-card-2{
-    top:60rem
-}
 .bottom-0{
     bottom:0
 }
@@ -915,15 +912,6 @@ html{
 .h-72{
     height:18rem
 }
-.h-section-44{
-    height:35rem
-}
-.h-section-43{
-    height:25rem
-}
-.h-section-42{
-    height:15rem
-}
 .max-h-screen{
     max-height:100vh
 }
@@ -935,9 +923,6 @@ html{
 }
 .w-24{
     width:6rem
-}
-.w-custom-logo{
-    width:17rem
 }
 .w-2\/3{
     width:66.666667%
@@ -962,9 +947,6 @@ html{
 }
 .w-4{
     width:1rem
-}
-.w-contact-input{
-    width:25rem
 }
 .w-5\/6{
     width:83.333333%
@@ -1766,23 +1748,17 @@ ul, ol {
 
 /*xxs*/
 @media screen and (min-width:300px) {
-    /*.container{
-        max-width:300px
-    }*/
+    .container{
+        max-width:560px
+    }
     .xxs\:left-4{
         left:1rem
-    }
-    .xxs\:w-custom-logo{
-        width:10rem
     }
     .xxs\:pl-20{
         padding-left:5rem
     }
     .xxs\:top-8{
         top:2rem
-    }
-    .xxs\:top-card-46{
-        top:46rem
     }
     .xxs\:ml-2{
         margin-left:.5rem
@@ -1793,8 +1769,14 @@ ul, ol {
     .xxs\:ml-5 {
         margin-left: 3rem;
     }
+    .xxs\:mb-6 {
+        margin-bottom: 1.5rem;
+    }
     .xxs\:mb-16 {
         margin-bottom: 4rem;
+    }
+    .xxs\:-mt-32{
+        margin-top:-8rem
     }
     .xxs\:mt-0{
         margin-top:0
@@ -1802,8 +1784,11 @@ ul, ol {
     .xxs\:mt-1{
         margin-top:1rem
     }
-    .xs\:mt-10{
+    .xxs\:mt-10{
         margin-top:2.5rem
+    }
+    .xxs\:mr-0{
+        margin-right:0
     }
     .xxs\:mr-4{
         margin-right: 2rem;
@@ -1818,28 +1803,20 @@ ul, ol {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    .xs\:mx-4 {
+    .xxs\:mx-4 {
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .xxs\:mx-10 {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
     }
     .xxs\:block{
         display:block
     }
-    .xxs\:h-3{
-        height:3rem
-    }
-    .xxs\:h-3-5{
-        height:3.5rem
-    }
-    .xxs\:h-4{
-        height:4rem
-    }
-    .xxs\:h-4-2{
-        height:4.25rem
-    }
-    .xxs\:h-7{
-        height:7rem
-    }
+    .xxs\:h-20{
+        height:5rem
+    }  
     .xxs\:h-44{
         height:11rem
     }
@@ -1852,17 +1829,20 @@ ul, ol {
     .xxs\:h-64{
         height:16rem
     }
-    .xxs\:h-58{
-        height:58rem
-    }
-    .xxs\:w-8{
-        width:8rem
+    .xxs\:h-c-62{
+        height:62rem
     }
     .xxs\:w-48{
         width:12rem
     }
     .xxs\:w-18 {
         width: 18rem;
+    }
+    .xxs\:w-40{
+        width:10rem
+    }
+    .xxs\:w-96{
+        width:24rem
     }
     .xxs\:w-2\/5{
         width:8rem
@@ -1904,6 +1884,10 @@ ul, ol {
         padding-bottom:0rem;
         padding-top:0rem
     }
+    .xxs\:py-20{
+        padding-bottom:5rem;
+        padding-top:5rem
+    }
     .xxs\:py-5{
         padding-bottom:1.25rem;
         padding-top:1.25rem
@@ -1919,23 +1903,23 @@ ul, ol {
     .xxs\:pt-0{
         padding-top:0
     }
-    .xxs\:pt-1{
-        padding-top:2rem
+    .xxs\:pt-4{
+        padding-top:1rem
     }
-    .xxs\:pt-0-1{
-        padding-top:0.1rem
-    }
-    .xxs\:pt-0-5{
-        padding-top:0.5rem
+    .xxs\:pt-5{
+        padding-top:1.25rem
     }
     .xxs\:pt-6{
         padding-top:1.5rem
     }
-    .xxs\:pt-2{
-        padding-top:3.5rem
+    .xxs\:pt-8{
+        padding-top:2rem
     }
-    .xxs\:pt-7{
-        padding-top:7rem
+    .xxs\:pt-10{
+        padding-top:2.5rem
+    }
+    .xxs\:pt-12{
+        padding-top:3rem
     }
     .xxs\:pt-20{
         padding-top:10rem
@@ -1958,14 +1942,8 @@ ul, ol {
     .xxs\:pb-48{
         padding-bottom:12rem
     }
-    .xxs\:pt-10{
-        padding-top:2.5rem
-    }
-    .xxs\:pt-5{
-        padding-top:1.25rem
-    }
-    .xxs\:pt-4{
-        padding-top:1rem
+    .xxs\:pb-52{
+        padding-bottom:13rem
     }
     .xxs\:text-left{
         text-align:left
@@ -2013,13 +1991,6 @@ ul, ol {
     .xxs\:pl-3-7{
         padding-left: 3.7rem;
     }
-    .xxs\:container{
-        margin-left:0rem;
-        margin-right:auto;
-        padding-left:1rem;
-        padding-right:1rem;
-        width:100%
-    }
     .xxs\:hidden{
         display:none
     }
@@ -2037,9 +2008,6 @@ ul, ol {
     }
     .xxs\:flex-col-reverse{
         flex-direction: column-reverse
-    }
-    .xxs\:w-contact-input{
-        width:15rem
     }
     .xxs\:top-minus-1-2 {
         top: -1.25rem;
@@ -2080,6 +2048,9 @@ ul, ol {
     .xs\:mb-16 {
         margin-bottom: 4rem;
     }
+    .xs\:-mt-36{
+        margin-top:-9rem
+    }
     .xs\:mt-0{
         margin-top:0
     }
@@ -2106,23 +2077,15 @@ ul, ol {
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    .xs\:mx-20 {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
     .xs\:block{
         display:block
     }
-    .xs\:h-3{
-        height:3rem
-    }
-    .xs\:h-3-5{
-        height:3.5rem
-    }
-    .xs\:h-4{
-        height:4rem
-    }
-    .xs\:h-4-2{
-        height:4.25rem
-    }
-    .xs\:h-7{
-        height:7rem
+    .xs\:h-24{
+        height:6rem
     }
     .xs\:h-44{
         height:11rem
@@ -2130,23 +2093,20 @@ ul, ol {
     .xs\:h-56{
         height:14rem
     }
-    .xs\:h-84{
-        height:21rem
-    }
     .xs\:h-64{
         height:16rem
     }
-    .xs\:h-58{
-        height:58rem
+    .xs\:h-84{
+        height:21rem
     }
-    .xs\:w-8{
-        width:8rem
+    .xs\:h-c-62{
+        height:62rem
     }
     .xs\:w-48{
         width:12rem
     }
-    .xs\:w-18 {
-        width: 18rem;
+    .xs\:w-96{
+        width:24rem
     }
     .xs\:w-2\/5{
         width:8rem
@@ -2203,26 +2163,36 @@ ul, ol {
         padding-bottom:1rem;
         padding-top:1rem
     }
+    .xs\:py-20{
+        padding-bottom:5rem;
+        padding-top:5rem
+    }
     .xs\:pt-0{
         padding-top:0
-    }
-    .xs\:pt-1{
-        padding-top:2rem
-    }
-    .xs\:pt-0-1{
-        padding-top:0.1rem
     }
     .xs\:pt-2{
         padding-top:0.5rem
     }
+    .xs\:pt-4{
+        padding-top:1rem
+    }
+    .xs\:pt-5{
+        padding-top:1.25rem
+    }
     .xs\:pt-6{
         padding-top:1.5rem
     }
+    .xs\:pt-8{
+        padding-bottom:2rem
+    }
+    .xs\:pt-10{
+        padding-top:2.5rem
+    }
+    .xs\:pt-12{
+        padding-top:3rem
+    }
     .xs\:pt-14{
         padding-top:3.5rem
-    }
-    .xs\:pt-7{
-        padding-top:7rem
     }
     .xs\:pt-20{
         padding-top:10rem
@@ -2239,20 +2209,8 @@ ul, ol {
     .xs\:pb-1{
         padding-bottom:1rem
     }
-    .xs\:8{
-        padding-bottom:2rem
-    }
-    .xs\:pb-48{
-        padding-bottom:12rem
-    }
-    .xs\:pt-10{
-        padding-top:2.5rem
-    }
-    .xs\:pt-5{
-        padding-top:1.25rem
-    }
-    .xs\:pt-4{
-        padding-top:1rem
+    .xs\:pb-52{
+        padding-bottom:13rem
     }
     .xs\:text-left{
         text-align:left
@@ -2325,9 +2283,6 @@ ul, ol {
     .xs\:flex-col-reverse{
         flex-direction: column-reverse
     }
-    .xs\:w-contact-input{
-        width:15rem
-    }
     .xs\:top-minus-1-2 {
         top: -1.25rem;
     }
@@ -2345,9 +2300,6 @@ ul, ol {
 @media screen and (min-width:640px) {
     .container{
         max-width:640px
-    }
-    .sm\:w-custom-logo{
-        width:17rem
     }
     .sm\:max-w-4rem{
         max-width: 4rem
@@ -2379,9 +2331,6 @@ ul, ol {
     }
     .sm\:h-64{
         height:16rem
-    }
-    .sm\:h-section-43{
-        height:25rem
     }
     .sm\:w-40{
         width:10rem
@@ -2485,12 +2434,6 @@ ul, ol {
     .container{
         max-width:768px
     }
-    .md\:w-custom-logo{
-        width:15rem
-    }
-    .md\:top-card-53{
-        top:53rem
-    }
     .md\:mr-8{
         margin-right:2rem
     }
@@ -2531,9 +2474,6 @@ ul, ol {
     }
     .md\:h-72{
         height:18rem
-    }
-    .md\:h-section-43{
-        height:25rem
     }
     .md\:w-48{
         width:12rem
@@ -2666,9 +2606,6 @@ ul, ol {
     .lg\:mt-0{
         margin-top:0
     }
-    .lg\:top-card-66{
-        top:66rem
-    }
     .lg\:mt-5{
         margin-top:5rem
     }
@@ -2715,12 +2652,6 @@ ul, ol {
     .lg\:h-96{
         height:24rem
     }
-    .lg\:h-section-43{
-        height:25rem
-    }
-    .lg\:h-section-42{
-        height:15rem
-    }
     .lg\:w-48{
         width:12rem
     }
@@ -2732,9 +2663,6 @@ ul, ol {
     }
     .lg\:w-96 {
         width: 24rem;
-    }
-    .lg\:w-custom-logo{
-        width:17rem
     }
     .lg\:w-1\/4{
         width:25%
@@ -2874,20 +2802,11 @@ ul, ol {
     .container{
         max-width:1280px
     }
-    .xl\:top-card-77 {
-        top:77rem
-    }
     .xl\:ml-120 {
         margin-left: 31rem;
     }
-    .xl\:w-custom-logo{
-        width:20rem
-    }
     .xl\:h-28{
         height:7rem
-    }
-    .xl\:h-section-30{
-        height:30rem
     }
     .xl\:h-72{
         height:18rem
