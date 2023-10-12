@@ -1814,6 +1814,9 @@ ul, ol {
     .xxs\:block{
         display:block
     }
+    .xxs\:h-16{
+        height:4rem
+    }  
     .xxs\:h-20{
         height:5rem
     }  
@@ -1883,6 +1886,10 @@ ul, ol {
     .xxs\:py-0{
         padding-bottom:0rem;
         padding-top:0rem
+    }
+    .xxs\:py-2{
+        padding-bottom:.5rem;
+        padding-top:.5rem
     }
     .xxs\:py-20{
         padding-bottom:5rem;
@@ -2084,6 +2091,9 @@ ul, ol {
     .xs\:block{
         display:block
     }
+    .xs\:h-20{
+        height:5rem
+    }
     .xs\:h-24{
         height:6rem
     }
@@ -2150,6 +2160,10 @@ ul, ol {
     .xs\:py-0{
         padding-bottom:0rem;
         padding-top:0rem
+    }
+    .xs\:py-2{
+        padding-bottom:.5rem;
+        padding-top:.5rem
     }
     .xs\:py-5{
         padding-bottom:1.25rem;
