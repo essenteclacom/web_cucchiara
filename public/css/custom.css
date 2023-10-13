@@ -743,9 +743,6 @@ html{
     left:0;
     right:0;
 }
-.top-minus-2 {
-    top: -1rem;
-}
 .top-minus-5 {
     top: -1.25rem;
 }
@@ -754,9 +751,6 @@ html{
 }
 .top-minus-11 {
     top: -1.75rem;
-}
-.top-minus-30 {
-    top: -12rem;
 }
 .top-0{
     top:0
@@ -1760,6 +1754,9 @@ ul, ol {
     .xxs\:top-8{
         top:2rem
     }
+    .xxs\:top-20{
+        top:5rem
+    }
     .xxs\:ml-2{
         margin-left:.5rem
     }
@@ -1820,6 +1817,9 @@ ul, ol {
     .xxs\:h-20{
         height:5rem
     }  
+    .xxs\:h-32{
+        height:8rem
+    }
     .xxs\:h-44{
         height:11rem
     }
@@ -1832,17 +1832,23 @@ ul, ol {
     .xxs\:h-64{
         height:16rem
     }
+    .xxs\:h-96{
+        height:24rem
+    }
     .xxs\:h-c-62{
         height:62rem
+    }
+    .xxs\:w-32 {
+        width: 8rem;
+    }
+    .xxs\:w-40{
+        width:10rem
     }
     .xxs\:w-48{
         width:12rem
     }
-    .xxs\:w-18 {
-        width: 18rem;
-    }
-    .xxs\:w-40{
-        width:10rem
+    .xxs\:w-56{
+        width:14rem
     }
     .xxs\:w-96{
         width:24rem
@@ -1874,6 +1880,9 @@ ul, ol {
     }
     .xxs\:text-center{
         text-align:center
+    }
+    .xxs\:place-items-center{
+        place-items: center;
     }
     .xxs\:px-1{
         padding-left:1rem;
@@ -1929,7 +1938,7 @@ ul, ol {
         padding-top:3rem
     }
     .xxs\:pt-20{
-        padding-top:10rem
+        padding-top:5rem
     }
     .xxs\:pt-56{
         padding-top:14rem
@@ -1942,6 +1951,9 @@ ul, ol {
     }
     .xxs\:pb-1{
         padding-bottom:1rem
+    }
+    .xxs\:pb-5{
+        padding-bottom:1.25rem
     }
     .xxs\:pb-8{
         padding-bottom:2rem
@@ -1989,14 +2001,11 @@ ul, ol {
     .xxs\:pl-0{
         padding-left: 0rem;
     }
-    .xxs\:pl-1-5{
-        padding-left: 1.5rem;
+    .xxs\:pl-4{
+        padding-left: 1rem;
     }
-    .xxs\:pl-3{
-        padding-left: 3rem;
-    }
-    .xxs\:pl-3-7{
-        padding-left: 3.7rem;
+    .xxs\:pl-14{
+        padding-left: 3.5rem;
     }
     .xxs\:hidden{
         display:none
@@ -2016,11 +2025,11 @@ ul, ol {
     .xxs\:flex-col-reverse{
         flex-direction: column-reverse
     }
-    .xxs\:top-minus-1-2 {
-        top: -1.25rem;
+    .xxs\:-top-32 {
+        top:-8rem
     }
-    .xxs\:top-minus-8 {
-        top: -8rem;
+    .xxs\:grid-cols-1{
+        grid-template-columns:repeat(1,minmax(0,1fr))
     }
     .xxs\:grid-cols-2{
         grid-template-columns:repeat(2,minmax(0,1fr))
@@ -2091,6 +2100,9 @@ ul, ol {
     .xs\:block{
         display:block
     }
+    .xs\:h-7{
+        height:1.75rem
+    }
     .xs\:h-20{
         height:5rem
     }
@@ -2109,11 +2121,23 @@ ul, ol {
     .xs\:h-84{
         height:21rem
     }
+    .xs\:h-96{
+        height:24rem
+    }
     .xs\:h-c-62{
         height:62rem
     }
     .xs\:w-48{
         width:12rem
+    }
+    .xs\:w-52{
+        width:13rem
+    }
+    .xs\:w-56{
+        width:14rem
+    }
+    .xs\:w-72{
+        width:18rem
     }
     .xs\:w-96{
         width:24rem
@@ -2184,6 +2208,9 @@ ul, ol {
     .xs\:pt-0{
         padding-top:0
     }
+    .xs\:pt-0{
+        padding-top:0
+    }
     .xs\:pt-2{
         padding-top:0.5rem
     }
@@ -2209,7 +2236,7 @@ ul, ol {
         padding-top:3.5rem
     }
     .xs\:pt-20{
-        padding-top:10rem
+        padding-top:5rem
     }
     .xs\:pt-56{
         padding-top:14rem
@@ -2222,6 +2249,9 @@ ul, ol {
     }
     .xs\:pb-1{
         padding-bottom:1rem
+    }
+    .xs\:pb-5{
+        padding-bottom:1.25rem
     }
     .xs\:pb-52{
         padding-bottom:13rem
@@ -2241,14 +2271,6 @@ ul, ol {
         font-size:1rem;
         line-height:1.5rem
     }
-    .xs\:text-4xl{
-        font-size:2.25rem;
-        line-height:2.5rem
-    }
-    .xs\:text-5xl{
-        font-size:3rem;
-        line-height:1
-    }
     .xs\:text-2xl{
         font-size:1.5rem;
         line-height:2rem
@@ -2257,13 +2279,21 @@ ul, ol {
         font-size:1.875rem;
         line-height:2.25rem
     }
+    .xs\:text-4xl{
+        font-size:2.25rem;
+        line-height:2.5rem
+    }
+    .xs\:text-5xl{
+        font-size:3rem;
+        line-height:1
+    }
     .xs\:leading-9{
         line-height:2.25rem
     }
     .xs\:pl-0{
         padding-left: 0rem;
     }
-    .xs\:pl-1-5{
+    .xs\:pl-6{
         padding-left: 1.5rem;
     }
     .xs\:pl-3{
@@ -2297,11 +2327,11 @@ ul, ol {
     .xs\:flex-col-reverse{
         flex-direction: column-reverse
     }
-    .xs\:top-minus-1-2 {
-        top: -1.25rem;
+    .xs\:place-items-start{
+        place-items: start;
     }
-    .xs\:top-minus-8 {
-        top: -8rem;
+    .xs\:-top-32 {
+        top:-8rem
     }
     .xs\:grid-cols-3{
         grid-template-columns:repeat(3,minmax(0,1fr))
@@ -2767,9 +2797,6 @@ ul, ol {
     }
     .lg\:pl-20{
         padding-left:5rem
-    }
-    .lg\:pl-7-5{
-        padding-left:7.5rem
     }
     .lg\:text-xs{
         font-size:.75rem;

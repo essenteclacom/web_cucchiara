@@ -7,14 +7,15 @@
     <div>
         <div>
             <img src="{{ asset('/img/services_01.png') }}" class="w-full h-full" alt="about image"/>
-            <div class="absolute inset-x-0 xs:top-8 lg:top-96 xs:mx-1 lg:mx-32">
-                <p class="font-body xs:text-base lg:text-3xl text-white text-center">
+            <div class="absolute inset-x-0 xxs:top-20 xs:top-8 sm:top-40 md:top-44 lg:top-80 xl:top-80 xs:mx-1 lg:mx-32">
+                <p class="font-body text-white text-center xs:text-base sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
                     Cucchiara forma parte de la comunidad inversora local como socio de la Cámara de Agentes de Bolsa y tiene presencia internacional como asociado del EMTA, comunidad internacional de inversión enfocada en el desarrollo de mercados emergentes.
                 </p>
+                <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
             </div>
         </div>
         <div class="bg-secondary">
-            <div class="container">
+            <div class="container py-16 md:py-20">
                 <div class="flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="text-white xs:pr-3 lg:pr-20">
                         <div class="text-xl font-bold text-right max-w-3xl">
@@ -82,5 +83,5 @@
         </div>
     </div>
     {{-- end slide --}}
-    <div class="h-section-42"></div>
+    <div class="h-[10rem]"></div>
 @endsection

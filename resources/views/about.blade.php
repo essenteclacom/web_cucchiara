@@ -8,57 +8,54 @@
         <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/bg_about.png')}}')">
             <div class="container relative z-30 pb-hero-9">
                 <div class="flex flex-col items-center justify-center">
-                    <div class="xs:pt-1-5 lg:pt-20">
-                        <h2 class="text-center font-header text-3xl text-white font-bold text-primary">
+                    <div class="xxs:pt-6 xs:pt-6 sm:pt-20 md:pt-20 lg:pt-20 xl:pt-20">
+                        <h2 class="text-center font-body text-3xl text-white font-bold">
                             Nuestra Historia
                         </h2>
-                        <div class="xs:pt-1-5 lg:pt-10 xs:pb-1">
-                            <p class="font-body xs:text-xs lg:text-lg text-white text-center">
+                        <div class="xxs:pt-6 xs:pt-6 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-10">
+                            <p class="font-body text-white text-center xs:text-xs md:text-lg lg:text-lg xl:text-lg">
                                 Cucchiara y Cía. S.A. tiene una rica historia dentro del mercado de valores argentino, lo<br>que refuerza su amplia experiencia en la industria.
                             </p>  
                         </div>
                         <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/map_about.png')}}')"></div>
                     </div>
-                    <div class="xs:h-64 lg:h-[40rem] w-[60rem] sm:h-120"></div>
+                    <div class="xxs:h-96 xs:h-96 sm:h-[40rem] md:h-[40rem] lg:h-[40rem] xl:h-[40rem] w-[60rem] "></div>
                 </div>
             </div>
         </div>
-        <div class="container relative xs:top-minus-8 top-minus-30">
-            <div class="pb-10">
-                <h2 class="text-center font-header text-2xl text-white font-semibold text-primary sm:text-5xl lg:text-2xl">
+        <div class="container relative xxs:-top-32 xs:-top-32 sm:-top-44 md:-top-44 lg:-top-44 xl:-top-44">
+            <div class="xxs:pb-5 xs:pb-5 sm:pb-10 md:pb-10 lg:pb-10 xl:pb-10">
+                <h2 class="text-center font-body text-3xl text-white font-bold">
                     Dónde Estamos
                 </h2>
             </div>
-            <div class="grid grid-cols-5 xs:gap-1 lg:gap-12">
-                <div></div>
+            <div class="grid grid-cols-3 sm:mx-0 md:mx-10 lg:mx-40 xl:mx-40">
                 <div class="flex items-center justify-center group z-50">
-                    <div style="background-image: url({{ asset('/img/ObeliscoBA2015.jpg')}})" class="w-52 rounded-full group relative xs:h-7 lg:h-52 bg-cover bg-center bg-no-repeat">
+                    <div style="background-image: url({{ asset('/img/ObeliscoBA2015.jpg')}})" class="rounded-full group relative xxs:w-32 xs:w-52 sm:w-52 md:w-52 lg:w-52 xl:w-52 xxs:h-32 xs:h-44 sm:h-52 md:h-52 lg:h-52 xl:h-52 bg-cover bg-center bg-no-repeat">
                         <span class="rounded-full absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="hidden group-hover:block z-1 rounded-full text-center text-xl text-white mx-auto inset-0 pt-24">
+                        <span class="hidden group-hover:block z-1 rounded-full text-center text-xl text-white mx-auto inset-0 xxs:pt-12 xs:pt-20 sm:pt-24 md:pt-24 lg:pt-24 xl:pt-24">
                             Buenos Aires
                         </span>
                     </div>
                 </div>
                 <div class="flex items-center justify-center group z-50">
-                    <div style="background-image: url({{ asset('/img/uruguay.jpg')}})" class="w-52 rounded-full group relative xs:h-7 lg:h-52 bg-cover bg-center bg-no-repeat">
+                    <div style="background-image: url({{ asset('/img/uruguay.jpg')}})" class="rounded-full group relative xxs:w-32 xs:w-52 sm:w-52 md:w-52 lg:w-52 xl:w-52 xxs:h-32 xs:h-44 sm:h-52 md:h-52 lg:h-52 bg-cover bg-center bg-no-repeat">
                         <span class="rounded-full absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="hidden group-hover:block z-1 rounded-full text-center text-xl text-white mx-auto inset-0 pt-24">
+                        <span class="hidden group-hover:block z-1 rounded-full text-center text-xl text-white mx-auto inset-0 xxs:pt-12 xs:pt-20 sm:pt-24 md:pt-24 lg:pt-24 xl:pt-24">
                             Montevideo
                         </span>
                     </div>
                 </div>
                 <div class="flex items-center justify-center group z-50">
-                    <div style="background-image: url({{ asset('/img/nuevazelanda.jpg')}})" class="w-52 rounded-full group relative xs:h-7 lg:h-52 bg-cover bg-center bg-no-repeat">
+                    <div style="background-image: url({{ asset('/img/nuevazelanda.jpg')}})" class="rounded-full group relative xxs:w-32 xs:w-52 sm:w-52 md:w-52 lg:w-52 xl:w-52 xxs:h-32 xs:h-44 sm:h-52 md:h-52 lg:h-52 bg-cover bg-center bg-no-repeat">
                         <span class="rounded-full absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                        <span class="hidden group-hover:block z-1 rounded-full text-center text-xl text-white mx-auto inset-0 pt-24">
+                        <span class="hidden group-hover:block z-1 rounded-full text-center text-xl text-white mx-auto inset-0 xxs:pt-12 xs:pt-20 sm:pt-24 md:pt-24 lg:pt-24 xl:pt-24">
                             Auckland
                         </span>
                     </div>
                 </div>
-                <div></div>
             </div>
-            <div class="grid grid-cols-5 gap-12 pt-10">    
-                <div></div>
+            <div class="grid grid-cols-3 pt-10 sm:mx-10 md:mx-10 lg:mx-40 xl:mx-40">
                 <div class="flex items-center justify-center">
                     <div>
                         <img src="{{ asset('/img/about_logo_01.png') }}"class="w-auto h-auto" alt="icon happy clients"/>
@@ -74,7 +71,6 @@
                         <img src="{{ asset('/img/about_logo_03.png') }}"class="w-auto h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
-                <div></div>
             </div>
         </div>
     </div>
