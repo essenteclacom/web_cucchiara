@@ -18,10 +18,10 @@
                             según tu objetivo, plazo y perfil de riesgo.
                         </p>
                     </div>
-                    <div class="absolute -top-20 right-0 z--1">
-                        <img src="img/Cucchiara_Animacion_01.gif" class="xxs:hidden xs:hidden sm:hidden md:block xl:w-[76rem]">
+                    <div class="absolute md:top-12 lg:-top-20 xl:-top-20 md:-right-36 lg:-right-20 xl:-right-32 z--1">
+                        <img src="img/Cucchiara_Animacion_01.gif" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[76rem]">
                     </div>
-                    <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
+                    <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
@@ -42,10 +42,10 @@
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             Lo que hacemos
         </span>    
-        <div class="grid grid-cols-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-14 sm:grid-cols-2 lg:grid-cols-2 md:pt-12 xxs:mx-10 xs:mx-20 sm:mx-0 md:mx-0 lg:mx-32 xl:mx-40">
-            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
-                <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-2xl">
+        <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+                <div class="flex items-center xxs:text-center sm:text-left">
+                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Administración<br/>de cartera
                     </h3>
                 </div>
@@ -53,9 +53,9 @@
                    <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="max-w-4rem sm:pt-4"/>
                 </div>
             </div>
-            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
-                <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-2xl">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+                <div class="flex items-center xxs:text-center sm:text-left">
+                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Research
                     </h3>
                 </div>
@@ -63,9 +63,9 @@
                     <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="max-w-4rem sm:pt-4"/>
                 </div>
             </div>
-            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
-                <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-2xl">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+                <div class="flex items-center xxs:text-center sm:text-left">
+                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Operaciones<br/>financieras
                     </h3>
                 </div>
@@ -73,9 +73,9 @@
                     <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="max-w-4rem sm:pt-4"/>
                 </div>
             </div>
-            <div class="rounded-lg px-12 py-14 shadow-amplia bg-white flex flex-row justify-between">
-                <div class="text-left flex items-center">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-2xl">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+                <div class="flex items-center xxs:text-center sm:text-left">
+                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Fondos comunes<br/>de inversión
                     </h3>
                 </div>
@@ -86,53 +86,56 @@
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-62 xs:h-c-62 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[30rem]"></div>
+    <div class="xxs:h-c-38 xs:h-c-39 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[40rem]"></div>
     {{-- open account --}}
     <div class="container text-center">
-        <span class=" font-bold text-color-cucchiara text-center font-body xxs:text-3xl lg:text-4xl">
+        <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-4xl">
             Abrí tu cuenta hoy
         </span>
         <div class="mx-auto bg-white xxs:py-20 xs:py-20 sm:py-20 md:py-20 lg:py-20 xl:py-20">
-            <div class="grid grid-cols-4 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5 content-start">
+            <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto w-24 xxs:h-20 xs:h-24 md:h-24 lg:h-24" alt="icon project"/>
-                    </div>
-                    <div class="pt-5 md:pl-5 md:pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                            Abrí tu<br>cuenta
-                        </h4>
+                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-40" alt="icon project"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto w-28 xxs:h-16 xs:h-20 md:h-20 lg:h-20" alt="icon award"/>
+                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto xxs:h-10 xs:h-c-4 md:h-20 lg:h-[6.5rem] xl:h-[8.5rem]" alt="icon award"/>
                     </div>
-                    <div class="pt-5 md:pl-5 md:pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-8">
-                            Asesorate
-                        </h4>
+                    
+                </div>
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                    <div>
+                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-40" alt="icon happy clients"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto w-28 xxs:h-20 xs:h-24 md:h-24 lg:h-24" alt="icon happy clients"/>
-                    </div>
-                    <div class="pt-5 md:pl-5 md:pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                            Definí tu cartera<br/>de inversión
-                        </h4>
+                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-40" alt="icon puzzle"/>
                     </div>
                 </div>
-                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
-                    <div>
-                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto w-28 xxs:h-20 xs:h-24 md:h-24 lg:h-24" alt="icon puzzle"/>
-                    </div>
-                    <div class="pt-5 md:pl-5 md:pt-5">
-                        <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                            Monitoreá<br/>tus inversiones
-                        </h4>
-                    </div>
+            </div>
+            <div class="grid grid-cols-4 gap-0 justify-content items-center mt-4">
+                <div class="">
+                    <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
+                        Abrí tu<br>cuenta
+                    </h4>
+                </div>
+                <div class="">
+                    <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-8">
+                        Asesorate
+                    </h4>
+                </div>
+                <div class="">
+                    <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
+                        Definí tu cartera<br/>de inversión
+                    </h4>
+                </div>
+                <div class="">
+                    <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
+                        Monitoreá<br/>tus inversiones
+                    </h4>
                 </div>
             </div>
         </div>
@@ -280,22 +283,22 @@
                 </h2>
             </div>
             <div class="text-right">
-                <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring px-12 py-2 text-center">
+                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring px-12 py-2 text-center">
                     Suscribite
                 </button>
             </div>
         </div>
     </div>
-    <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div id="newsletter-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative w-full max-w-2xl max-h-full">
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-              <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="authentication-modal">
-                  <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                  </svg>
-                  <span class="sr-only">Close modal</span>
-              </button>
+                <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="newsletter-modal">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
               <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
                   <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
                   <form class="space-y-6" action="/home">

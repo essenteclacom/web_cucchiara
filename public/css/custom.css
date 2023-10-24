@@ -1072,6 +1072,9 @@ html{
     --tw-border-opacity:1;
     border-color:rgb(146 146 147/var(--tw-border-opacity))
 }
+.border-services-c{
+    border-color:#8DDEF7
+}
 .border-white{
     --tw-border-opacity:1;
     border-color:rgb(255 255 255/var(--tw-border-opacity))
@@ -1808,6 +1811,12 @@ ul, ol {
     .xxs\:block{
         display:block
     }
+    .xxs\:h-10{
+        height:2.5rem
+    }
+    .xxs\:h-12{
+        height:3rem
+    }
     .xxs\:h-16{
         height:4rem
     }  
@@ -1832,8 +1841,11 @@ ul, ol {
     .xxs\:h-96{
         height:24rem
     }
-    .xxs\:h-c-62{
-        height:62rem
+    .xxs\:h-c-38{
+        height:38rem
+    }
+    .xxs\:w-28 {
+        width: 7rem;
     }
     .xxs\:w-32 {
         width: 8rem;
@@ -1882,8 +1894,12 @@ ul, ol {
         place-items: center;
     }
     .xxs\:px-1{
-        padding-left:1rem;
-        padding-right:1rem
+        padding-left:0.25rem;
+        padding-right:0.25rem
+    }
+    .xxs\:px-2{
+        padding-left:0.5rem;
+        padding-right:0.5rem
     }
     .xxs\:px-5{
         padding-left:1.25rem;
@@ -1892,6 +1908,10 @@ ul, ol {
     .xxs\:py-0{
         padding-bottom:0rem;
         padding-top:0rem
+    }
+    .xxs\:py-1{
+        padding-bottom:.25rem;
+        padding-top:.25rem
     }
     .xxs\:py-2{
         padding-bottom:.5rem;
@@ -1912,6 +1932,10 @@ ul, ol {
     .xxs\:py-4{
         padding-bottom:1rem;
         padding-top:1rem
+    }
+    .xxs\:py-12{
+        padding-bottom:3rem;
+        padding-top:3rem
     }
     .xxs\:pt-0{
         padding-top:0
@@ -2100,6 +2124,9 @@ ul, ol {
     .xs\:h-7{
         height:1.75rem
     }
+    .xs\:h-c-4{
+        height:4.25rem
+    }  
     .xs\:h-20{
         height:5rem
     }
@@ -2121,8 +2148,8 @@ ul, ol {
     .xs\:h-96{
         height:24rem
     }
-    .xs\:h-c-62{
-        height:62rem
+    .xs\:h-c-39{
+        height:39rem
     }
     .xs\:w-48{
         width:12rem
@@ -2197,6 +2224,10 @@ ul, ol {
     .xs\:py-4{
         padding-bottom:1rem;
         padding-top:1rem
+    }
+    .xs\:py-12{
+        padding-bottom:3rem;
+        padding-top:3rem
     }
     .xs\:py-20{
         padding-bottom:5rem;

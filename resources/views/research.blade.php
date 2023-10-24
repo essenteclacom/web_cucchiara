@@ -117,7 +117,7 @@
                     <i class="bx bx-chevron-down relative -right-2 text-3xl align-middle xs:pl-14 lg:pl-28"></i>
                 </a>
             </div>
-            <div class="h-96 block" id="space"></div>
+            <div class="h-28 block" id="space"></div>
             <div class="hidden grid pb-20 pt-6 xxs:grid-cols-1 xs:grid-cols-2 xs:gap-1 xxs:place-items-center xs:place-items-start" id="menu">
                 <div>
                     <nav class="menu xxs:w-56 xs:w-56 sm:w-56 md:w-56 lg:w-96 xl:w-96">
@@ -428,17 +428,17 @@
                 </h2>
             </div>
             <div class="text-right">
-                <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring px-12 py-2 text-center">
+                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring px-12 py-2 text-center">
                     Suscribite
                 </button>
             </div>
         </div>
     </div>
-    <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div id="newsletter-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative w-full max-w-2xl max-h-full">
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-              <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="authentication-modal">
+              <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="newsletter-modal">
                   <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                   </svg>
@@ -494,4 +494,5 @@
     </div>
     {{-- end newsletter --}}
     <div class="h-[10rem]"></div>
+    <script src="{{ asset('/js/main.js')}}"></script>
 @endsection
