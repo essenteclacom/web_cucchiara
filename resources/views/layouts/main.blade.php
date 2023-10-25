@@ -142,10 +142,10 @@
                         </div>
                         <form class="mx-auto w-full pt-10">
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-center">
-                                <div class="flex flex-col md:flex-col xxs:mr-0 sm:mr-14">
-                                    <input class="xxs:w-96 xs:w-96 rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                                    <input class="xxs:w-96 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
-                                    <input class="xxs:w-96 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" id="phone"/>
+                                <div class="flex flex-col md:flex-col sm:mr-14 items-center xxs:w-full sm:w-3/5 lg:w-2/5 xl:w-1/4">
+                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" id="phone"/>
                                 </div>
                                 <div>
                                     <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" id="message" cols="42" rows="7"></textarea>
@@ -163,7 +163,7 @@
                 {{-- end contact --}}
                 {{-- map --}}
                 <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
-                    <div class="bg-cover bg-center bg-no-repeat xxs:h-64 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-8" style="background-image: url({{ asset('/img/maps.png')}})"></div>
+                    <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-4" style="background-image: url({{ asset('/img/maps.png')}})"></div>
                 </a>
                 {{-- end map --}}
                 {{-- footer --}}

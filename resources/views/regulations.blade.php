@@ -29,7 +29,7 @@
                             En este contexto, las Normas de la CNV desempeñan un papel crucial al establecer regulaciones específicas para garantizar la integridad y eficiencia del mercado, asegurando la protección de los inversores. Por su parte, el Decreto Reglamentario 1023/2023 complementa las leyes anteriormente mencionadas, al definir aspectos operativos y procedimentales, contribuyendo así a la implementación efectiva del marco legal.
                         </div>
                         <div class="flex xxs:justify-center xs:justify-center sm:justify-start pt-10 ">
-                            <a class="block text-color-cucchiara bg-cyan-20 text-center text-base font-body font-bold p-4 rounded w-48 mb-2">
+                            <a class="block text-color-cucchiara bg-cyan-20 text-center text-base font-body font-bold p-4 rounded w-60 mb-2">
                                 Registros Públicos<br>Cucchiara y Cía. 
                             </a>
                         </div>

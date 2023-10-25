@@ -7,7 +7,7 @@
     <div>
         <img src="{{ asset('/img/pexels-vlada-karpovich-7433839 1.png') }}" class="w-full h-full" alt="about image"/>
         <div class="absolute inset-x-0 xxs:top-20 xs:top-8 sm:top-40 md:top-44 lg:top-80 xl:top-80 xs:mx-1 lg:mx-32">
-            <p class="font-body text-white text-center xs:text-base sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
+            <p class="font-body text-white text-center xxs:text-xs xs:text-base sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
                 Los fundamentos son un elemento clave en la toma de decisiones. Por ello, realizamos un continuo monitoreo de las principales variables del mercado y la coyuntura macroeconómica local e internacional para apoyar la toma de decisiones por parte de nuestros clientes.
             </p>
             <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
@@ -19,81 +19,87 @@
             <h3 class="text-left font-header text-xl font-bold sm:text-xl lg:text-xl text-color-cucchiara">
                 Últimos Informes de Research
             </h3>
-            <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-4 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+            <div class="mx-auto grid w-full grid-cols-3 pt-4 w-full xxs:gap-2 xl:gap-10">
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                        <!--<span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
+                            Leer nota
+                        </span>-->
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                        <!--<span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
+                            Leer nota
+                        </span>-->
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
-                        <span class="block pt-2 font-body text-grey-20">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
@@ -428,7 +434,7 @@
                 </h2>
             </div>
             <div class="text-right">
-                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring px-12 py-2 text-center">
+                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
                     Suscribite
                 </button>
             </div>
@@ -438,58 +444,58 @@
         <div class="relative w-full max-w-2xl max-h-full">
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-              <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="newsletter-modal">
-                  <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                  </svg>
-                  <span class="sr-only">Close modal</span>
-              </button>
-              <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
-                  <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
-                  <form class="space-y-6" action="/home">
-                      <div class="flex flex-row justify-between gap-3">
-                          <div class="">
-                              <label for="name" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                              <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nombres *" required>
-                          </div>
-                          <div class="">
-                              <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                              <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Apellidos *" required>
-                          </div>
-                      </div>
-                      <div class="w-full">
-                          <input type="email" name="email" id="email" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email*" required>
-                      </div>
-                      <div class="flex justify-between">
-                          <div class="flex flex-col">
+                <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="newsletter-modal">
+                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
+                <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
+                <form class="space-y-6" action="/home">
+                    <div class="flex flex-row justify-between gap-3">
+                        <div class="">
+                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
+                            <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nombres *" required>
+                        </div>
+                        <div class="">
+                            <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
+                            <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Apellidos *" required>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <input type="email" name="email" id="email" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email*" required>
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="flex flex-col">
                             <div>
                                 <h3 class="text-base text-white mb-4">
                                     Elegí cuál querés recibir:
                                 </h3>
                             </div>
-                              <div class="flex flex-row">
-                                  <div class="flex items-center h-5">
-                                      <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
-                                  </div>
-                                  <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Estadistico</label><br>
-                              </div>
-                              <div class="flex flex-row">
-                                  <div class="flex items-center h-5">
-                                      <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
-                                  </div>
-                                  <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Economico</label>
-                              </div>
-                          </div>
-                          <!--<a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>-->
-                      </div>
-                      <div class="flex justify-end">
-                          <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
-                              Enviar
-                          </button>
-                      </div>
-                  </form>
-              </div>
-          </div>
+                            <div class="flex flex-row">
+                                <div class="flex items-center h-5">
+                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
+                                </div>
+                                <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Estadistico</label><br>
+                            </div>
+                            <div class="flex flex-row">
+                                <div class="flex items-center h-5">
+                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
+                                </div>
+                                <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Economico</label>
+                            </div>
+                        </div>
+                        <!--<a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>-->
+                    </div>
+                    <div class="flex justify-end">
+                        <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
         </div>
     </div>
     {{-- end newsletter --}}

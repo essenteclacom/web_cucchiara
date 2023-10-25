@@ -44,49 +44,49 @@
         </span>    
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
+                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Administración<br/>de cartera
                     </h3>
                 </div>
                 <div>
-                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="max-w-4rem sm:pt-4"/>
+                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
                 </div>
             </div>
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
+                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Research
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
                 </div>
             </div>
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
+                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Operaciones<br/>financieras
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
                 </div>
             </div>
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left">
-                    <h3 class="text-color-cucchiara text-lg font-body font-bold lg:text-xl xl:text-3xl">
+                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
+                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-3xl">
                         Fondos comunes<br/>de inversión
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
                 </div>
             </div>
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-38 xs:h-c-39 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[40rem]"></div>
+    <div class="xxs:h-c-34 xs:h-c-34 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[40rem]"></div>
     {{-- open account --}}
     <div class="container text-center">
         <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-4xl">
@@ -149,11 +149,11 @@
                     ¿Qué necesitas para abrir tu cuenta?                  
                 </h2>
             </div>
-            <div class="flex gap-2">
+            <div class="flex xxs:gap-0 sm:gap-2">
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded-1 shadow xxs:h-44 xs:h-44 xxs:w-48 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
+                            <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
                                     <img src="{{ asset('/img/persona.png') }}" alt="development icon"/>
                                 </div>
@@ -165,7 +165,7 @@
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded-1 shadow xxs:h-44 xs:h-44 xxs:w-48 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
+                            <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
                                         · Documento de Identidad.<br/>
@@ -184,7 +184,7 @@
                 <div class="wrapper-card">
                     <div class="single-card">
                         <div class="front-card">
-                            <div class="gradient-cucciara rounded-1 shadow xxs:h-44 xs:h-44 xxs:w-48 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
+                            <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
                                 <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
                                     <img src="{{ asset('/img/contrato.png') }}" alt="development icon"/>
                                 </div>
@@ -196,8 +196,8 @@
                             </div>
                         </div>
                         <div class="back-card">
-                            <div class="gradient-cucciara rounded-1 shadow xxs:h-44 xs:h-44 xxs:w-48 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
+                            <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
+                                <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
                                         · Actas de Directorio / Asamblea con designación de cargos.<br/>
                                         · Estatuto de la Sociedad.<br/>
@@ -228,45 +228,45 @@
             <h3 class="text-left font-header text-xl font-bold sm:text-xl lg:text-xl text-color-cucchiara">
                 Últimos Informes de Research
             </h3>
-            <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-4 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+            <div class="mx-auto grid w-full grid-cols-3 pt-4 w-full xxs:gap-2 xl:gap-10">
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-01.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
-                        <span class="block pt-2 font-body text-color-cucchiara">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-02.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
-                        <span class="block pt-2 font-body text-color-cucchiara">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
                 </a>
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
-                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div style="background-image: url({{ asset('/img/post-03.png')}})" class="rounded-top-xl group relative xxs:h-28 sm:h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                         <!--<span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">
                             Leer nota
                         </span>-->
                     </div>
-                    <div class="bg-white py-6 px-5 xl:py-8 rounded-xl">
-                        <span class="block font-body text-lg font-semibold text-color-cucchiara">
+                    <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
+                        <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
-                        <span class="block pt-2 font-body text-color-cucchiara">
+                        <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
                     </div>
@@ -283,7 +283,7 @@
                 </h2>
             </div>
             <div class="text-right">
-                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring px-12 py-2 text-center">
+                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
                     Suscribite
                 </button>
             </div>
