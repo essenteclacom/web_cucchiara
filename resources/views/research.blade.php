@@ -426,10 +426,24 @@
     </div>
     {{-- end search --}}
     {{-- newsletter --}}
-    <div class="bg-quarter">
+    <div class="bg-quarter" id="newsletter">
+        @if (session('status'))
+        <div class="text-center text-white font-body text-base pt-10">
+            {{ session('status') }}
+        </div>
+        @endif
+        @if ($errors->any())
+        <div class="text-center text-white font-body text-base pt-10">
+            <ul>
+                @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+        @endif
         <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center">
             <div>
-                <h2 class="text-white font-header xxs:text-2xl xs:text-3xl lg:text-5xl font-bold">
+                <h2 class="text-white font-body xxs:text-2xl xs:text-3xl lg:text-5xl font-bold">
                     Recibí nuestros<br/>informes
                 </h2>
             </div>
@@ -450,52 +464,52 @@
                     </svg>
                     <span class="sr-only">Close modal</span>
                 </button>
-            <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
-                <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
-                <form class="space-y-6" action="/home">
-                    <div class="flex flex-row justify-between gap-3">
-                        <div class="">
-                            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                            <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nombres *" required>
-                        </div>
-                        <div class="">
-                            <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                            <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Apellidos *" required>
-                        </div>
-                    </div>
-                    <div class="w-full">
-                        <input type="email" name="email" id="email" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email*" required>
-                    </div>
-                    <div class="flex justify-between">
-                        <div class="flex flex-col">
-                            <div>
-                                <h3 class="text-base text-white mb-4">
-                                    Elegí cuál querés recibir:
-                                </h3>
+                <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
+                    <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
+                    <form class="space-y-6" action="/newsletterresearch" method="POST" role="form">
+                        {{ csrf_field() }}
+                        <div class="flex flex-row justify-between gap-3">
+                            <div class="">
+                                <label for="name" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
+                                <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nombres *" required>
                             </div>
-                            <div class="flex flex-row">
-                                <div class="flex items-center h-5">
-                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
+                            <div class="">
+                                <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
+                                <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Apellidos *" required>
+                            </div>
+                        </div>
+                        <div class="w-full">
+                            <input type="email" name="email" id="email" class="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email*" required>
+                        </div>
+                        <div class="flex justify-between">
+                            <div class="flex flex-col">
+                                <div>
+                                    <h3 class="text-base text-white mb-4">
+                                        Elegí cuál querés recibir:
+                                    </h3>
                                 </div>
-                                <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Estadistico</label><br>
-                            </div>
-                            <div class="flex flex-row">
-                                <div class="flex items-center h-5">
-                                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
+                                <div class="flex flex-row">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
+                                    </div>
+                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Estadistico</label><br>
                                 </div>
-                                <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Economico</label>
+                                <div class="flex flex-row">
+                                    <div class="flex items-center h-5">
+                                        <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
+                                    </div>
+                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Economico</label>
+                                </div>
                             </div>
                         </div>
-                        <!--<a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>-->
-                    </div>
-                    <div class="flex justify-end">
-                        <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
-                            Enviar
-                        </button>
-                    </div>
-                </form>
+                        <div class="flex justify-end">
+                            <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
         </div>
     </div>
     {{-- end newsletter --}}
