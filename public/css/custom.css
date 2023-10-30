@@ -376,8 +376,8 @@ select{
 .container{
     margin-left:auto;
     margin-right:auto;
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left:3rem;
+    padding-right:3rem;
     width:100%
 }
 .prose{
@@ -2908,11 +2908,17 @@ ul, ol {
     .container{
         max-width:1280px
     }
+    .xl\:pr-6rem{
+        padding-right: 6rem;
+    }
     .xl\:ml-120 {
         margin-left: 31rem;
     }
     .xl\:h-28{
         height:7rem
+    }
+    .xl\:h-64{
+        height:16rem
     }
     .xl\:h-72{
         height:18rem

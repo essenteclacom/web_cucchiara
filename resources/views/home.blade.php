@@ -18,7 +18,7 @@
                             según tu objetivo, plazo y perfil de riesgo.
                         </p>
                     </div>
-                    <div class="absolute md:top-12 lg:-top-20 xl:-top-20 md:-right-36 lg:-right-20 xl:-right-32 z--1">
+                    <div class="absolute md:top-12 lg:-top-20 xl:top-0 right-0 z--1">
                         <img src="img/Cucchiara_Animacion_01.gif" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[76rem]">
                     </div>
                     <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
@@ -38,7 +38,7 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container absolute inset-x-0 fieldset z-30 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-48 lg:-mt-48 xl:-mt-48">
+    <div class="container absolute inset-x-0 fieldset z-30 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-48 lg:-mt-48 xl:-mt-48 xl:container">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             Lo que hacemos
         </span>    
@@ -96,23 +96,23 @@
             <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-40" alt="icon project"/>
+                        <img src="{{ asset('/img/iconphone.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-64" alt="icon project"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_02.png') }}" class="mx-auto xxs:h-10 xs:h-c-4 md:h-20 lg:h-[6.5rem] xl:h-[8.5rem]" alt="icon award"/>
+                        <img src="{{ asset('/img/iconboxes.png') }}" class="mx-auto xxs:h-10 xs:h-c-4 md:h-20 lg:h-[6.5rem] xl:h-64" alt="icon award"/>
                     </div>
                     
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-40" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/iconarrows.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-64" alt="icon happy clients"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/open_account_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-40" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/iconbars.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-64" alt="icon puzzle"/>
                     </div>
                 </div>
             </div>

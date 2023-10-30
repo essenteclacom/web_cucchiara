@@ -5,15 +5,15 @@
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
         <title>CUCCHIARA - @yield('title')</title>
-        <meta property="og:title" content="Homepage | Atom Template"/>
+        <meta property="og:title" content="Homepage | Cucchiara"/>
         <meta property="og:locale" content="en_US"/>
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
-        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-        <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
+        <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
+        <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
-        <meta property="og:site_name" content="Atom Template"/>
-        <meta property="og:image" content="{{ asset('/img/social.jpg') }}"/>
+        <meta property="og:site_name" content="Cucchiara"/>
+        <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@tailwindmade"/>
         <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -169,7 +169,7 @@
                 {{-- footer --}}
                 <div class="bg-footer">
                     <div class="container py-6">
-                        <div class="flex justify-center content-start py-6">
+                        <div class="flex justify-evenly content-start py-6">
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-col lg:flex-row xxs:mx-4 xs:mx-4 lg:mx-0">
                                 <div class="pt-1 xxs:pb-8 xs:pb-8 xs:mx-4 sm:mx-4 md:mx-4 lg:mx-4 xl:mx-8">
                                     <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-48" alt="logo image"/>
