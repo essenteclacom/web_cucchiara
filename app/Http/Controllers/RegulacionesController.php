@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MenuController extends Controller {
+class RegulacionesController extends Controller {
     public function __invoke() {
-        return view('menu');
+        return view('regulaciones');
     }
 }

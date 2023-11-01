@@ -41,7 +41,7 @@
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/openaccount" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-2 xs:text-base lg:text-lg font-bold hover:bg-cyan-20">
+                            <a href="/abrircuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-2 xs:text-base lg:text-lg font-bold hover:bg-cyan-20">
                                 Abrir cuenta
                             </a>
                             <a class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-2 xs:text-base lg:text-lg font-bold hover:bg-white">
@@ -73,27 +73,27 @@
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
-                                    <a href="/about">
+                                    <a href="/acercade">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/services">
+                                    <a href="/servicios">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/founds">
+                                    <a href="/fondos">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/research">
+                                    <a href="/investigacion">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/onlineoperation">
+                                    <a href="/opereonline">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
@@ -134,21 +134,36 @@
                 @yield('content')
                 {{-- contact --}}  
                 <div class="bg-contact">
+                    @if (session('status'))
+                        <div class="text-center text-white font-body text-base pt-10">
+                            {{ session('status') }}
+                        </div>
+                        @endif
+                        @if ($errors->any())
+                        <div class="text-center text-white font-body text-base pt-10">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     <div class="container bg-contact" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
                             <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
                                 Contacto
                             </h2>
                         </div>
-                        <form class="mx-auto w-full pt-10">
+                        <form class="mx-auto w-full pt-10" action="/contact" method="POST" role="form">
+                            {{ csrf_field() }}
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-center">
                                 <div class="flex flex-col md:flex-col sm:mr-14 items-center xxs:w-full sm:w-3/5 lg:w-2/5 xl:w-1/4">
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" id="name"/>
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" id="email"/>
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" id="phone"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" name="email" id="email"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
                                 </div>
                                 <div>
-                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" id="message" cols="42" rows="7"></textarea>
+                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="42" rows="7"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
@@ -175,7 +190,7 @@
                                     <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-48" alt="logo image"/>
                                 </div>
                                 <div class="mt-2 xxs:pb-8 xs:pb-8 border-t-footer xs:mx-4 sm:mx-4 md:mx-4 lg:mx-4 xl:mx-8">
-                                    <a href="/regulations">
+                                    <a href="/regulaciones">
                                         <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                                     </a>
                                 </div>

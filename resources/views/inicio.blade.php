@@ -315,7 +315,7 @@
                 </button>
                 <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
                     <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
-                    <form class="space-y-6" action="/newsletterhome" method="POST" role="form">
+                    <form class="space-y-6" action="/newsletter" method="POST" role="form">
                         {{ csrf_field() }}
                         <div class="flex flex-row justify-between gap-3">
                             <div class="">

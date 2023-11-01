@@ -2,18 +2,18 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\ServicesController;
-use App\Http\Controllers\FoundsController;
-use App\Http\Controllers\ResearchController;
-use App\Http\Controllers\OnlineOperationController;
-use App\Http\Controllers\OpenAccountController;
-use App\Http\Controllers\MenuController;
-use App\Http\Controllers\RegulationsController;
+use App\Http\Controllers\InicioController;
+use App\Http\Controllers\AcercaDeController;
+use App\Http\Controllers\ServiciosController;
+use App\Http\Controllers\FondosController;
+use App\Http\Controllers\InvestigacionController;
+use App\Http\Controllers\OpereOnlineController;
+use App\Http\Controllers\AbrirCuentaController;
+use App\Http\Controllers\MenusController;
+use App\Http\Controllers\RegulacionesController;
 
-use App\Http\Controllers\NewsletterHomeController;
-use App\Http\Controllers\NewsletterResearchController;
+use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,15 +30,15 @@ use App\Http\Controllers\NewsletterResearchController;
 //     return view('home')->name('home');
 // });
 
-Route::get('/', HomeController::class);
-Route::get('/about', AboutController::class);
-Route::get('/services', ServicesController::class);
-Route::get('/founds', FoundsController::class);
-Route::get('/research', ResearchController::class);
-Route::get('/onlineoperation', OnlineOperationController::class);
-Route::get('/openaccount', OpenAccountController::class);
-Route::get('/menu', MenuController::class);
-Route::get('/regulations', RegulationsController::class);
+Route::get('/', InicioController::class);
+Route::get('/acercade', AcercaDeController::class);
+Route::get('/servicios', ServiciosController::class);
+Route::get('/fondos', FondosController::class);
+Route::get('/investigacion', InvestigacionController::class);
+Route::get('/opereonline', OpereOnlineController::class);
+Route::get('/abrircuenta', AbrirCuentaController::class);
+Route::get('/menus', MenusController::class);
+Route::get('/regulaciones', RegulacionesController::class);
 
-Route::post('/newsletterhome', NewsletterHomeController::class);
-Route::post('/newsletterresearch', NewsletterResearchController::class);
+Route::post('/newsletter', NewsletterController::class);
+Route::post('/contact', ContactController::class);
