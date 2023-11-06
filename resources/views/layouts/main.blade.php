@@ -33,29 +33,29 @@
     <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
         <div id="main" class="relative">
             <div x-data="{triggerNavItem(id) {$scroll(id)}, triggerMobileNavItem(id) {mobileMenu = false; this.triggerNavItem(id)}}">
-                <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white">
+                <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-72" alt="logo image"/>
+                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/abrircuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-2 xs:text-base lg:text-lg font-bold hover:bg-cyan-20">
-                                Abrir cuenta
+                            <a href="/abrircuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
+                                Sign Up
                             </a>
-                            <a class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-2 xs:text-base lg:text-lg font-bold hover:bg-white">
-                                Ingresar
+                            <a class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
+                                Sign In
                             </a>
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
-                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-lg font-bold uppercase hover:bg-cyan-20">
+                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
                                             ESP
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
-                                            <li class="text-color-cucchiara text-lg font-bold uppercase"><button class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom" href="">ENG</button></li>
+                                            <li class="text-color-cucchiara text-base font-bold uppercase"><button class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom" href="">ENG</button></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -154,7 +154,7 @@
                                 Contacto
                             </h2>
                         </div>
-                        <form class="mx-auto w-full pt-10" action="/contact" method="POST" role="form">
+                        <form class="mx-auto w-full pt-10 xl:-ml-[3rem]" action="/contact" method="POST" role="form">
                             {{ csrf_field() }}
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-center">
                                 <div class="flex flex-col md:flex-col sm:mr-14 items-center xxs:w-full sm:w-3/5 lg:w-2/5 xl:w-1/4">
@@ -162,7 +162,7 @@
                                     <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" name="email" id="email"/>
                                     <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
                                 </div>
-                                <div>
+                                <div class="xl:pl-32">
                                     <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="42" rows="7"></textarea>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
                                 </div>
                             </div>
                             <div class="flex xxs:flex-col-reverse justify-start-custom xs:flex-col-reverse xxs:mx-4 xs:mx-4 sm:mx-12 lg:mx-0 lg:flex-row">
-                                <div class="flex flex-row pt-1 xxs:mt-10 xs:mt-10 sm:mt-10 lg:mt-2 xs:pb-8 border-t-footer xs:mb-16 xs:mx-2 sm:mx-2 md:mx-2 lg:mx-4 xl:mx-8">
+                                <div class="flex flex-row pt-1 xxs:mt-10 xs:mt-10 sm:mt-10 lg:mt-2 xs:pb-8 border-t-footer xs:mb-16 xs:mx-2 sm:mx-2 md:mx-2 lg:mx-4 xl:mx-8 xl:mr-12">
                                     <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
                                     <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
                                 </div>

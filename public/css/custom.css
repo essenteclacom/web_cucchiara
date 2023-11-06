@@ -376,8 +376,8 @@ select{
 .container{
     margin-left:auto;
     margin-right:auto;
-    padding-left:3rem;
-    padding-right:3rem;
+    padding-left:6rem;
+    padding-right:6rem;
     width:100%
 }
 .prose{
@@ -1486,6 +1486,9 @@ html{
 .bg-blend-multiply{
     background-blend-mode:multiply
 }
+.text-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 .shadow-amplia{
     box-shadow: 5px 5px 5px rgba(0,0,0,.1);
 }
@@ -1634,6 +1637,7 @@ ul, ol {
 .menu ul {
     list-style: none;
     padding: 0;
+    background-color:#FFFFFF;
 }
 .menu a {
     text-decoration: none;
@@ -1645,6 +1649,7 @@ ul, ol {
     overflow: auto;
     transition: max-height 0.3s ease-in-out;
     position: relative;
+    margin-left: 0.25rem
 }
 .hide-sub-menu {
     display: none;
@@ -1743,7 +1748,9 @@ ul, ol {
 /*xxs*/
 @media screen and (min-width:300px) {
     .container{
-        max-width:560px
+        max-width:560px;
+        padding-left:1rem;
+        padding-right:1rem;
     }
     .xxs\:left-4{
         left:1rem
@@ -2102,7 +2109,9 @@ ul, ol {
 /*xs*/
 @media screen and (min-width:560px) {
     .container{
-        max-width:560px
+        max-width:560px;
+        padding-left:1rem;
+        padding-right:1rem;
     }
     .xs\:pl-20{
         padding-left:5rem
@@ -2367,13 +2376,6 @@ ul, ol {
     .xs\:pl-3-7{
         padding-left: 3.7rem;
     }
-    .xs\:container{
-        margin-left:0rem;
-        margin-right:auto;
-        padding-left:1rem;
-        padding-right:1rem;
-        width:100%
-    }
     .xs\:hidden{
         display:none
     }
@@ -2408,7 +2410,9 @@ ul, ol {
 /*sm*/
 @media screen and (min-width:640px) {
     .container{
-        max-width:640px
+        max-width:640px;
+        padding-left:1rem;
+        padding-right:1rem;
     }
     .sm\:max-w-4rem{
         max-width: 4rem
@@ -2541,7 +2545,9 @@ ul, ol {
 /*md*/
 @media screen and (min-width:768px) {
     .container{
-        max-width:768px
+        max-width:768px;
+        padding-left:1rem;
+        padding-right:1rem;
     }
     .md\:mr-8{
         margin-right:2rem
@@ -2704,7 +2710,9 @@ ul, ol {
 /*lg*/
 @media screen and (min-width:1024px) { 
     .container{
-        max-width:1024px
+        max-width:1024px;
+        padding-left:3rem;
+        padding-right:3rem;
     }
     .lg\:ml-120 {
         margin-left: 31rem;
@@ -2906,7 +2914,9 @@ ul, ol {
 /*xl*/
 @media screen and (min-width:1280px) {
     .container{
-        max-width:1280px
+        max-width:1280px;
+        padding-left:6rem;
+        padding-right:6rem;
     }
     .xl\:pr-6rem{
         padding-right: 6rem;

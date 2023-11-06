@@ -5,7 +5,7 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/bg_about.png')}}')">
+        <div class="relative bg-cover bg-center bg-no-repeat pb-40" style="background-image: url('{{ asset('/img/bg_about.png')}}')">
             <div class="container relative z-30 pb-hero-9">
                 <div class="flex flex-col items-center justify-center">
                     <div class="xxs:pt-6 xs:pt-6 sm:pt-20 md:pt-20 lg:pt-20 xl:pt-20">

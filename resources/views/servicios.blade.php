@@ -6,7 +6,7 @@
     {{-- slide --}}
     <div>
         <div>
-            <img src="{{ asset('/img/services_01.png') }}" class="w-full h-full" alt="about image"/>
+            <img src="{{ asset('/img/services_02.png') }}" class="w-full h-full" alt="about image"/>
             <div class="absolute inset-x-0 xxs:top-20 xs:top-8 sm:top-40 md:top-44 lg:top-80 xl:top-80 xs:mx-1 lg:mx-32">
                 <p class="font-body text-white text-center xxs:text-xs xs:text-base sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
                     Cucchiara forma parte de la comunidad inversora local como socio de la Cámara de Agentes de Bolsa y tiene presencia internacional como asociado del EMTA, comunidad internacional de inversión enfocada en el desarrollo de mercados emergentes.

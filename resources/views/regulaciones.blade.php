@@ -6,9 +6,9 @@
     {{-- slide --}}
     <div>
         <div>
-            <img src="{{ asset('/img/pexels.png') }}" class="w-full h-full" alt="about image"/>
+            <img src="{{ asset('/img/Derechos.jpg') }}" class="w-full h-full" alt="about image"/>
             <div class="absolute inset-x-0 xxs:top-20 xs:top-8 sm:top-40 md:top-44 lg:top-80 xl:top-80 xs:mx-1 lg:mx-32">
-                <p class="font-body text-white text-center xs:text-base sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
+                <p class="font-body text-white text-center xs:text-base sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl text-shadow">
                     Cucchiara y Cía S.A. se adhiere y cumple rigurosamente todas las normativas vigentes del mercado de capitales argentino velando por la transparencia y la integridad de todas sus operaciones.
                 </p>
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
