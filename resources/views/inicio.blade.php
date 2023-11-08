@@ -101,9 +101,8 @@
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-10 xs:h-c-4 md:h-20 lg:h-[6.5rem] xl:h-44" alt="icon award"/>
+                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
                     </div>
-                    
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
@@ -154,7 +153,7 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
+                                <div class="relative flex justify-center top-minus-10 h-20">
                                     <img src="{{ asset('/img/personas.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
@@ -185,7 +184,7 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
+                                <div class="relative flex justify-center top-minus-10 h-20">
                                     <img src="{{ asset('/img/contratos.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
@@ -222,7 +221,7 @@
         </div>
     </div>
     {{-- end need --}} 
-     {{-- last research --}}
+    {{-- last research --}}
     <div class="bg-white">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bolder sm:text-xl lg:text-3xl text-color-cucchiara">

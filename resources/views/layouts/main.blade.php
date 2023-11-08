@@ -36,8 +36,8 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/">
-                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
+                            <a href="/home">
+                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>eng
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
@@ -73,27 +73,27 @@
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
-                                    <a href="/acercade">
+                                    <a href="/about">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/servicios">
+                                    <a href="/service">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/fondos">
+                                    <a href="/founds">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/investigacion">
+                                    <a href="/research">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/opereonline">
+                                    <a href="/onlineoperation">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
@@ -158,9 +158,9 @@
                             {{ csrf_field() }}
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-center">
                                 <div class="flex flex-col md:flex-col sm:mr-14 items-center xxs:w-full sm:w-3/5 lg:w-2/5 xl:w-1/4">
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" name="email" id="email"/>
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xl:max-w-2xl xs:w-96 xl:w-[42rem] rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xl:max-w-2xl xs:w-96 xl:w-[42rem] rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" name="email" id="email"/>
+                                    <input class="xxs:w-full xxs:max-w-c-24 xl:max-w-2xl xs:w-96 xl:w-[42rem] rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
                                 </div>
                                 <div class="xl:pl-32">
                                     <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="42" rows="7"></textarea>

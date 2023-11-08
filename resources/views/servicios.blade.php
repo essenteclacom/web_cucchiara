@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.principal')
 
 @section('title', 'Services')
 
@@ -7,8 +7,8 @@
     <div>
         <div>
             <img src="{{ asset('/img/services_02.png') }}" class="w-full h-full" alt="about image"/>
-            <div class="absolute inset-x-0 xxs:top-20 xs:top-8 sm:top-40 md:top-44 lg:top-80 xl:top-80 xs:mx-1 lg:mx-32">
-                <p class="font-body text-white text-center xxs:text-xs xs:text-base sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
+            <div class="container absolute inset-x-0 xxs:top-20 xs:top-24 sm:top-32 md:top-32 lg:top-60 xl:top-80">
+                <p class="font-body text-white text-center xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
                     Cucchiara forma parte de la comunidad inversora local como socio de la Cámara de Agentes de Bolsa y tiene presencia internacional como asociado del EMTA, comunidad internacional de inversión enfocada en el desarrollo de mercados emergentes.
                 </p>
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>

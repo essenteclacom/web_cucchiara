@@ -37,7 +37,7 @@
                     <div class="container flex items-center justify-between">
                         <div>
                             <a href="/">
-                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
+                                <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>esp
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
@@ -55,7 +55,7 @@
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
-                                            <li class="text-color-cucchiara text-base font-bold uppercase"><button class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom" href="">ENG</button></li>
+                                            <li class="text-color-cucchiara text-base font-bold uppercase"><a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom" href="/home">ENG</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -114,19 +114,19 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/about"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
+                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
+                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/founds"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
+                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
+                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/onlineoperation"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
+                                <a href="/opereonline"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
                             </li>
                         </ul>
                     </div>
@@ -154,22 +154,21 @@
                                 Contacto
                             </h2>
                         </div>
-                        <form class="mx-auto w-full pt-10 xl:-ml-[3rem]" action="/contact" method="POST" role="form">
+                        <form class="mx-auto w-full pt-10" action="/contact" method="POST" role="form">
                             {{ csrf_field() }}
-                            <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-center">
-                                <div class="flex flex-col md:flex-col sm:mr-14 items-center xxs:w-full sm:w-3/5 lg:w-2/5 xl:w-1/4">
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6" placeholder="Email*" type="text" name="email" id="email"/>
-                                    <input class="xxs:w-full xxs:max-w-c-24 xs:w-96 rounded border-white py-3 font-body text-grey-custom mt-6 xxs:mb-6 sm:mb-0 md:mb-0 lg:mb-0" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
+                            <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-start justify-center">
+                                <div class="flex flex-col md:flex-col xxs:w-full mr-4">
+                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
+                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Email*" type="text" name="email" id="email"/>
+                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
                                 </div>
-                                <div class="xl:pl-32">
-                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="42" rows="7"></textarea>
+                                <div class="xs:ml-0 sm:ml-4 xxs:mt-8 xs:mt-8 sm:mt-0 sm:w-full md:w-full">
+                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="160" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
-                                <button class="mt-6 flex items-center justify-center rounded px-8 py-3 font-body text-lg font-bold text-grey-custom hover:underline-offset-2 mr-24">
+                                <button class="mt-6 flex items-center justify-center rounded py-3 font-body text-lg font-bold text-grey-custom underline underline-offset-4">
                                     Enviar
-                                    <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
                                 </button>
                             </div>
                         </form>
@@ -183,27 +182,27 @@
                 {{-- end map --}}
                 {{-- footer --}}
                 <div class="bg-footer">
-                    <div class="container py-6">
-                        <div class="flex justify-evenly content-start py-6">
-                            <div class="flex xxs:flex-col xs:flex-col sm:flex-col lg:flex-row xxs:mx-4 xs:mx-4 lg:mx-0">
-                                <div class="pt-1 xxs:pb-8 xs:pb-8 xs:mx-4 sm:mx-4 md:mx-4 lg:mx-4 xl:mx-8">
+                    <div class="container py-10">
+                        <div class="flex flex-row">
+                            <div class="flex justify-between xxs:items-start xs:items-center sm:items-center md:items-center lg:items-start xxs:flex-col xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row xxs:w-3/5 xs:w-3/5 sm:w-3/5 md:w-3/5 lg:w-3/4 lg:pr-12 xl:pr-12">
+                                <div class="pt-1 xxs:pb-8 xs:pb-8">
                                     <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-48" alt="logo image"/>
                                 </div>
-                                <div class="mt-2 xxs:pb-8 xs:pb-8 border-t-footer xs:mx-4 sm:mx-4 md:mx-4 lg:mx-4 xl:mx-8">
+                                <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/regulaciones">
                                         <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                                     </a>
                                 </div>
-                                <div class="pt-1 mt-2 xxs:pb-8 xs:pb-8 border-t-footer xs:mx-4 sm:mx-4 md:mx-4 lg:mx-4 xl:mx-8">
+                                <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
                                     info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
                                 </div>
                             </div>
-                            <div class="flex xxs:flex-col-reverse justify-start-custom xs:flex-col-reverse xxs:mx-4 xs:mx-4 sm:mx-12 lg:mx-0 lg:flex-row">
-                                <div class="flex flex-row pt-1 xxs:mt-10 xs:mt-10 sm:mt-10 lg:mt-2 xs:pb-8 border-t-footer xs:mb-16 xs:mx-2 sm:mx-2 md:mx-2 lg:mx-4 xl:mx-8 xl:mr-12">
-                                    <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white"></i>
+                            <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pr-12 xl:pl-12">
+                                <div class="flex flex-row pt-1 border-t-footer xxs:mt-10 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-2 xs:pb-8">
+                                    <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white pr-6"></i>
                                     <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
                                 </div>
-                                <div class="xs:pb-8 lg:mx-4 xl:mx-8">
+                                <div class="xs:pb-8">
                                     <img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-20" alt="footer_data_fiscal"/>
                                 </div>
                             </div>

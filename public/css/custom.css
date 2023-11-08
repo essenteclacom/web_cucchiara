@@ -1472,7 +1472,8 @@ html{
 }
 .underline{
     -webkit-text-decoration-line:underline;
-    text-decoration-line:underline
+    text-decoration-line:underline;
+    text-decoration: underline;
 }
 .opacity-0{
     opacity:0
@@ -1749,8 +1750,8 @@ ul, ol {
 @media screen and (min-width:300px) {
     .container{
         max-width:560px;
-        padding-left:1rem;
-        padding-right:1rem;
+        padding-left:2rem;
+        padding-right:2rem;
     }
     .xxs\:left-4{
         left:1rem
@@ -1764,14 +1765,23 @@ ul, ol {
     .xxs\:top-20{
         top:5rem
     }
+    .xxs\:top-24{
+        top:6rem
+    }
     .xxs\:ml-2{
         margin-left:.5rem
     }
     .xxs\:ml-4 {
         margin-left: 1rem;
     }
+    .xxs\:ml-8 {
+        margin-left: 2rem;
+    }
     .xxs\:ml-5 {
         margin-left: 3rem;
+    }
+    .xxs\:ml-16 {
+        margin-left: 4rem;
     }
     .xxs\:mb-6 {
         margin-bottom: 1.5rem;
@@ -1787,6 +1797,9 @@ ul, ol {
     }
     .xxs\:mt-1{
         margin-top:1rem
+    }
+    .xxs\:mt-8{
+        margin-top:2rem
     }
     .xxs\:mt-10{
         margin-top:2.5rem
@@ -1888,7 +1901,13 @@ ul, ol {
         width:24rem
     }
     .xxs\:w-2\/5{
-        width:8rem
+        width:40rem
+    }
+    .xxs\:w-2\/5{
+        width:40%
+    }
+    .xxs\:w-3\/5{
+        width:60%
     }
     .xxs\:w-3\/4{
         width:75%
@@ -1915,11 +1934,24 @@ ul, ol {
         -ms-flex-pack:center;
         justify-content:center
     }
+    .xs\:justify-end {
+        justify-content: flex-end;
+    }	
     .xxs\:text-center{
         text-align:center
     }
     .xxs\:place-items-center{
         place-items: center;
+    }
+    .xxs\:items-center{
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+        align-items:center
+    }
+    .xxs\:items-end{
+        -webkit-box-align:end;
+        -ms-flex-align:end;
+        align-items:flex-end
     }
     .xxs\:px-1{
         padding-left:0.25rem;
@@ -2116,8 +2148,8 @@ ul, ol {
     .xs\:pl-20{
         padding-left:5rem
     }
-    .xs\:top-8{
-        top:8rem
+    .xs\:top-24{
+        top:6rem
     }
     .xs\:ml-2{
         margin-left:.5rem
@@ -2128,8 +2160,14 @@ ul, ol {
     .xs\:ml-5 {
         margin-left: 3rem;
     }
+    .xs\:ml-16 {
+        margin-left: 4rem;
+    }
     .xs\:mb-16 {
         margin-bottom: 4rem;
+    }
+    .xs\:mt-8{
+        margin-top:2rem
     }
     .xs\:-mt-36{
         margin-top:-9rem
@@ -2213,7 +2251,13 @@ ul, ol {
         width:24rem
     }
     .xs\:w-2\/5{
-        width:8rem
+        width:40%
+    }
+    .xs\:w-3\/5{
+        width:60%
+    }
+    .xs\:w-3\/5{
+        width:60%
     }
     .xs\:w-3\/4{
         width:75%
@@ -2240,8 +2284,16 @@ ul, ol {
         -ms-flex-pack:center;
         justify-content:center
     }
+    .xs\:justify-end {
+        justify-content: flex-end;
+    }	
     .xs\:text-center{
         text-align:center
+    }
+    .xs\:items-center{
+        -webkit-box-align:center;
+        -ms-flex-align:center;
+        align-items:center
     }
     .xs\:px-1{
         padding-left:1rem;
