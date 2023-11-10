@@ -1870,8 +1870,8 @@ ul, ol {
     .xxs\:h-64{
         height:16rem
     }
-    .xxs\:h-96{
-        height:24rem
+    .xxs\:h-88{
+        height:22rem
     }
     .xxs\:h-c-34{
         height:34rem
@@ -2113,8 +2113,8 @@ ul, ol {
     .xxs\:flex-col-reverse{
         flex-direction: column-reverse
     }
-    .xxs\:-top-32 {
-        top:-8rem
+    .xxs\:-top-24 {
+        top:-6rem
     }
     .xxs\:grid-cols-1{
         grid-template-columns:repeat(1,minmax(0,1fr))
@@ -2231,6 +2231,9 @@ ul, ol {
     }
     .xs\:h-96{
         height:24rem
+    }
+    .xs\:h-112{
+        height: 28rem;
     }
     .xs\:h-c-34{
         height:34rem
@@ -2449,8 +2452,8 @@ ul, ol {
     .xs\:place-items-start{
         place-items: start;
     }
-    .xs\:-top-32 {
-        top:-8rem
+    .xs\:-top-36 {
+        top:-9rem
     }
     .xs\:grid-cols-3{
         grid-template-columns:repeat(3,minmax(0,1fr))
@@ -2465,9 +2468,6 @@ ul, ol {
         max-width:640px;
         padding-left:1rem;
         padding-right:1rem;
-    }
-    .sm\:max-w-4rem{
-        max-width: 4rem
     }
     .sm\:text-xxs{
         font-size:0.6rem;

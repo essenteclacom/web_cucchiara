@@ -16,6 +16,7 @@ use App\Http\Controllers\InvestigacionController;
 use App\Http\Controllers\OpereOnlineController;
 use App\Http\Controllers\AbrirCuentaController;
 use App\Http\Controllers\RegulacionesController;
+use App\Http\Controllers\SeleccionarTipoCuentaController;
 
 Route::get('/', InicioController::class);
 Route::get('/acercade', AcercaDeController::class);
@@ -25,6 +26,7 @@ Route::get('/investigacion', InvestigacionController::class);
 Route::get('/opereonline', OpereOnlineController::class);
 Route::get('/abrircuenta', AbrirCuentaController::class);
 Route::get('/regulaciones', RegulacionesController::class);
+Route::get('/seleccionartipocuenta', SeleccionarTipoCuentaController::class);
 
 //ENG routes
 use App\Http\Controllers\HomeController;

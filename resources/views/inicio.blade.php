@@ -43,50 +43,50 @@
             Lo que hacemos
         </span>    
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-24 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Administración<br/>de cartera
                     </h3>
                 </div>
                 <div>
-                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-24 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Research
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-24 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Operaciones<br/>financieras
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-24 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Fondos comunes<br/>de inversión
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20"/>
                 </div>
             </div>
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-34 xs:h-c-34 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[40rem]"></div>
+    <div class="xxs:h-c-34 xs:h-c-34 sm:h-[30rem] md:h-80 lg:h-[30rem] xl:h-[40rem]"></div>
     {{-- open account --}}
     <div class="container text-center">
         <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">

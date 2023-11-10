@@ -89,7 +89,7 @@
     <div class="xxs:h-c-34 xs:h-c-34 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[40rem]"></div>
     {{-- open account --}}
     <div class="container text-center">
-        <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
+        <span class="font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
             Abrí tu cuenta hoy
         </span>
         <div class="mx-auto bg-white xxs:py-20 xs:py-20 sm:py-20 md:py-20 lg:py-20 xl:py-20">
