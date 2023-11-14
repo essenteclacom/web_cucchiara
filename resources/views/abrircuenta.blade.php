@@ -16,14 +16,14 @@
                 <div class="flex flex-col">
                     <div class="flex justify-center pb-16" >
                         <a href="/">
-                            <img src="{{ asset('/img/logo_blanco.png') }}" class="xl:w-[34rem]" alt="logo image"/>
+                            <img src="{{ asset('/img/Logo_Blanco-04.png') }}" class="xxs:w-56 xs:w-96 sm:w-[30rem] md:w-[34rem] lg:w-[34rem] xl:w-[34rem]" alt="logo image"/>
                         </a>
                     </div>
                     <div class="my-5">
-                        <input type="email" name="email" class="w-[40rem] rounded border-white py-4 font-body text-grey-custom" placeholder="Email *"/>
+                        <input type="email" name="email" class="xxs:w-56 xs:w-96 sm:w-[35rem] md:w-[40rem] lg:w-[40rem] xl:w-[40rem] rounded border-white py-4 font-body text-grey-custom" placeholder="Email *"/>
                     </div>
                     <div>
-                        <input type="text" name="document" class="w-[40rem] rounded border-white py-4 font-body text-grey-custom" placeholder="Documento *"/>
+                        <input type="text" name="document" class="xxs:w-56 xs:w-96 sm:w-[35rem] md:w-[40rem] lg:w-[40rem] xl:w-[40rem] rounded border-white py-4 font-body text-grey-custom" placeholder="Documento *"/>
                     </div>
                     <div class="mt-5 mb-8 pl-4">
                         <a href="/" class="font-body text-white text-base font-bold">Olvide mi contraseña</a>
@@ -39,10 +39,10 @@
                     </div>
                     <div class="flex flex-row justify-end">
                         <div class="px-2">
-                            <a class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">Iniciar Sesión</a>
+                            <a class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 sm:px-8 md:px-8 lg:px-8 xxs:py-2 xs:py-2 sm:py-2 md:py-2 lg:py-2 xl:py-2 xs:text-base lg:text-base font-bold hover:bg-white">Iniciar Sesión</a>
                         </div>
                         <div class="px-2">
-                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">Registrarse</a>
+                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 sm:px-8 md:px-8 lg:px-8 xxs:py-2 xs:py-2 sm:py-2 md:py-2 lg:py-2 xl:py-2 xs:text-base lg:text-base font-bold hover:bg-cyan-20">Registrarse</a>
                         </div>
                     </div>
                 </div>

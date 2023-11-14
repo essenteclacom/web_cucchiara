@@ -207,7 +207,7 @@
                                     <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
                                 </div>
                                 <div class="xs:pb-8">
-                                    <img src="{{ asset('/img/footer_data_fiscal.png') }}" class="w-20" alt="footer_data_fiscal"/>
+                                    <img src="{{ asset('/img/logos_Data Fiscal.png') }}" class="w-20" alt="footer_data_fiscal"/>
                                 </div>
                             </div>
                         </div>
