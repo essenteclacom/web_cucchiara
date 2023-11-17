@@ -181,7 +181,7 @@
                 {{-- end contact --}}
                 {{-- map --}}
                 <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
-                    <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-4" style="background-image: url({{ asset('/img/maps.png')}})"></div>
+                    <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-4" style="background-image: url({{ asset('/img/mapa_footer.png')}})"></div>
                 </a>
                 {{-- end map --}}
                 {{-- footer --}}
@@ -249,12 +249,12 @@
                             </div>
                             <div>
                                 <a href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_07"/></div>
+                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl" alt="footer_07"/></div>
                                 </a>
                             </div>
                             <div>
                                 <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_08"/></div>
+                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl" alt="footer_08"/></div>
                                 </a>
                             </div>
                         </div>

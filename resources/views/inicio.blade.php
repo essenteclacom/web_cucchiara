@@ -153,7 +153,7 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 h-20">
+                                <div class="relative flex justify-center top-minus-10 h-24">
                                     <img src="{{ asset('/img/personas.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
@@ -184,7 +184,7 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 h-20">
+                                <div class="relative flex justify-center top-minus-10 h-24">
                                     <img src="{{ asset('/img/contratos.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
