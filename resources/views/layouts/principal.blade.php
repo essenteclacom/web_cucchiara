@@ -254,7 +254,7 @@
                             </div>
                             <div>
                                 <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl" alt="footer_08"/></div>
+                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl xl:pl-4" alt="footer_08"/></div>
                                 </a>
                             </div>
                         </div>

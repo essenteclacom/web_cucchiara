@@ -19,7 +19,7 @@
                         </p>
                     </div>
                     <div class="absolute md:top-12 lg:-top-20 xl:-top-16 right-0 z--1">
-                        <img src="img/Grafico2.gif" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
+                        <img src="img/Cucchiara2_Mesa.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
                     </div>
                     <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
                 </div>
