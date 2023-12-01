@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="grid place-items-center h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/background_home.png')}}')">
+    <div class="grid place-items-center h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/background_home_old.png')}}')">
         <form>
             <div class="flex flex-col">
                 <div class="flex flex-col">
