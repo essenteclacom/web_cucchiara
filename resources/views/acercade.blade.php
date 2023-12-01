@@ -19,7 +19,7 @@
                         </div>
                         <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/map_about.png')}}')"></div>
                     </div>
-                    <div class="xxs:h-88 xs:h-112 sm:h-[40rem] md:h-[40rem] lg:h-[40rem] xl:h-[40rem] w-[60rem] "></div>
+                    <div class="xxs:h-88 xs:h-112 sm:h-[40rem] md:h-[40rem] lg:h-[40rem] xl:h-[50rem] w-[60rem] "></div>
                 </div>
             </div>
         </div>
