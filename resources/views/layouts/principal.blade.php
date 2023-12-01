@@ -211,7 +211,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
+                        <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
@@ -249,7 +249,7 @@
                             </div>
                             <div>
                                 <a href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl" alt="footer_07"/></div>
+                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:w-28 xl:w-32 lg:max-w-4xl xl:max-w-4xl" alt="footer_07"/></div>
                                 </a>
                             </div>
                             <div>
