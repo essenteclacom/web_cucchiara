@@ -4,9 +4,8 @@
 
 @section('content')
     {{-- slide --}}
-    <div>
-        <img src="{{ asset('/img/pexels-vlada-karpovich-7433839 2.png') }}" class="w-full h-full" alt="about image"/>
-        <div class="container absolute inset-x-0 xxs:top-20 xs:top-24 sm:top-32 md:top-32 lg:top-60 xl:top-[24rem]">
+    <div style="background-image: url({{ asset('/img/fondoresearch.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
+        <div class="container flex items-center justify h-full">
             <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
                 Los fundamentos son un elemento clave en la toma de decisiones. Por ello, realizamos un continuo monitoreo de las principales variables del mercado y la coyuntura macroeconómica local e internacional para apoyar la toma de decisiones por parte de nuestros clientes.
             </p>
