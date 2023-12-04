@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 @yield('content')
-                {{-- contact --}}  
+                {{-- contact --}}
                 <div class="bg-contact">
                     @if (session('status'))
                         <div class="text-center text-white font-body text-base pt-10">
@@ -243,18 +243,18 @@
                                 </a>
                             </div>
                             <div>
+                                <a href="http://www.cnv.gov.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="" alt="footer_08"/></div>
+                                </a>
+                            </div>
+                            <div>
                                 <a href="http://www.cadab.org.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_07.png') }}" class="" alt="footer_07"/></div>
                                 </a>
                             </div>
-                            <div>
-                                <a href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:w-28 xl:w-32 lg:max-w-4xl xl:max-w-4xl" alt="footer_07"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl xl:pl-4" alt="footer_08"/></div>
+                            <div class="w-full">
+                                <a class="w-full" href="https://www.bcra.gob.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="w-full" alt="footer_07"/></div>
                                 </a>
                             </div>
                         </div>
