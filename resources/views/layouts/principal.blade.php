@@ -228,11 +228,6 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="https://www.mae.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_04"/></div>
-                                </a>
-                            </div>
-                            <div>
                                 <a href="https://www.mav-sa.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_05.png') }}" class="" alt="footer_05"/></div>
                                 </a>
@@ -252,9 +247,14 @@
                                     <div><img src="{{ asset('/img/footer_07.png') }}" class="" alt="footer_07"/></div>
                                 </a>
                             </div>
-                            <div class="w-full">
-                                <a class="w-full" href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="w-full" alt="footer_07"/></div>
+                            <div>
+                                <a href="https://www.mae.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_04"/></div>
+                                </a>
+                            </div>
+                            <div class="">
+                                <a class="" href="https://www.bcra.gob.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:max-w-xs xl:max-w-xs md:w-full lg:w-40 xl:w-60 md:ml-0 lg:ml-12 xl:ml-20" alt="footer_07"/></div>
                                 </a>
                             </div>
                         </div>
