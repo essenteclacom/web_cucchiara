@@ -36,15 +36,15 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/">
+                            <a href="/inicio">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/abrircuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
+                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
                                 Abrir cuenta
                             </a>
-                            <a href="/abrircuenta" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
+                            <a href="/iniciarsesion" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
                                 Ingresar
                             </a>
                             <div class="hidden lg:block">
@@ -56,7 +56,7 @@
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/home">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
                                                     ENG
                                                 </a>
                                             </li>
@@ -87,7 +87,7 @@
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/fondos">
+                                    <a href="/inicio">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
                                     </a>
                                 </li>
@@ -97,7 +97,7 @@
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/opereonline">
+                                    <a href="/inicio">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
@@ -124,13 +124,13 @@
                                 <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
+                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/opereonline"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
+                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
                             </li>
                         </ul>
                     </div>

@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AbrirCuentaController extends Controller {
+class IniciarSesionController extends Controller {
     public function __invoke() {
-        return view('abrircuenta');
+        return view('iniciarsesion');
     }
 }
