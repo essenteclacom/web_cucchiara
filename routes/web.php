@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\View;
 |--------------------------------------------------------------------------*/
 
 //ESP routes
+use App\Http\Controllers\DefaultController;
 use App\Http\Controllers\InicioController;
 use App\Http\Controllers\AcercaDeController;
 use App\Http\Controllers\ServiciosController;
@@ -17,7 +18,7 @@ use App\Http\Controllers\RegulacionesController;
 use App\Http\Controllers\SeleccionarTipoCuentaController;
 use App\Http\Controllers\EspController;
 
-Route::get('/', InicioController::class);
+Route::get('/', DefaultController::class);
 Route::get('/inicio', InicioController::class);
 Route::get('/acercade', AcercaDeController::class);
 Route::get('/servicios', ServiciosController::class);
@@ -35,6 +36,7 @@ use App\Http\Controllers\ResearchController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\EngController;
 use App\Http\Controllers\LogInController;
+use App\Http\Controllers\SelectAccountTypeController;
 
 Route::get('/home', HomeController::class);
 Route::get('/openaccount', OpenAccountController::class);
@@ -43,6 +45,7 @@ Route::get('/research', ResearchController::class);
 Route::get('/services', ServicesController::class);
 Route::get('/eng', EngController::class);
 Route::get('/login', LogInController::class);
+Route::get('/selectaccounttype', SelectAccountTypeController::class);
 
 //FORM routes
 use App\Http\Controllers\NewsletterController;

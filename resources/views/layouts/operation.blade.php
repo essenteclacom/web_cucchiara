@@ -45,13 +45,13 @@
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
                                         <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
-                                            ESP
+                                            ENG
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
-                                                    ENG
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/esp">
+                                                    ESP
                                                 </a>
                                             </li>
                                         </ul>
@@ -71,28 +71,28 @@
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
-                                    <a href="/acercade">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
+                                    <a href="/about">
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">About Us</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/servicios">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
+                                    <a href="/services">
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Services</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/fondos">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
+                                    <a href="/home">
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Mutual Funds</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/investigacion">
+                                    <a href="/research">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/opereonline">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
+                                    <a href="/home">
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Trade online</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
                                 </li>
@@ -112,19 +112,19 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
+                                <a href="/about"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
+                                <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
+                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Mutual Funds</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
+                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/opereonline"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
+                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Trade online</span></a>
                             </li>
                         </ul>
                     </div>

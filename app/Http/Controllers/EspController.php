@@ -25,6 +25,9 @@ class EspController extends Controller {
             case "research":
                 return redirect('investigacion');
                 break;
+            case "selectaccounttype":
+                return redirect('seleccionartipocuenta');
+                break;
         }
     }
 }
