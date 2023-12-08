@@ -1,6 +1,6 @@
 @extends('layouts.operation')
 
-@section('title', 'Seleccionar tipo de cuenta')
+@section('title', 'Select Account Type')
 
 @section('content')
 <div class="grid place-items-center h-[45rem]">

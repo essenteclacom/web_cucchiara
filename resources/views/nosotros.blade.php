@@ -1,6 +1,6 @@
 @extends('layouts.principal')
 
-@section('title', 'About')
+@section('title', 'Nosotros')
 
 @section('content')
     {{-- slide --}}
