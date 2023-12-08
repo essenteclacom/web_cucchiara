@@ -9,27 +9,27 @@
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
-                        Soluciones financieras<br/>integrales
+                        Comprehensive financial<br/>solutions
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
-                            Te acompañamos a tomar las mejores decisiones de inversión,<br/>
-                            ofreciéndote una amplia gama de instrumentos financieros<br/>
-                            según tu objetivo, plazo y perfil de riesgo.
+                            We assist you in making the best investment decisions, offering you a<br/>
+                            wide range of financial instruments according to your goals, term, and<br/>
+                            risk profile.
                         </p>
                     </div>
-                    <div class="absolute md:top-12 lg:-top-20 xl:-top-16 right-0 z--1">
-                        <img src="img/Cucchiara2_Mesa.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
-                    </div>
+                    {{-- <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
+                        <img src="img/Animacion Cucchiara_Mesa de trabajo 1.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
+                    </div> --}}
                     <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
                 </div>
                 <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-                        Nosotros
+                        About Us
                     </span>
                     <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
-                            <span class="font-bold">Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación</span> que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
+                            <span class="font-bold">Cucchiara y Cía. S. A. is a Negotiation, Settlement, and Clearing Agent that offers</span>comprehensive portfolio management services, fostering direct relationships with its individual or corporate clients and providing financial solutions guided by prudence, transparency, and accountability.
                         </p>
                     </div>
                 </div>
@@ -38,61 +38,61 @@
     </div>
     {{-- end slide --}}
     {{-- cards --}}
-    <div class="container absolute inset-x-0 fieldset z-30 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
+    <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
-            Lo que hacemos
+            What we do
         </span>    
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Administración<br/>de cartera
+                        Portfolio<br/>Assessment
                     </h3>
                 </div>
                 <div>
-                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
                         Research
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Operaciones<br/>financieras
+                        Financials<br/>Operations
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20"/>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-32 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
+            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
                     <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Fondos comunes<br/>de inversión
+                        Mutual<br/>Funds
                     </h3>
                 </div>
                 <div>
-                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20 max-w-4rem sm:pt-4"/>
+                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20"/>
                 </div>
             </div>
         </div>
     </div>
     {{-- end cards --}}
-    <div class="xxs:h-c-34 xs:h-c-34 sm:h-[30rem] md:h-[30rem] lg:h-[30rem] xl:h-[40rem]"></div>
+    <div class="xxs:h-c-32 xs:h-c-34 sm:h-[23rem] md:h-60 lg:h-[25rem] xl:h-[30rem]"></div>
     {{-- open account --}}
     <div class="container text-center">
-        <span class="font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
-            Abrí tu cuenta hoy
+        <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
+            Openyour account today
         </span>
-        <div class="mx-auto bg-white xxs:py-20 xs:py-20 sm:py-20 md:py-20 lg:py-20 xl:py-20">
+        <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20">
             <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
@@ -101,9 +101,8 @@
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-10 xs:h-c-4 md:h-20 lg:h-[6.5rem] xl:h-44" alt="icon award"/>
+                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
                     </div>
-                    
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
@@ -119,22 +118,22 @@
             <div class="grid grid-cols-4 gap-0 justify-content items-center mt-4">
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                        Abrí tu<br>cuenta
+                        Open your<br/>Account
                     </h4>
                 </div>
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-8">
-                        Asesorate
+                        Get financial<br/>Advice
                     </h4>
                 </div>
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                        Definí tu cartera<br/>de inversión
+                        Define your<br/>investment<br/>portfolio
                     </h4>
                 </div>
                 <div class="">
                     <h4 class="text-color-cucchiara font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
-                        Monitoreá<br/>tus inversiones
+                        Monitor<br/>your investment
                     </h4>
                 </div>
             </div>
@@ -146,7 +145,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-                    ¿Qué necesitas <br>para abrir tu <br>cuenta?                  
+                    What do youneed<br>to openyour<br>account?                  
                 </h2>
             </div>
             <div class="flex xxs:gap-0 sm:gap-2">
@@ -154,12 +153,12 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
+                                <div class="relative flex justify-center top-minus-10 h-28">
                                     <img src="{{ asset('/img/personas.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Físicas
+                                        Natural<br/>Person
                                     </h3>
                                 </div>
                             </div>
@@ -174,8 +173,8 @@
                                         · En caso de contar con apoderado, documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.
                                     </p>
                                 </div>
-                                <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-8">
-                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs">Abrir cuenta</a>
+                                <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-4">
+                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Abrir cuenta</a>
                                 </div>
                             </div>
                         </div>
@@ -185,12 +184,12 @@
                     <div class="single-card">
                         <div class="front-card">
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
-                                <div class="relative flex justify-center top-minus-10 xs:h-3 lg:h-20">
+                                <div class="relative flex justify-center top-minus-10 h-28">
                                     <img src="{{ asset('/img/contratos.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Jurídicas
+                                        Corporate<br/>Entities
                                     </h3>
                                 </div>
                             </div>
@@ -211,8 +210,8 @@
                                         · Verificación de domicilio
                                     </p>
                                 </div>
-                                <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-8">
-                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs">Abrir cuenta</a>
+                                <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-4">
+                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Abrir cuenta</a>
                                 </div>
                             </div>
                         </div>
@@ -222,11 +221,11 @@
         </div>
     </div>
     {{-- end need --}} 
-     {{-- last research --}}
+    {{-- last research --}}
     <div class="bg-white">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bolder sm:text-xl lg:text-3xl text-color-cucchiara">
-                Últimos Informes de Research
+                Last Research reports
             </h3>
             <div class="mx-auto grid w-full grid-cols-3 pt-4 w-full xxs:gap-2 xl:gap-10">
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
@@ -293,12 +292,12 @@
         <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center xl:pr-60 xl:pl-52">
             <div>
                 <h2 class="text-white font-body xxs:text-2xl xs:text-3xl lg:text-5xl font-bolder">
-                    Recibí nuestros<br/>informes
+                    Receive our weekly<br/>Newsletter
                 </h2>
             </div>
             <div class="text-right">
                 <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
-                    Suscribite
+                    Subscribe
                 </button>
             </div>
         </div>
@@ -314,7 +313,7 @@
                     <span class="sr-only">Close modal</span>
                 </button>
                 <div class="px-6 py-20 bg-quarter flex flex-col items-center rounded-lg">
-                    <h3 class="mb-4 text-2xl font-bold text-white">Recibí nuestro Newsletter semanal</h3>
+                    <h3 class="mb-4 text-2xl font-bold text-white">Receive our weekly Newsletter</h3>
                     <form class="space-y-6" action="/newsletter" method="POST" role="form">
                         {{ csrf_field() }}
                         <div class="flex flex-row justify-between gap-3">
@@ -334,26 +333,26 @@
                             <div class="flex flex-col">
                                 <div>
                                     <h3 class="text-base text-white mb-4">
-                                        Elegí cuál querés recibir:
+                                        Choose which you want:
                                     </h3>
                                 </div>
                                 <div class="flex flex-row">
                                     <div class="flex items-center h-5">
                                         <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
                                     </div>
-                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Estadistico</label><br>
+                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Estadistic Summary</label><br>
                                 </div>
                                 <div class="flex flex-row">
                                     <div class="flex items-center h-5">
                                         <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
                                     </div>
-                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Resumen Economico</label>
+                                    <label for="remember" class="ml-2 text-sm font-medium text-white">Economic Summary</label>
                                 </div>
                             </div>
                         </div>
                         <div class="flex justify-end">
                             <button class="text-color-cucchiara rounded bg-cyan-20 px-12 py-2 font-body text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring">
-                                Enviar
+                                Send
                             </button>
                         </div>
                     </form>

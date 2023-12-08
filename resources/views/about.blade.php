@@ -5,28 +5,28 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="relative bg-cover bg-center bg-no-repeat pb-40" style="background-image: url('{{ asset('/img/bg_about.png')}}')">
-            <div class="container relative z-30 pb-hero-9">
+        <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/bg_about.png')}}')">
+            <div class="container relative z-30">
                 <div class="flex flex-col items-center justify-center">
                     <div class="xxs:pt-6 xs:pt-6 sm:pt-20 md:pt-20 lg:pt-20 xl:pt-20">
                         <h2 class="text-center font-body text-3xl text-white font-bold">
-                            Nuestra Historia
+                            Our History
                         </h2>
                         <div class="xxs:pt-6 xs:pt-6 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-10">
-                            <p class="font-body text-white text-center xs:text-xs md:text-lg lg:text-lg xl:text-lg">
-                                Cucchiara y Cía. S.A. tiene una rica historia dentro del mercado de valores argentino, lo<br>que refuerza su amplia experiencia en la industria.
-                            </p>  
+                            <p class="font-body text-white text-center text-shadow xs:text-xs md:text-lg lg:text-lg xl:text-lg pb-12">
+                                Cucchiara and Cía. S.A. has a rich history within the Argentine stock market, which reinforces its extensive<br>experience in the industry.
+                            </p>
                         </div>
                         <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/map_about.png')}}')"></div>
                     </div>
-                    <div class="xxs:h-96 xs:h-96 sm:h-[40rem] md:h-[40rem] lg:h-[40rem] xl:h-[40rem] w-[60rem] "></div>
+                    <div class="xxs:h-88 xs:h-112 sm:h-[40rem] md:h-[40rem] lg:h-[40rem] xl:h-[50rem]"></div>
                 </div>
             </div>
         </div>
-        <div class="container relative xxs:-top-32 xs:-top-32 sm:-top-44 md:-top-44 lg:-top-44 xl:-top-44">
+        <div class="container relative xxs:-top-24 xs:-top-36 sm:-top-44 md:-top-44 lg:-top-44 xl:-top-44">
             <div class="xxs:pb-5 xs:pb-5 sm:pb-10 md:pb-10 lg:pb-10 xl:pb-10">
                 <h2 class="text-center font-body text-3xl text-white font-bold">
-                    Dónde Estamos
+                    Where are we?
                 </h2>
             </div>
             <div class="grid grid-cols-3 sm:mx-0 md:mx-10 lg:mx-40 xl:mx-40">
