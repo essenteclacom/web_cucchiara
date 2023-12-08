@@ -25,6 +25,9 @@ class EngController extends Controller {
             case "investigacion":
                 return redirect('research');
                 break;
+            case "normativas":
+                return redirect('regulations');
+                break;
             case "seleccionartipocuenta":
                 return redirect('selectaccounttype');
                 break;

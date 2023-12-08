@@ -36,7 +36,7 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/">
+                            <a href="/home">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
@@ -70,30 +70,29 @@
                         </div>
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
-                                <li class="group pl-6">
-                                    <a href="/about">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">About Us</span>
+                                <li class="group pl-20">
+                                    <a href="/aboutus">
+                                        <span @if(request()->is('aboutus')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About Us</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/services">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Services</span>
+                                        <span @if(request()->is('services')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Services</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/home">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Mutual Funds</span>
+                                        <span @if(request()->is('home')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Mutual Funds</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/research">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
+                                        <span @if(request()->is('research')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/home">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Trade online</span>
-                                        <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
+                                        <span @if(request()->is('home')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Trade online</span>
                                     </a>
                                 </li>
                             </ul>
@@ -112,7 +111,7 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/about"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
+                                <a href="/aboutus"><span class="cursor-pointer font-body font-semibold text-white">About Us</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>

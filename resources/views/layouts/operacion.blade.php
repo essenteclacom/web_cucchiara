@@ -36,7 +36,7 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/">
+                            <a href="/inicio">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
@@ -70,30 +70,29 @@
                         </div>
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
-                                <li class="group pl-6">
-                                    <a href="/acercade">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
+                                <li class="group pl-20">
+                                    <a href="/nosotros">
+                                        <span @if(request()->is('nosotros')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/servicios">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Servicios</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
-                                    <a href="/fondos">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
+                                <li class="group pl-20">
+                                    <a href="/inicio">
+                                        <span @if(request()->is('nosotros')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Fondos</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/investigacion">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
+                                        <span @if(request()->is('investigacion')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
-                                    <a href="/opereonline">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
-                                        <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
+                                <li class="group pl-20">
+                                    <a href="/inicio">
+                                        <span @if(request()->is('nosotros')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Opere online</span>
                                     </a>
                                 </li>
                             </ul>
@@ -112,19 +111,19 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
+                                <a href="/nosotros"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
+                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/opereonline"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
+                                <a href="/inicio"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
                             </li>
                         </ul>
                     </div>

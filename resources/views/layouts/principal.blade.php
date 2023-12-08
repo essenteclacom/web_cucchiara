@@ -77,8 +77,8 @@
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-28">
-                                    <a href="/acercade">
-                                        <span @if(request()->is('acercade')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
+                                    <a href="/nosotros">
+                                        <span @if(request()->is('nosotros')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
                                     </a>
                                 </li>
                                 <li class="group pl-28">
@@ -118,7 +118,7 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
+                                <a href="/nosotros"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
                             </li>
                             <li class="py-4">
                                 <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
@@ -193,7 +193,7 @@
                                     <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-48" alt="logo image"/>
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
-                                    <a href="/regulaciones">
+                                    <a href="/normativas">
                                         <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
                                     </a>
                                 </div>
