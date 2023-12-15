@@ -7,7 +7,7 @@
     <div style="background-image: url({{ asset('/img/fondoresearch.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
         <div class="container flex items-center justify h-full">
             <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
-                Los fundamentos son un elemento clave en la toma de decisiones. Por ello, realizamos un continuo monitoreo de las principales variables del mercado y la coyuntura macroeconómica local e internacional para apoyar la toma de decisiones por parte de nuestros clientes.
+                We carry out continuous monitoring of the main macroeconomic and market variables to support our clients' decision making.
             </p>
             <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
         </div>
@@ -16,7 +16,7 @@
     <div class="bg-white">
         <div class="container py-16 md:py-20">
             <h3 class="text-left font-header text-xl font-bold sm:text-xl lg:text-xl text-color-cucchiara">
-                Últimos Informes de Research
+                Latest Research reports
             </h3>
             <div class="mx-auto grid w-full grid-cols-3 pt-4 w-full xxs:gap-2 xl:gap-10">
                 <a href="/post" class="shadow-amplia bg-white rounded-xl">
@@ -113,7 +113,7 @@
         <div class="container">
             <div class="relative -top-4">
                 <h2 class="text-color-cucchiara text-left font-header text-2xl font-bolder">
-                    Buscar Informes
+                    Search Informs
                 </h2>
             </div>
             <div class="pt-16 xxs:text-center xs:text-left">
@@ -443,12 +443,12 @@
         <div class="container flex justify-between py-12 grid grid-cols-2 gap-2 flex items-center">
             <div>
                 <h2 class="text-white font-body xxs:text-2xl xs:text-3xl lg:text-5xl font-bold">
-                    Recibí nuestros<br/>informes
+                    Get our weekly<br/>Newsletterl
                 </h2>
             </div>
             <div class="text-right">
                 <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
-                    Suscribite
+                    Suscribe
                 </button>
             </div>
         </div>

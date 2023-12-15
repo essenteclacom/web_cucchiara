@@ -8,7 +8,7 @@
         <div style="background-image: url({{ asset('/img/services_02.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify h-full">
                 <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
-                    Cucchiara forma parte de la comunidad inversora local como socio de la Cámara de Agentes de Bolsa y tiene presencia internacional como asociado del EMTA, comunidad internacional de inversión enfocada en el desarrollo de mercados emergentes.
+                    Cucchiara is part of the local investment community as a member of the Camara de Agentes de Bolsa and has an international presence as an associate of EMTA, an international investment community focused on the development of emerging markets.
                 </p>
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
             </div>
@@ -18,13 +18,12 @@
                 <div class="flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="text-white xs:pr-3 lg:pr-20">
                         <div class="text-xl font-bold text-right max-w-3xl">
-                            Administración<br>de carteras
+                            Portfolio<br>Assessment
                         </div>
                         <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-3xl pt-5">
-                            A través de profesionales idóneos te<br>
-                            brindamos soluciones de inversión a medida,<br>
-                            planteando estrategias que se alineen con tu<br>
-                            perfil de riesgo y tus objetivos.
+                            Through qualified professionals, we provide you with tailored investment<br>
+                            solutions, proposing strategies that align with your risk profile and your<br>
+                            objectives.
                         </div>
                     </div>
                     <div class="ml-4">
@@ -41,12 +40,10 @@
                             Research
                         </div>
                         <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5">
-                            Publicamos regularmente informes económicos y<br>
-                            de investigación de mercado con información<br>
-                            valiosa para la toma de decisiones. Organizamos<br>
-                            charlas y seminarios web con el fin de promover el<br>
-                            intercambio de conocimiento y opinión entre<br>
-                            clientes y especialistas.
+                            We regularly publish economic and market research reports with<br>
+                            valuable information for decision making.<br>
+                            We organize talks and webinars in order to promote the exchange of<br>
+                            knowledge and opinion between clients and specialists.
                         </div>
                     </div>
                     
@@ -55,16 +52,13 @@
                 <div class="container flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="text-white xs:pr-3 lg:pr-20">
                         <div class="text-xl font-bold text-right max-w-3xl">
-                            Operaciones financieras
+                            Financial Operations
                         </div>
                         <div class="xxs:text-xs xs:text-base sm:text-base text-right max-w-3xl pt-5">
-                            Te damos acceso a todos los mercados argentinos para<br>
-                            operar los instrumentos de oferta pública autorizados<br>
-                            por la CNV: Títulos públicos, obligaciones negociables,<br>
-                            acciones, CEDEARs, fideicomisos financieros, cauciones<br>
-                            bursátiles, opciones, futuros, pagarés bursátiles,<br>
-                            cheques de pago diferidos, Fondos Comunes de<br>
-                            Inversión, etc.
+                            We give you access to all Argentine markets to operate the public offering<br>
+                            instruments authorized by the CNV: Public securities, corporate bonds, stock,<br>
+                            CEDEARs, financial trusts, stock sureties, options, futures, stock market<br>
+                            promissory notes, deferred payment checks, Common Funds Investment, etc.
                         </div>
                     </div>
                     <div class="ml-4">
@@ -78,14 +72,12 @@
                     </div>
                     <div class="text-white xs:pl-3 lg:pl-20">
                         <div class="text-xl font-bold text-left max-w-3xl">
-                            Fondos comunes<br>de inversión
+                            Mutual / Investment<br> Funds
                         </div>
                         <div class="xxs:text-xs xs:text-base sm:text-base text-left max-w-3xl pt-5">
-                            Como agente ACDI, te ofrecemos acceso a un amplio<br>
-                            abanico de fondos comunes de inversión gestionados<br>
-                            activamente por especialistas. Fondos en pesos o en<br>
-                            dólares que invierten en instrumentos de renta fija,<br>
-                            variable o mixta.
+                            As an ACDI agent, we offer you access to a wide range of mutual funds<br>
+                            actively managed by specialists. Funds in pesos or dollars that invest in fixed,<br>
+                            variable or mixed income instruments.
                         </div>
                     </div>
                     

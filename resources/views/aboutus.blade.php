@@ -13,11 +13,11 @@
                             Our History
                         </h2>
                         <div class="xxs:pt-6 xs:pt-6 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-10">
-                            <p class="font-body text-white text-center text-shadow xs:text-xs md:text-lg lg:text-lg xl:text-lg pb-12">
+                            <p class="font-body text-white text-center text-shadow xs:text-xs md:text-lg lg:text-lg xl:text-lg pb-24">
                                 Cucchiara and Cía. S.A. has a rich history within the Argentine stock market, which reinforces its extensive<br>experience in the industry.
                             </p>
                         </div>
-                        <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/map_about.png')}}')"></div>
+                        <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" style="background-image: url('{{ asset('/img/MAP-03.png')}}')"></div>
                     </div>
                     <div class="xxs:h-88 xs:h-112 sm:h-[40rem] md:h-[40rem] lg:h-[40rem] xl:h-[50rem]"></div>
                 </div>

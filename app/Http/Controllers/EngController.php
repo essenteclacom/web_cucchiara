@@ -16,8 +16,8 @@ class EngController extends Controller {
             case "inicio":
                 return redirect('home');
                 break;
-            case "acercade":
-                return redirect('about');
+            case "nosotros":
+                return redirect('aboutus');
                 break;
             case "servicios":
                 return redirect('services');

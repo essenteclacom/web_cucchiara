@@ -90,7 +90,7 @@
     {{-- open account --}}
     <div class="container text-center">
         <span class=" font-bolder text-color-cucchiara text-center font-body xxs:text-3xl lg:text-3xl">
-            Openyour account today
+            Open your account today
         </span>
         <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20">
             <div class="grid grid-cols-4 gap-0 content-start">
@@ -145,7 +145,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-                    What do youneed<br>to openyour<br>account?                  
+                    What do you need<br>to open your<br>account?                  
                 </h2>
             </div>
             <div class="flex xxs:gap-0 sm:gap-2">
@@ -167,14 +167,14 @@
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-6 xs:pt-6 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
-                                        · Documento de Identidad.<br/>
-                                        · Verificación de domicilio.<br/>
-                                        · Justificación de ingresos y patrimonio.<br/>
-                                        · En caso de contar con apoderado, documento de identidad de éste, así como copia del poder otorgado ante Escribano Público.
+                                        · Identity Document.<br/>
+                                        · Proof of address.<br/>
+                                        · Justification of income and assets.<br/>
+                                        · In case of having a representative, the identity document of the representative, as well as a copy of the power of attorney granted before a Notary Public.
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-4">
-                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Abrir cuenta</a>
+                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Open account</a>
                                 </div>
                             </div>
                         </div>
@@ -198,20 +198,20 @@
                             <div class="gradient-cucciara rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:w-48 lg:h-64 lg:w-72">
                                 <div class="text-left text-white xs:px-5 sm:px-5 xxs:pt-2 xs:pt-2 sm:pt-6 md:pt-6 md:px-5 lg:px-9 lg:pt-10">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
-                                        · Actas de Directorio / Asamblea con designación de cargos.<br/>
-                                        · Estatuto de la Sociedad.<br/>
-                                        · Registro de accionistas actualizado.<br/>
-                                        · Estados contables.<br/>
-                                        · Verificación de domicilio de la sociedad.<br/>
-                                        · De los representantes de la sociedad y beneficiarios finales. 
+                                        · Board / Assembly Minutes with appointment of positions.<br/>
+                                        · Bylaws of the Company.<br/>
+                                        · Updated shareholders' registry.<br/>
+                                        · Financial statements.<br/>
+                                        · Verification of the company's address.<br/>
+                                        · Of the representatives of the company and ultimate beneficiaries. 
                                     </p>
                                     <p class="font-body xxs:text-xxs xs:text-xxs pl-4 sm:text-xxs lg:text-xs">
-                                        · Documento de identidad<br/>
-                                        · Verificación de domicilio
+                                        · Identity document<br/>
+                                        · Verification of address
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0 lg:pt-2 px-9 pb-4 underline underline-offset-4">
-                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Abrir cuenta</a>
+                                    <a href="" class="font-body font-bold text-a-color xxs:text-xxs xs:text-xxs sm:text-xxs md:text-xs lg:text-base">Open account</a>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +237,7 @@
                             Compañia general de combustible
                         </span>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
-                            Marzo 10, 2023
+                            March 10, 2023
                         </span>
                     </div>
                 </a>
@@ -250,7 +250,7 @@
                             Telecom Argentina S.A.
                         </span>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
-                            Marzo 10, 2023
+                            March 10, 2023
                         </span>
                     </div>
                 </a>
@@ -266,7 +266,7 @@
                             La macroeconomía Argentina para 2023
                         </span>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
-                            Marzo 10, 2023
+                            March 10, 2023
                         </span>
                     </div>
                 </a>
@@ -319,11 +319,11 @@
                         <div class="flex flex-row justify-between gap-3">
                             <div class="">
                                 <label for="name" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                                <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nombres *" required>
+                                <input type="name" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Name *" required>
                             </div>
                             <div class="">
                                 <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 text-white"></label>
-                                <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Apellidos *" required>
+                                <input type="lastname" name="lastname" id="lastname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Last name *" required>
                             </div>
                         </div>
                         <div class="w-full">
