@@ -7,7 +7,7 @@
     <div>
         <div class="sm:bg-no-repeat md:bg-no-repeat lg:relative lg:bg-cover lg:bg-center lg:bg-no-repeat xl:w-full xl:max-w-full xl:overflow-hidden xl:h-auto xl:grid xl:bg-cover xl:bg-no-repeat xl:bg-top justify-center items-center" style="background-image: url('{{ asset('/img/background_home.png')}}')">
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
-                <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
+                <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32" >
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
                         Soluciones financieras<br/>integrales
                     </h1>
@@ -23,14 +23,16 @@
                     </div> --}}
                     <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
                 </div>
-                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
+                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left ">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
                         Nosotros
                     </span>
-                    <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
-                        <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
-                            <span class="font-bold">Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación</span> que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
-                        </p>
+                    <div class="animate-fadeIn">
+                        <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
+                            <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl ">
+                                <span class="font-bold">Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación</span> que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,22 +98,22 @@
             <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconphone.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                        <img src="{{ asset('/img/iconos-openaccount-01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                        <img src="{{ asset('/img/iconos-openaccount-02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconbars.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/iconos-openaccount-03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconboxes.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/iconos-openaccount-04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
                     </div>
                 </div>
             </div>
@@ -236,6 +238,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -249,6 +252,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -265,6 +269,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>

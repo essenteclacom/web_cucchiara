@@ -96,22 +96,22 @@
             <div class="grid grid-cols-4 gap-0 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconphone.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                        <img src="{{ asset('/img/iconos-openaccount-01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                        <img src="{{ asset('/img/iconos-openaccount-02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconbars.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/iconos-openaccount-03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconboxes.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/iconos-openaccount-04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
                     </div>
                 </div>
             </div>
@@ -236,6 +236,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             March 10, 2023
                         </span>
@@ -249,6 +250,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             March 10, 2023
                         </span>
@@ -265,6 +267,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             March 10, 2023
                         </span>

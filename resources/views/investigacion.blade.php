@@ -7,7 +7,7 @@
     <div style="background-image: url({{ asset('/img/fondoresearch.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
         <div class="container flex items-center justify h-full">
             <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
-                Los fundamentos son un elemento clave en la toma de decisiones. Por ello, realizamos un continuo monitoreo de las principales variables del mercado y la coyuntura macroeconómica local e internacional para apoyar la toma de decisiones por parte de nuestros clientes.
+                Realizamos un continuo monitoreo de las principales variables macroeconómicas y de mercado para apoyar la toma de decisiones de nuestros clientes.
             </p>
             <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
         </div>
@@ -27,6 +27,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -40,6 +41,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -56,6 +58,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -69,6 +72,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -82,6 +86,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -98,6 +103,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             La macroeconomía Argentina para 2023
                         </span>
+                        <div class="my-4 border-menu-line-footer"></div>
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -424,6 +430,7 @@
         </div>
     </div>
     {{-- end search --}}
+    <div class="h-20"></div>
     {{-- newsletter --}}
     <div class="bg-quarter" id="newsletter">
         @if (session('status'))
