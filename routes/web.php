@@ -48,6 +48,5 @@ Route::get('/eng', EngController::class);
 //FORM routes
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\ContactController;
-
 Route::post('/newsletter', NewsletterController::class);
 Route::post('/contact', ContactController::class);
