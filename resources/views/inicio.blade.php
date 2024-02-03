@@ -153,11 +153,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div class="sm:px-8  xl:pr-28">
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-<<<<<<< HEAD
-                    ¿Qué necesitas <br>para abrir tu <br>cuenta?
-=======
-                    ¿Qué necesitas para abrir tu cuenta?                  
->>>>>>> b8eaffc04fc96b4c59af5c1507a1c92633616e59
+                    ¿Qué necesitas para abrir tu cuenta?
                 </h2>
             </div>
             <div class="flex xxs:gap-8 sm:gap-2 xxs:flex-col sm:flex-row">
@@ -169,13 +165,8 @@
                                     <img src="{{ asset('/img/personas.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-<<<<<<< HEAD
-                                    <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Humanas
-=======
                                     <h3 class="font-body font-semibold text-white xxs:text-lg xs:text-base lg:text-3xl sm:text-xl">
                                         Personas<br/>Físicas
->>>>>>> b8eaffc04fc96b4c59af5c1507a1c92633616e59
                                     </h3>
                                 </div>
                             </div>
