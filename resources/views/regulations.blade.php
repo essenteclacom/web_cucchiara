@@ -5,7 +5,7 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div style="background-image: url({{ asset('/img/Derechos.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
+        <div style="background-image: url({{ asset('/img/Derecho.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify h-full">
                 <p class="font-body text-white text-center text-shadow xxs:text-xs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-2xl">
                     Cucchiara y Cía S.A. adheres to and rigorously complies with all current regulations of the Argentine capital market, ensuring the transparency and integrity of all its operations.
@@ -30,22 +30,22 @@
                             In this context, the CNV Rules play a crucial role by establishing specific regulations to guarantee the integrity and efficiency of the market, ensuring the protection of investors. For its part, Regulatory Decree 1023/2023 complements the aforementioned laws, by defining operational and procedural aspects, thus contributing to the effective implementation of the legal framework.
                         </div>
                         <div class="flex xxs:justify-center xs:justify-center sm:justify-start pt-10 ">
-                            <a class="block text-color-cucchiara bg-cyan-20 text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
+                            <a class="block text-color-cucchiara bg-cyan-20 text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                                 Public Record<br>Cucchiara y Cía.
                             </a>
                         </div>
                     </div>
                     <div>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                             Ley Mercado de<br>Capitales N° 26.831
                         </a>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                             Decreto Reglamentario<br>Nº 1023/2013
                         </a>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                             Rule text<br>CNV 2013
                         </a>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded ">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl ">
                             Financiamiento Productivo<br>Ley 27.440
                         </a>
                     </div>

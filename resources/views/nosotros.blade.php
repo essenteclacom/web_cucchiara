@@ -26,7 +26,7 @@
         <div class="container relative xxs:-top-24 xs:-top-36 sm:-top-44 md:-top-44 lg:-top-44 xl:-top-44">
             <div class="xxs:pb-5 xs:pb-5 sm:pb-10 md:pb-10 lg:pb-10 xl:pb-10">
                 <h2 class="text-center font-body text-3xl text-white font-bold">
-                    Dónde Estamos
+                    Dónde estamos
                 </h2>
             </div>
             <div class="grid grid-cols-3 sm:mx-0 md:mx-10 lg:mx-40 xl:mx-40">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="flex items-center justify-center">
                     <div>
-                        <img src="{{ asset('/img/about_logo_02.png') }}"class="w-auto h-auto" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/about_logo_02.png') }}"class="xxs:w-20 md:w-auto h-auto" alt="icon puzzle"/>
                     </div>
                 </div>
                 <div class="flex items-center justify-center">
