@@ -41,7 +41,7 @@
     <div class="container absolute inset-x-0 fieldset z-30 xxs:px-0 lg:px-28 xl:px-48 xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left xxs:-mt-32 xs:-mt-36 sm:-mt-48 md:-mt-80 lg:-mt-48 xl:-mt-64">
         <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             Lo que hacemos
-        </span>    
+        </span>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
@@ -145,7 +145,7 @@
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
                 <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
-                    ¿Qué necesitas <br>para abrir tu <br>cuenta?                  
+                    ¿Qué necesitas <br>para abrir tu <br>cuenta?
                 </h2>
             </div>
             <div class="flex xxs:gap-0 sm:gap-2">
@@ -158,7 +158,7 @@
                                 </div>
                                 <div class="text-center">
                                     <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
-                                        Personas<br/>Físicas
+                                        Personas<br/>Humanas
                                     </h3>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@
                                         · Registro de accionistas actualizado.<br/>
                                         · Estados contables.<br/>
                                         · Verificación de domicilio de la sociedad.<br/>
-                                        · De los representantes de la sociedad y beneficiarios finales. 
+                                        · De los representantes de la sociedad y beneficiarios finales.
                                     </p>
                                     <p class="font-body xxs:text-xxs xs:text-xxs pl-4 sm:text-xxs lg:text-xs">
                                         · Documento de identidad<br/>
@@ -217,10 +217,10 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
-    {{-- end need --}} 
+    {{-- end need --}}
     {{-- last research --}}
     <div class="bg-white">
         <div class="container py-16 md:py-20">
