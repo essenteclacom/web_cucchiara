@@ -454,7 +454,7 @@
                 </h2>
             </div>
             <div class="text-right">
-                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
+                <button data-modal-target="newsletter-modal" data-modal-toggle="newsletter-modal" class="text-color-cucchiara rounded-md bg-button text-base font-bold transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring xxs:px-4 sm:px-12 py-2 text-center">
                     Suscribe
                 </button>
             </div>

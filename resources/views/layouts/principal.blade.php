@@ -41,10 +41,10 @@
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color-primary xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
+                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded-md bg-white button-border-color-primary xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
                                 Abrir cuenta
                             </a>
-                            <a href="/iniciarsesion" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
+                            <a href="/iniciarsesion" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded-md bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
                                 Ingresar
                             </a>
                             <div class="hidden lg:block">
