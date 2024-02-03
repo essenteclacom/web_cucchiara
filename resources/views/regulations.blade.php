@@ -30,22 +30,22 @@
                             In this context, the CNV Rules play a crucial role by establishing specific regulations to guarantee the integrity and efficiency of the market, ensuring the protection of investors. For its part, Regulatory Decree 1023/2023 complements the aforementioned laws, by defining operational and procedural aspects, thus contributing to the effective implementation of the legal framework.
                         </div>
                         <div class="flex xxs:justify-center xs:justify-center sm:justify-start pt-10 ">
-                            <a class="block text-color-cucchiara bg-cyan-20 text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                            <a class="block text-color-cucchiara bg-cyan-20 text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
                                 Public Record<br>Cucchiara y Cía.
                             </a>
                         </div>
                     </div>
                     <div>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
                             Ley Mercado de<br>Capitales N° 26.831
                         </a>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
                             Decreto Reglamentario<br>Nº 1023/2013
                         </a>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
                             Rule text<br>CNV 2013
                         </a>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl ">
+                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md ">
                             Financiamiento Productivo<br>Ley 27.440
                         </a>
                     </div>
