@@ -27,13 +27,13 @@
                         </div>
                     </div>
                     <div class="ml-4">
-                        <img src="{{ asset('/img/Group 1.png') }}" class="xxs:w-20 sm:w-auto" alt="about image"/>
+                        <img src="{{ asset('/img/Group 1.png') }}" class="xxs:w-56 sm:w-auto" alt="about image"/>
                     </div>
                 </div>
                 <div class="border border-services-c"></div>
                 <div class="container flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="mr-4">
-                        <img src="{{ asset('/img/_219_Duty_Finance_Marketing_Money.png') }}" class="xxs:w-20 sm:w-auto" alt="about image"/>
+                        <img src="{{ asset('/img/_219_Duty_Finance_Marketing_Money.png') }}" class="xxs:w-56 sm:w-auto" alt="about image"/>
                     </div>
                     <div class="text-white xs:pl-3 lg:pl-20">
                         <div class="text-xl font-bold text-left max-w-3xl">
@@ -62,13 +62,13 @@
                         </div>
                     </div>
                     <div class="ml-4">
-                        <img src="{{ asset('/img/_202_Analytics_Finances_Gains_Investments.png') }}" class="xxs:w-20 sm:w-auto" alt="about image"/>
+                        <img src="{{ asset('/img/_202_Analytics_Finances_Gains_Investments.png') }}" class="xxs:w-56 sm:w-auto" alt="about image"/>
                     </div>
                 </div>
                 <div class="border border-services-c"></div>
                 <div class="container flex flex-row lg:px-40 py-32 items-center justify-center">
                     <div class="mr-4">
-                        <img src="{{ asset('/img/Group 26.png') }}" class="xxs:w-20 sm:w-auto" alt="about image"/>
+                        <img src="{{ asset('/img/Group 26.png') }}" class="xxs:w-56 sm:w-auto" alt="about image"/>
                     </div>
                     <div class="text-white xs:pl-3 lg:pl-20">
                         <div class="text-xl font-bold text-left max-w-3xl">
