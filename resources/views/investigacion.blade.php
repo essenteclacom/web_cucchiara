@@ -27,7 +27,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
-                        <div class="my-4 border-menu-line-footer"></div>
+                        <!--<div class="my-4 border-menu-line-footer"></div>-->
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -41,7 +41,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
-                        <div class="my-4 border-menu-line-footer"></div>
+                        <!--<div class="my-4 border-menu-line-footer"></div>-->
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -56,9 +56,9 @@
                     </div>
                     <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
-                            La macroeconomía Argentina para 2023
+                            Macroeconomía Argentina
                         </span>
-                        <div class="my-4 border-menu-line-footer"></div>
+                        <!--<div class="my-4 border-menu-line-footer"></div>-->
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -72,7 +72,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Compañia general de combustible
                         </span>
-                        <div class="my-4 border-menu-line-footer"></div>
+                        <!--<div class="my-4 border-menu-line-footer"></div>-->
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -86,7 +86,7 @@
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
                             Telecom Argentina S.A.
                         </span>
-                        <div class="my-4 border-menu-line-footer"></div>
+                        <!--<div class="my-4 border-menu-line-footer"></div>-->
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
@@ -101,9 +101,9 @@
                     </div>
                     <div class="bg-white py-6 xxs:px-1 sm:px-5 xl:py-8 rounded-xl">
                         <span class="block font-body xxs:text-xxs sm:text-lg font-semibold text-color-cucchiara">
-                            La macroeconomía Argentina para 2023
+                            Macroeconomía Argentina
                         </span>
-                        <div class="my-4 border-menu-line-footer"></div>
+                        <!--<div class="my-4 border-menu-line-footer"></div>-->
                         <span class="block pt-2 font-body xxs:text-xxs sm:text-lg text-color-cucchiara">
                             Marzo 10, 2023
                         </span>
