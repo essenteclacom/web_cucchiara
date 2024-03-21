@@ -3132,3 +3132,23 @@ ul, ol {
   img:nth-child(4) {
     animation-delay: 12s;
   }
+
+/* fade in animation ltr */
+.animacionltr {
+    opacity: 0;
+    margin-left: -100%;
+    transition: opacity 2s ease-in-out, margin-left 2s ease-in-out;
+}
+.animacionrtl {
+    opacity: 0;
+    margin-left: 100%;
+    transition: opacity 2s ease-in-out, margin-left 2s ease-in-out;
+}
+.animacionfade {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+.animacionltr.visible, .animacionrtl.visible, .animacionfade.visible {
+    opacity: 1;
+    margin-left: 0;
+}

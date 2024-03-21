@@ -5,7 +5,34 @@
 @section('content')
     {{-- slide --}}
     <div>
-        <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('{{ asset('/img/bg_about.png')}}')">
+        <div>
+            <div class="container relative z-30 bg-primary md:hidden sm:visible">
+                <div class="flex flex-col items-center justify-center">
+                    <div class="xxs:pt-6 xs:pt-6 sm:pt-20 md:pt-20 lg:pt-20 xl:pt-20">
+                        <h2 class="text-center font-body text-3xl text-white font-bold">
+                            Nuestra Historia
+                        </h2>
+                        <div class="xxs:pt-6 xs:pt-6 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-10">
+                            <p class="font-body text-white text-center text-shadow xs:text-xs md:text-lg lg:text-lg xl:text-lg">
+                                Cucchiara y Cía. S.A. tiene una rica historia dentro del mercado de valores argentino, lo<br>que refuerza su amplia experiencia en la industria.
+                            </p>
+
+                        </div>
+                        <div class="absolute bg-contain bg-center bg-no-repeat mx-auto inset-0 w-auto h-auto" ></div>
+                        <div class="pic-ctn md:hidden sm:visible flex justify-center mt-8">
+                            <img src="{{ asset('/img/MAPA-05.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+                            <img src="{{ asset('/img/MAPA-06.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+                            <img src="{{ asset('/img/MAPA-07.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+                            <img src="{{ asset('/img/MAPA-08.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+                            <img src="{{ asset('/img/MAPA-09.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+                            <img src="{{ asset('/img/MAPA-10.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+                            <img src="{{ asset('/img/MAPA-11.png') }}" alt="" class="pic xxs:h-56 xs:h-56 flex justify-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative bg-cover bg-center bg-no-repeat md:block xxs:hidden" style="background-image: url('{{ asset('/img/bg_about.png')}}')">
             <div class="container relative z-30">
                 <div class="flex flex-col items-center justify-center">
                     <div class="xxs:pt-6 xs:pt-6 sm:pt-20 md:pt-20 lg:pt-20 xl:pt-20">

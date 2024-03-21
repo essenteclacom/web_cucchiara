@@ -48,13 +48,5 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         })
     })
-    window.addEventListener('scroll', function() {
-        const element = document.querySelector('.animate-fadeIn');
-        const position = element.getBoundingClientRect();
-      
-        // Comprueba si el elemento está en la vista
-        if(position.top >= 0 && position.bottom <= window.innerHeight) {
-          element.classList.add('fadeIn');
-        }
-      });
+    
 })
